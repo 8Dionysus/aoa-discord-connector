@@ -1,0 +1,23 @@
+schema: aoa_connector_route_policy_v1
+source_family: discord
+allowed:
+  - pattern: "discord:bot_gateway:guild:*"
+    reason: bot-installed guild/channel allowlist
+  - pattern: "discord:bot_gateway_message_content:guild:*"
+    reason: bot gateway with privileged Message Content intent
+  - pattern: "discord:rest_history:guild:*"
+    reason: REST channel history where bot permissions allow it
+  - pattern: "discord:data_package:account:*"
+    reason: offline account-owned Data Package import
+forbidden:
+  - pattern: "discord:user_token_selfbot:*"
+  - pattern: "discord:write:*"
+  - pattern: "discord:download:*"
+  - pattern: "*user_token*"
+  - pattern: "*selfbot*"
+  - pattern: "*internal-search*"
+network_default: disabled
+read_only_default: true
+download_default: disabled
+write_default: disabled
+secrets_in_git: forbidden

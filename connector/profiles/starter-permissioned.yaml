@@ -1,0 +1,15 @@
+schema: aoa_discord_profile_v1
+profile_id: starter-permissioned
+description: Synthetic Discord permissioned conversation starter profile.
+default_mode: bot_gateway
+supported_modes:
+  - bot_gateway
+  - bot_gateway_message_content
+  - rest_history
+  - data_package
+allowlists:
+  - discord:bot_gateway:guild:aoa-lab:channel:android
+  - discord:bot_gateway_message_content:guild:aoa-lab:channel:android
+  - discord:data_package:account:self
+download_default: disabled
+write_default: disabled

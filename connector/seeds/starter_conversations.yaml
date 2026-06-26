@@ -1,0 +1,8 @@
+schema: aoa_discord_seed_manifest_v1
+profile_id: starter-permissioned
+fixtures:
+  - connector/fixtures/discord/starter_conversation.json
+routes:
+  - discord:bot_gateway:guild:aoa-lab:channel:android
+  - discord:bot_gateway_message_content:guild:aoa-lab:channel:android
+  - discord:data_package:account:self

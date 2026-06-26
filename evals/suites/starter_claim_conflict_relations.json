@@ -1,0 +1,10 @@
+{
+  "schema": "aoa_discord_permission_eval_suite_v1",
+  "proof_owner_repo": "aoa-evals",
+  "cases": [
+    {
+      "id": "gateway-without-message-content-intent-is-permission-gap",
+      "expect": "bot_gateway_permission_gap_count_greater_than_zero"
+    }
+  ]
+}

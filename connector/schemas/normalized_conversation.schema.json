@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AoA Discord normalized conversation",
+  "type": "object",
+  "required": ["schema", "source", "conversation_id", "conversation_type", "messages", "authorization_state"],
+  "properties": {
+    "schema": {"const": "aoa_discord_normalized_conversation_v1"},
+    "source": {"const": "discord"},
+    "conversation_id": {"type": "string"},
+    "conversation_type": {"type": "string"},
+    "source_url": {"type": ["string", "null"]},
+    "capture_mode": {"enum": ["bot_gateway", "bot_gateway_message_content", "rest_history", "data_package"]},
+    "authorization_state": {"type": "object"},
+    "messages": {"type": "array"}
+  }
+}
