@@ -1,0 +1,66 @@
+{
+  "schema_version": "aoa-local-kag-record-v1",
+  "repo": "aoa-discord-connector",
+  "local_id": "projection:mcp:discord-source-return",
+  "record_class": "projection",
+  "source_refs": [
+    {
+      "repo": "aoa-discord-connector",
+      "path": "connector/README.md",
+      "source_class": "connector_source",
+      "role": "primary",
+      "authority": "authored_source"
+    },
+    {
+      "repo": "aoa-discord-connector",
+      "path": "BOUNDARIES.md",
+      "source_class": "connector_source",
+      "role": "owner_route",
+      "authority": "authored_source"
+    },
+    {
+      "repo": "aoa-discord-connector",
+      "path": "docs/RUNTIME_CONTRACT.md",
+      "source_class": "connector_source",
+      "role": "consumer_route",
+      "authority": "authored_source"
+    }
+  ],
+  "source_owner": "aoa-discord-connector",
+  "provenance_mode": "strict_source_linked",
+  "derived_method": "source-linked local KAG projection over Discord connector source-return route",
+  "generated_or_authored": "generated_from_source",
+  "status": "active",
+  "owner_return_route": {
+    "repo": "aoa-discord-connector",
+    "surface": "BOUNDARIES.md",
+    "route_kind": "authored_meaning"
+  },
+  "freshness": {
+    "mode": "source_snapshot",
+    "state": "current",
+    "checked_ref": "kag/manifest.json"
+  },
+  "builder": {
+    "route": "connector validation lane",
+    "surface": "scripts/validate_connector.py"
+  },
+  "validator": {
+    "route": "scripts/validate_connector.py",
+    "lane": "owner-local"
+  },
+  "storage_posture": {
+    "git_surface": "compact_readmodel",
+    "payload_class": "projection",
+    "runtime_route": "source-repo"
+  },
+  "consumer_route": "aoa-kag-mcp resource",
+  "projection_kind": "source_return_view",
+  "source_record_ids": [
+    "node:discord:source-home",
+    "node:discord:storage-boundary",
+    "edge:discord:source-routes-to-storage-boundary",
+    "index:discord:source-surfaces"
+  ],
+  "consumer_shape": "resources expose Discord connector policy, permission boundary, runtime contract handle, and source-return route for KAG consumers"
+}
