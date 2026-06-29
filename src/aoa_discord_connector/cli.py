@@ -15,6 +15,17 @@ from aoa_discord_connector.index import build_keyword_index
 from aoa_discord_connector.normalize import DEFAULT_MODE, SUPPORTED_MODES, normalize_snapshot
 from aoa_discord_connector.policy.rules import route_decision
 from aoa_discord_connector.query import query_graph_packet, query_keyword_index
+from aoa_discord_connector.sources import (
+    ACCESS_MODES,
+    MEDIA_POLICIES,
+    SOURCE_KINDS,
+    build_source_plan,
+    load_registry,
+    parse_csv,
+    registry_path,
+    select_sources,
+    upsert_source,
+)
 from aoa_discord_connector.storage import create_storage_roots, storage_status
 
 
@@ -44,6 +55,31 @@ def build_parser() -> argparse.ArgumentParser:
     storage_status_parser = storage_sub.add_parser("status")
     storage_status_parser.add_argument("--measure", action="store_true")
     storage_status_parser.set_defaults(func=cmd_storage_status)
+
+    sources = sub.add_parser("sources")
+    sources_sub = sources.add_subparsers(dest="sources_command", required=True)
+    sources_add = sources_sub.add_parser("add")
+    sources_add.add_argument("source_ref")
+    sources_add.add_argument("--kind", choices=sorted(SOURCE_KINDS), required=True)
+    sources_add.add_argument("--access", choices=sorted(ACCESS_MODES))
+    sources_add.add_argument("--title")
+    sources_add.add_argument("--tags", default="")
+    sources_add.add_argument("--trust-score", type=float)
+    sources_add.add_argument("--include-media", choices=sorted(MEDIA_POLICIES), default="none")
+    sources_add.add_argument("--scope")
+    sources_add.add_argument("--disabled", action="store_true")
+    sources_add.set_defaults(func=cmd_sources_add)
+    sources_list = sources_sub.add_parser("list")
+    _add_source_filter_args(sources_list)
+    sources_list.add_argument("--all", action="store_true")
+    sources_list.set_defaults(func=cmd_sources_list)
+    sources_plan = sources_sub.add_parser("plan")
+    sources_plan.add_argument("--run", default="discord-owned-sources")
+    sources_plan.add_argument("--limit", type=int, default=200)
+    sources_plan.add_argument("--include-media", choices=sorted(MEDIA_POLICIES))
+    _add_source_filter_args(sources_plan)
+    sources_plan.add_argument("--all", action="store_true")
+    sources_plan.set_defaults(func=cmd_sources_plan)
 
     policy = sub.add_parser("policy")
     policy_sub = policy.add_subparsers(dest="policy_command", required=True)
@@ -93,6 +129,12 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
+def _add_source_filter_args(parser: argparse.ArgumentParser) -> None:
+    parser.add_argument("--source", action="append", dest="source_refs")
+    parser.add_argument("--kind", action="append", choices=sorted(SOURCE_KINDS), dest="kinds")
+    parser.add_argument("--tag", action="append", dest="tags")
+
+
 def cmd_doctor(_args: argparse.Namespace) -> int:
     repo_root = find_repo_root()
     required = ["AGENTS.md", "README.md", "connector/SOURCE_POLICY.md", "connector/STORAGE_POLICY.md", str(FIXTURE), "docs/RUNTIME_CONTRACT.md"]
@@ -121,6 +163,50 @@ def cmd_storage_status(args: argparse.Namespace) -> int:
     repo_root = find_repo_root()
     _emit(storage_status(repo_root, StorageRoots.from_env(repo_root), measure=args.measure))
     return 0
+
+
+def cmd_sources_add(args: argparse.Namespace) -> int:
+    roots = StorageRoots.from_env(find_repo_root())
+    create_storage_roots(roots)
+    try:
+        source, path, state = upsert_source(
+            roots.data,
+            source_ref=args.source_ref,
+            kind=args.kind,
+            access=args.access,
+            title=args.title,
+            tags=parse_csv(args.tags),
+            trust_score=args.trust_score,
+            include_media=args.include_media,
+            enabled=not args.disabled,
+            scope=args.scope,
+        )
+    except ValueError as exc:
+        _emit({"schema": "aoa_discord_source_registry_receipt_v1", "status": "error", "error": str(exc), "network_touched": False, "read_only": True})
+        return 2
+    _emit({"schema": "aoa_discord_source_registry_receipt_v1", "status": "ok", "state": state, "registry_path": str(path), "source": source, "network_touched": False, "read_only": True})
+    return 0
+
+
+def cmd_sources_list(args: argparse.Namespace) -> int:
+    roots = StorageRoots.from_env(find_repo_root())
+    registry = load_registry(roots.data)
+    selected = _selected_sources(registry, args)
+    _emit({"schema": "aoa_discord_source_registry_list_v1", "status": "ok", "registry_path": str(registry_path(roots.data)), "source_count": len(registry.get("sources", [])), "selected_count": len(selected), "sources": selected, "network_touched": False, "read_only": True})
+    return 0
+
+
+def cmd_sources_plan(args: argparse.Namespace) -> int:
+    roots = StorageRoots.from_env(find_repo_root())
+    create_storage_roots(roots)
+    registry = load_registry(roots.data)
+    selected = _selected_sources(registry, args)
+    plan = build_source_plan(run_id=args.run, sources=selected, limit=args.limit, include_media=args.include_media)
+    path = roots.artifact / "source-plans" / args.run / "source-plan.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(plan, indent=2, sort_keys=True), encoding="utf-8")
+    _emit({"status": "ok" if selected else "no_sources", "plan_path": str(path), **plan})
+    return 0 if selected else 1
 
 
 def cmd_policy_check(_args: argparse.Namespace) -> int:
@@ -254,6 +340,16 @@ def _write_receipt(root: Path, run: str, name: str, payload: dict[str, object]) 
     path = root / f"{run}-{name}.json"
     path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     return path
+
+
+def _selected_sources(registry: dict[str, object], args: argparse.Namespace) -> list[dict[str, object]]:
+    return select_sources(
+        registry,
+        source_refs=getattr(args, "source_refs", None),
+        kinds=getattr(args, "kinds", None),
+        tags=getattr(args, "tags", None),
+        enabled_only=not bool(getattr(args, "all", False)),
+    )
 
 
 def _now() -> str:
