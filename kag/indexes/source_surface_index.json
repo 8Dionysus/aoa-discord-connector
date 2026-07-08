@@ -1,20 +1,66 @@
 {
+  "classification_summary": {
+    "artifact_kind": {
+      "config": 12,
+      "directory_marker": 3,
+      "document": 30,
+      "index": 1,
+      "manifest": 4,
+      "owner_metadata": 1,
+      "projection": 1,
+      "receipt": 1,
+      "schema": 18,
+      "source_code": 15,
+      "test": 4,
+      "validator": 1
+    },
+    "command_role": {
+      "none": 86,
+      "test": 4,
+      "validator": 1
+    },
+    "document_role": {
+      "agents": 4,
+      "boundary": 1,
+      "changelog": 1,
+      "decision": 1,
+      "none": 61,
+      "readme": 9,
+      "roadmap": 1,
+      "source_policy": 1,
+      "unknown_document": 12
+    },
+    "mechanics_role": {
+      "none": 91
+    },
+    "primary_kind": {
+      "artifact": 7,
+      "command": 5,
+      "document": 30,
+      "surface": 49
+    },
+    "surface_state": {
+      "authored_source": 87,
+      "generated_readmodel": 3,
+      "receipt": 1
+    }
+  },
   "coverage_summary": {
     "command_count": 5,
     "document_count": 30,
-    "generated_count": 0,
+    "generated_count": 3,
     "heading_count": 48,
     "mechanics_count": 0,
     "record_count": 91,
     "schema_count": 18,
     "script_count": 0,
     "test_count": 4,
-    "unknown_count": 5,
+    "unknown_count": 0,
     "validator_count": 1
   },
   "index_identity": {
     "artifact_kind": "source_surface_index",
-    "content_digest": "d8eea5602d8fc4219b9766384a40d08f3044d82aec2a8f14ef3c7f9d5b7e81af",
+    "content_digest": "aada4aff5d2aff481309df9c224d04c632f378ddbf55bf293bcf8c03b2f0d15d",
     "local_id": "index:repo-local:source-surfaces",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-index.schema.json"
   },
@@ -66,7 +112,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -76,7 +122,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -111,7 +157,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -161,7 +207,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -171,7 +217,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -206,14 +252,14 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
       "abi": {
         "abi_epoch": "source",
-        "artifact_class": "unknown",
-        "compatibility": "unknown",
+        "artifact_class": "directory_marker",
+        "compatibility": "stable",
         "contract_version": "none",
         "schema_version": "none"
       },
@@ -221,10 +267,10 @@
         "scope": "public",
         "secrets_risk": "none"
       },
-      "artifact_kind": "unknown",
+      "artifact_kind": "directory_marker",
       "classification": {
-        "confidence": "low",
-        "primary_kind": "unknown"
+        "confidence": "high",
+        "primary_kind": "artifact"
       },
       "code_role": "none",
       "command_role": "none",
@@ -256,7 +302,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -266,7 +312,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -291,14 +337,14 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
       "abi": {
         "abi_epoch": "source",
-        "artifact_class": "unknown",
-        "compatibility": "unknown",
+        "artifact_class": "directory_marker",
+        "compatibility": "stable",
         "contract_version": "none",
         "schema_version": "none"
       },
@@ -306,10 +352,10 @@
         "scope": "public",
         "secrets_risk": "none"
       },
-      "artifact_kind": "unknown",
+      "artifact_kind": "directory_marker",
       "classification": {
-        "confidence": "low",
-        "primary_kind": "unknown"
+        "confidence": "high",
+        "primary_kind": "artifact"
       },
       "code_role": "none",
       "command_role": "none",
@@ -341,7 +387,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -351,7 +397,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -376,14 +422,14 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
       "abi": {
         "abi_epoch": "source",
-        "artifact_class": "unknown",
-        "compatibility": "unknown",
+        "artifact_class": "directory_marker",
+        "compatibility": "stable",
         "contract_version": "none",
         "schema_version": "none"
       },
@@ -391,10 +437,10 @@
         "scope": "public",
         "secrets_risk": "none"
       },
-      "artifact_kind": "unknown",
+      "artifact_kind": "directory_marker",
       "classification": {
-        "confidence": "low",
-        "primary_kind": "unknown"
+        "confidence": "high",
+        "primary_kind": "artifact"
       },
       "code_role": "none",
       "command_role": "none",
@@ -426,7 +472,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -436,7 +482,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -461,14 +507,14 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
       "abi": {
         "abi_epoch": "source",
-        "artifact_class": "unknown",
-        "compatibility": "unknown",
+        "artifact_class": "config",
+        "compatibility": "stable",
         "contract_version": "none",
         "schema_version": "none"
       },
@@ -476,10 +522,10 @@
         "scope": "public",
         "secrets_risk": "none"
       },
-      "artifact_kind": "unknown",
+      "artifact_kind": "config",
       "classification": {
-        "confidence": "low",
-        "primary_kind": "unknown"
+        "confidence": "high",
+        "primary_kind": "surface"
       },
       "code_role": "none",
       "command_role": "none",
@@ -511,7 +557,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -521,7 +567,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -548,7 +594,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -598,7 +644,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -608,7 +654,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -637,14 +683,14 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
       "abi": {
         "abi_epoch": "source",
-        "artifact_class": "unknown",
-        "compatibility": "unknown",
+        "artifact_class": "owner_metadata",
+        "compatibility": "stable",
         "contract_version": "none",
         "schema_version": "none"
       },
@@ -652,10 +698,10 @@
         "scope": "public",
         "secrets_risk": "none"
       },
-      "artifact_kind": "unknown",
+      "artifact_kind": "owner_metadata",
       "classification": {
-        "confidence": "low",
-        "primary_kind": "unknown"
+        "confidence": "high",
+        "primary_kind": "artifact"
       },
       "code_role": "none",
       "command_role": "none",
@@ -687,7 +733,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -697,7 +743,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -724,7 +770,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -774,7 +820,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -784,7 +830,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -840,7 +886,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -890,7 +936,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -900,7 +946,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -935,7 +981,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -985,7 +1031,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -995,7 +1041,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1037,7 +1083,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1087,7 +1133,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1097,7 +1143,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1132,7 +1178,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1182,7 +1228,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1192,7 +1238,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1234,7 +1280,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1284,7 +1330,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1294,7 +1340,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1329,7 +1375,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1379,7 +1425,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1389,7 +1435,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1424,7 +1470,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1474,7 +1520,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1484,7 +1530,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1540,7 +1586,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1590,7 +1636,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1600,7 +1646,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1642,7 +1688,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1692,7 +1738,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1702,7 +1748,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1731,7 +1777,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1781,7 +1827,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1791,7 +1837,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1820,7 +1866,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1870,7 +1916,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1880,7 +1926,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1909,7 +1955,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -1959,7 +2005,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -1969,7 +2015,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -1998,7 +2044,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2048,7 +2094,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2058,7 +2104,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2087,7 +2133,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2137,7 +2183,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2147,7 +2193,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2176,7 +2222,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2226,7 +2272,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2236,7 +2282,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2265,7 +2311,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2315,7 +2361,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2325,7 +2371,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2354,7 +2400,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2404,7 +2450,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2414,7 +2460,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2443,7 +2489,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2493,7 +2539,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2503,7 +2549,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2532,7 +2578,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2582,7 +2628,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2592,7 +2638,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2621,7 +2667,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2671,7 +2717,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2681,7 +2727,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2710,7 +2756,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2760,7 +2806,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2770,7 +2816,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2799,7 +2845,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2849,7 +2895,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2859,7 +2905,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2888,7 +2934,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -2938,7 +2984,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -2948,7 +2994,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -2977,7 +3023,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3027,7 +3073,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3037,7 +3083,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3066,7 +3112,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3116,7 +3162,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3126,7 +3172,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3155,7 +3201,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3205,7 +3251,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3215,7 +3261,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3244,7 +3290,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3294,7 +3340,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3304,7 +3350,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3333,7 +3379,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3383,7 +3429,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3393,7 +3439,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3422,7 +3468,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3472,7 +3518,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3482,7 +3528,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3511,7 +3557,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3561,7 +3607,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3571,7 +3617,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3600,7 +3646,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3650,7 +3696,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3660,7 +3706,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3689,7 +3735,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3739,7 +3785,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3749,7 +3795,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3778,7 +3824,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3828,7 +3874,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3838,7 +3884,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3873,7 +3919,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -3923,7 +3969,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -3933,7 +3979,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -3968,7 +4014,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4018,7 +4064,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4028,7 +4074,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4063,7 +4109,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4113,7 +4159,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4123,7 +4169,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4158,7 +4204,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4208,7 +4254,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4218,7 +4264,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4253,7 +4299,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4303,7 +4349,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4313,7 +4359,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4348,7 +4394,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4398,7 +4444,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4408,7 +4454,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4443,7 +4489,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4493,7 +4539,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4503,7 +4549,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4538,7 +4584,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4588,7 +4634,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4598,7 +4644,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4633,7 +4679,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4683,7 +4729,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4693,7 +4739,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4728,7 +4774,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4778,7 +4824,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4788,7 +4834,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4830,7 +4876,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4880,7 +4926,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4890,7 +4936,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -4925,7 +4971,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -4975,7 +5021,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -4985,7 +5031,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5014,7 +5060,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5064,7 +5110,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5074,7 +5120,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5109,7 +5155,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5159,7 +5205,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5169,7 +5215,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5204,7 +5250,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5254,7 +5300,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5264,7 +5310,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5299,7 +5345,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5349,7 +5395,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5359,7 +5405,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5394,7 +5440,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5444,7 +5490,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5454,7 +5500,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5489,7 +5535,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5539,7 +5585,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5549,7 +5595,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5578,7 +5624,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5628,7 +5674,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5638,7 +5684,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5667,7 +5713,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5717,7 +5763,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5727,7 +5773,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5804,7 +5850,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -5854,7 +5900,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -5864,7 +5910,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5913,14 +5959,14 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
       "abi": {
         "abi_epoch": "source",
         "artifact_class": "config",
-        "compatibility": "stable",
+        "compatibility": "generated",
         "contract_version": "none",
         "schema_version": "aoa-local-kag-record-v1"
       },
@@ -5961,19 +6007,19 @@
         "surface": "kag/edges/source_routes_to_storage_boundary.json"
       },
       "provenance": {
-        "generated_by": "",
+        "generated_by": "scripts/validate_connector.py",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
-            "authority": "authored_source",
+            "authority": "derived_readmodel",
             "path": "kag/edges/source_routes_to_storage_boundary.json",
             "repo": "aoa-discord-connector",
             "role": "primary"
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -5989,7 +6035,7 @@
         "signature_ref": "",
         "verification_state": "digest-only"
       },
-      "surface_state": "authored_source",
+      "surface_state": "generated_readmodel",
       "toolchain": {
         "detected_tools": [
           "git",
@@ -6002,14 +6048,14 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
       "abi": {
         "abi_epoch": "source",
         "artifact_class": "index",
-        "compatibility": "stable",
+        "compatibility": "generated",
         "contract_version": "none",
         "schema_version": "aoa-local-kag-record-v1"
       },
@@ -6035,13 +6081,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "b2d1dda1610d5a0b13e69a2d658f9f64ff88d49aea464fc2d7cc12080af7a3a8",
+        "content_hash": "a1ce77652d7e040289df7eaa2b3f5dd22e4fd9e86603a2935ba853ee606a47de",
         "git_ref": "git-index-source-tree",
         "id": "file:kag/indexes/source_inventory.json:1416e51205",
         "mime": "application/json",
         "path": "kag/indexes/source_inventory.json",
         "repo": "aoa-discord-connector",
-        "size_bytes": 1688
+        "size_bytes": 1882
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -6050,19 +6096,19 @@
         "surface": "kag/indexes/source_inventory.json"
       },
       "provenance": {
-        "generated_by": "",
+        "generated_by": "scripts/validate_connector.py",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
-            "authority": "authored_source",
+            "authority": "derived_readmodel",
             "path": "kag/indexes/source_inventory.json",
             "repo": "aoa-discord-connector",
             "role": "primary"
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6074,11 +6120,11 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "b2d1dda1610d5a0b13e69a2d658f9f64ff88d49aea464fc2d7cc12080af7a3a8",
+        "digest": "a1ce77652d7e040289df7eaa2b3f5dd22e4fd9e86603a2935ba853ee606a47de",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
-      "surface_state": "authored_source",
+      "surface_state": "generated_readmodel",
       "toolchain": {
         "detected_tools": [
           "git",
@@ -6091,7 +6137,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6141,7 +6187,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -6151,7 +6197,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6180,7 +6226,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6230,7 +6276,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -6240,7 +6286,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6269,7 +6315,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6319,7 +6365,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -6329,7 +6375,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6358,14 +6404,14 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
       "abi": {
         "abi_epoch": "source",
         "artifact_class": "projection",
-        "compatibility": "stable",
+        "compatibility": "generated",
         "contract_version": "none",
         "schema_version": "aoa-local-kag-record-v1"
       },
@@ -6391,13 +6437,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "6502786181216b1b6974d6fe4c2c16f09e1f844e42ad75d883ec3fe8be384e01",
+        "content_hash": "cfb68b54b1611efac5c7acad0d319764127e249e1a94d3a9142a1f79d6ba2798",
         "git_ref": "git-index-source-tree",
         "id": "file:kag/projections/source_return.json:1a2a306538",
         "mime": "application/json",
         "path": "kag/projections/source_return.json",
         "repo": "aoa-discord-connector",
-        "size_bytes": 2070
+        "size_bytes": 2264
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -6406,19 +6452,19 @@
         "surface": "kag/projections/source_return.json"
       },
       "provenance": {
-        "generated_by": "",
+        "generated_by": "scripts/validate_connector.py",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
-            "authority": "authored_source",
+            "authority": "derived_readmodel",
             "path": "kag/projections/source_return.json",
             "repo": "aoa-discord-connector",
             "role": "primary"
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6430,11 +6476,11 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "6502786181216b1b6974d6fe4c2c16f09e1f844e42ad75d883ec3fe8be384e01",
+        "digest": "cfb68b54b1611efac5c7acad0d319764127e249e1a94d3a9142a1f79d6ba2798",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
-      "surface_state": "authored_source",
+      "surface_state": "generated_readmodel",
       "toolchain": {
         "detected_tools": [
           "git",
@@ -6447,7 +6493,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6497,7 +6543,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "generated_receipt",
@@ -6507,7 +6553,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6536,7 +6582,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6586,7 +6632,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -6596,7 +6642,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6623,7 +6669,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6656,13 +6702,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "941c2f16f789b0ef3901e459f238bfbca1b96054cc9214da0efad07b51b8ea18",
+        "content_hash": "ef25476711c824d20f283b2f5b3f025ec98826ec6c98e7b1638aa7b9d23bd01e",
         "git_ref": "git-index-source-tree",
         "id": "file:scripts/validate_connector.py:de39a47221",
         "mime": "text/x-python",
         "path": "scripts/validate_connector.py",
         "repo": "aoa-discord-connector",
-        "size_bytes": 9899
+        "size_bytes": 10719
       },
       "mechanics_role": "none",
       "observed_form": "command",
@@ -6673,7 +6719,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -6683,7 +6729,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6695,7 +6741,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "941c2f16f789b0ef3901e459f238bfbca1b96054cc9214da0efad07b51b8ea18",
+        "digest": "ef25476711c824d20f283b2f5b3f025ec98826ec6c98e7b1638aa7b9d23bd01e",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -6714,7 +6760,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6764,7 +6810,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -6774,7 +6820,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6803,7 +6849,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6853,7 +6899,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -6863,7 +6909,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6892,7 +6938,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -6942,7 +6988,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -6952,7 +6998,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -6981,7 +7027,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7031,7 +7077,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7041,7 +7087,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7070,7 +7116,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7120,7 +7166,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7130,7 +7176,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7159,7 +7205,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7209,7 +7255,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7219,7 +7265,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7248,7 +7294,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7298,7 +7344,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7308,7 +7354,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7337,7 +7383,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7387,7 +7433,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7397,7 +7443,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7426,7 +7472,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7476,7 +7522,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7486,7 +7532,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7515,7 +7561,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7565,7 +7611,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7575,7 +7621,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7604,7 +7650,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7654,7 +7700,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7664,7 +7710,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7693,7 +7739,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7743,7 +7789,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7753,7 +7799,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7782,7 +7828,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7832,7 +7878,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7842,7 +7888,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7871,7 +7917,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -7921,7 +7967,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -7931,7 +7977,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -7960,7 +8006,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -8010,7 +8056,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -8020,7 +8066,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -8049,7 +8095,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -8099,7 +8145,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -8109,7 +8155,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -8132,7 +8178,7 @@
           "python"
         ],
         "owner_commands": [
-          "python -m unittest tests/contract/test_validator.py"
+          "PYTHONPATH=src python -m pytest -q"
         ],
         "required_tools": [
           "python"
@@ -8140,7 +8186,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -8190,7 +8236,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -8200,7 +8246,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -8223,7 +8269,7 @@
           "python"
         ],
         "owner_commands": [
-          "python -m unittest tests/integration/test_cli_eval.py"
+          "PYTHONPATH=src python -m pytest -q"
         ],
         "required_tools": [
           "python"
@@ -8231,7 +8277,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -8281,7 +8327,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -8291,7 +8337,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -8314,7 +8360,7 @@
           "python"
         ],
         "owner_commands": [
-          "python -m unittest tests/unit/test_graph_answer.py"
+          "PYTHONPATH=src python -m pytest -q"
         ],
         "required_tools": [
           "python"
@@ -8322,7 +8368,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     },
     {
@@ -8372,7 +8418,7 @@
       "provenance": {
         "generated_by": "",
         "materials": [],
-        "observed_by": "scripts/generate_repo_local_kag_index.py",
+        "observed_by": "aoa-kag:scripts/generate_repo_local_kag_index.py",
         "source_refs": [
           {
             "authority": "authored_source",
@@ -8382,7 +8428,7 @@
           }
         ],
         "validated_by": [
-          "scripts/validate_kag.py"
+          "aoa-kag:scripts/validate_kag.py"
         ]
       },
       "refs": {
@@ -8405,7 +8451,7 @@
           "python"
         ],
         "owner_commands": [
-          "python -m unittest tests/unit/test_parse_normalize_policy.py"
+          "PYTHONPATH=src python -m pytest -q"
         ],
         "required_tools": [
           "python"
@@ -8413,7 +8459,7 @@
       },
       "validator_route": {
         "route_kind": "source_fast",
-        "surface": "scripts/validate_kag.py"
+        "surface": "aoa-kag:scripts/validate_kag.py"
       }
     }
   ],
