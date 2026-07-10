@@ -60,7 +60,7 @@
   },
   "index_identity": {
     "artifact_kind": "source_surface_index",
-    "content_digest": "a4aa5cd5688c858edca5db36dd4743e4b187c753a376501bf2bf65af510f1181",
+    "content_digest": "b493b060132f11f5df0de454aef1dd727ebd1f631ab738f471a8efa8e35e6b35",
     "local_id": "index:repo-local:source-surfaces",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-index.schema.json"
   },
@@ -288,7 +288,7 @@
         "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "git_ref": "git-index-source-tree",
         "id": "file:.connector-state/artifacts/.gitkeep:9accf75395",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".connector-state/artifacts/.gitkeep",
         "repo": "aoa-discord-connector",
         "size_bytes": 0
@@ -373,7 +373,7 @@
         "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "git_ref": "git-index-source-tree",
         "id": "file:.connector-state/cache/.gitkeep:ffb60a7310",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".connector-state/cache/.gitkeep",
         "repo": "aoa-discord-connector",
         "size_bytes": 0
@@ -458,7 +458,7 @@
         "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "git_ref": "git-index-source-tree",
         "id": "file:.connector-state/data/.gitkeep:c10ea2dd50",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".connector-state/data/.gitkeep",
         "repo": "aoa-discord-connector",
         "size_bytes": 0
@@ -543,7 +543,7 @@
         "content_hash": "7f6e80a6404bbeabf46b9f26fd4b65c897165bebb5e95503cd2eb8cf7873d681",
         "git_ref": "git-index-source-tree",
         "id": "file:.env.example:a3046da0d1",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".env.example",
         "repo": "aoa-discord-connector",
         "size_bytes": 631
@@ -627,7 +627,7 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "2205d984f178b6cf34050e232d662c2c927db8bcd66299725643ed98039f1122",
+        "content_hash": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
         "git_ref": "git-index-source-tree",
         "id": "file:.github/workflows/validate.yml:a5c0f08bc4",
         "mime": "application/yaml",
@@ -666,7 +666,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "2205d984f178b6cf34050e232d662c2c927db8bcd66299725643ed98039f1122",
+        "digest": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -719,7 +719,7 @@
         "content_hash": "f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4",
         "git_ref": "git-index-source-tree",
         "id": "file:.gitignore:bc37d034ba",
-        "mime": "application/octet-stream",
+        "mime": "text/plain",
         "path": ".gitignore",
         "repo": "aoa-discord-connector",
         "size_bytes": 984
@@ -6618,7 +6618,7 @@
         "content_hash": "e03e62d43fd8795b1370fdb1580a04cfd2a9bad04a5db12ab27e88600ad7d6b8",
         "git_ref": "git-index-source-tree",
         "id": "file:pyproject.toml:50c86b7ed8",
-        "mime": "application/octet-stream",
+        "mime": "application/toml",
         "path": "pyproject.toml",
         "repo": "aoa-discord-connector",
         "size_bytes": 601
