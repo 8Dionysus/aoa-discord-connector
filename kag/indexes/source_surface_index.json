@@ -60,7 +60,7 @@
   },
   "index_identity": {
     "artifact_kind": "source_surface_index",
-    "content_digest": "b493b060132f11f5df0de454aef1dd727ebd1f631ab738f471a8efa8e35e6b35",
+    "content_digest": "2cf70c610f491394ae497c189c2b3a36bd915f9fbcdbb3e44c17a70616fa1e75",
     "local_id": "index:repo-local:source-surfaces",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-index.schema.json"
   },
@@ -627,7 +627,7 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
+        "content_hash": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
         "git_ref": "git-index-source-tree",
         "id": "file:.github/workflows/validate.yml:a5c0f08bc4",
         "mime": "application/yaml",
@@ -666,7 +666,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "6f516af9786b5ecd618a671b61226fcde2c974e325be9532bcfd23528cca4a1e",
+        "digest": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -5746,13 +5746,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "f7095566c184258085aeb308e55237e352b6908e276e707879e2291dec927f5e",
+        "content_hash": "7e043f3940616921878f0f95c33c5cf9fc8c9cff930bc4e1d1de1dbc00a73f17",
         "git_ref": "git-index-source-tree",
         "id": "file:kag/agents.md:f80d68b85b",
         "mime": "text/markdown",
         "path": "kag/AGENTS.md",
         "repo": "aoa-discord-connector",
-        "size_bytes": 1329
+        "size_bytes": 1345
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -5816,14 +5816,14 @@
           {
             "anchor": "validation",
             "level": 2,
-            "line": 31,
+            "line": 32,
             "ref": "kag/AGENTS.md#validation",
             "title": "Validation"
           },
           {
             "anchor": "closeout",
             "level": 2,
-            "line": 36,
+            "line": 37,
             "ref": "kag/AGENTS.md#closeout",
             "title": "Closeout"
           }
@@ -5835,7 +5835,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "f7095566c184258085aeb308e55237e352b6908e276e707879e2291dec927f5e",
+        "digest": "7e043f3940616921878f0f95c33c5cf9fc8c9cff930bc4e1d1de1dbc00a73f17",
         "signature_ref": "",
         "verification_state": "digest-only"
       },
@@ -5883,13 +5883,13 @@
         "state": "current"
       },
       "identity": {
-        "content_hash": "dc20efb98718a7cb80d5219206762bcc62815850c49bd1aaca45dba316acdb29",
+        "content_hash": "34e5716dc6a0c050b7c1109b9d9b830a48597eee6fa0e2327719a975436d8a7e",
         "git_ref": "git-index-source-tree",
         "id": "file:kag/readme.md:213631cc86",
         "mime": "text/markdown",
         "path": "kag/README.md",
         "repo": "aoa-discord-connector",
-        "size_bytes": 1128
+        "size_bytes": 1139
       },
       "mechanics_role": "none",
       "observed_form": "file",
@@ -5944,7 +5944,7 @@
       },
       "signs": {
         "attestation_ref": "",
-        "digest": "dc20efb98718a7cb80d5219206762bcc62815850c49bd1aaca45dba316acdb29",
+        "digest": "34e5716dc6a0c050b7c1109b9d9b830a48597eee6fa0e2327719a975436d8a7e",
         "signature_ref": "",
         "verification_state": "digest-only"
       },

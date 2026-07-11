@@ -25,8 +25,9 @@ Read the root `AGENTS.md`, `README.md`, `BOUNDARIES.md`,
 Keep Discord connector meaning with this repository's source surfaces. Keep
 shared KAG schema, registry, composition, and provider validation with
 `aoa-kag`. Keep runtime serving with `abyss-stack`. Keep tokens, private
-conversation data, raw corpora, generated payloads, indexes, graph artifacts,
-vectors, and caches outside Git in the storage roots named by the connector.
+conversation data, raw corpora, generated payloads, runtime content indexes,
+graph artifacts, vectors, and caches outside Git in the storage roots named by
+the connector.
 
 ## Validation
 
