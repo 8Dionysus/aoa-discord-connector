@@ -1,1322 +1,367 @@
 {
   "entries": [
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "agents",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "agent_route",
-      "id": "entity:file:.connector-state/agents.md:c48b09d1eb",
-      "label": ".connector-state/AGENTS.md",
-      "source_record_id": "file:.connector-state/agents.md:c48b09d1eb"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:.connector-state/readme.md:377f66e180",
-      "label": ".connector-state/README.md",
-      "source_record_id": "file:.connector-state/readme.md:377f66e180"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "directory_marker",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:.connector-state/artifacts/.gitkeep:9accf75395",
-      "label": ".connector-state/artifacts/.gitkeep",
-      "source_record_id": "file:.connector-state/artifacts/.gitkeep:9accf75395"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "directory_marker",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:.connector-state/cache/.gitkeep:ffb60a7310",
-      "label": ".connector-state/cache/.gitkeep",
-      "source_record_id": "file:.connector-state/cache/.gitkeep:ffb60a7310"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "directory_marker",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:.connector-state/data/.gitkeep:c10ea2dd50",
-      "label": ".connector-state/data/.gitkeep",
-      "source_record_id": "file:.connector-state/data/.gitkeep:c10ea2dd50"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:.env.example:a3046da0d1",
-      "label": ".env.example",
-      "source_record_id": "file:.env.example:a3046da0d1"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:.github/workflows/validate.yml:a5c0f08bc4",
-      "label": ".github/workflows/validate.yml",
-      "source_record_id": "file:.github/workflows/validate.yml:a5c0f08bc4"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "owner_metadata",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "owner_surface",
-      "id": "entity:file:.gitignore:bc37d034ba",
-      "label": ".gitignore",
-      "source_record_id": "file:.gitignore:bc37d034ba"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "agents",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "agent_route",
-      "id": "entity:file:agents.md:a54ff182c7",
-      "label": "AGENTS.md",
-      "source_record_id": "file:agents.md:a54ff182c7"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "boundary",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:boundaries.md:22819d489e",
-      "label": "BOUNDARIES.md",
-      "source_record_id": "file:boundaries.md:22819d489e"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "changelog",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:changelog.md:06572a96a5",
-      "label": "CHANGELOG.md",
-      "source_record_id": "file:changelog.md:06572a96a5"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:charter.md:91d16dd057",
-      "label": "CHARTER.md",
-      "source_record_id": "file:charter.md:91d16dd057"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:readme.md:b335630551",
-      "label": "README.md",
-      "source_record_id": "file:readme.md:b335630551"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "roadmap",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:roadmap.md:683343bdf9",
-      "label": "ROADMAP.md",
-      "source_record_id": "file:roadmap.md:683343bdf9"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:connector/readme.md:5aa00cda8e",
-      "label": "connector/README.md",
-      "source_record_id": "file:connector/readme.md:5aa00cda8e"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "source_policy",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:connector/source_policy.md:1ec0689ca4",
-      "label": "connector/SOURCE_POLICY.md",
-      "source_record_id": "file:connector/source_policy.md:1ec0689ca4"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:connector/storage_policy.md:aef066cc09",
-      "label": "connector/STORAGE_POLICY.md",
-      "source_record_id": "file:connector/storage_policy.md:aef066cc09"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:connector/fixtures/discord/starter_conversation.json:2e97468a53",
-      "label": "connector/fixtures/discord/starter_conversation.json",
-      "source_record_id": "file:connector/fixtures/discord/starter_conversation.json:2e97468a53"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "manifest",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "manifest",
-      "id": "entity:file:connector/manifests/artifact_classes.yaml:702a5cec90",
-      "label": "connector/manifests/artifact_classes.yaml",
-      "source_record_id": "file:connector/manifests/artifact_classes.yaml:702a5cec90"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "manifest",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "manifest",
-      "id": "entity:file:connector/manifests/connector_manifest.yaml:747276e9b1",
-      "label": "connector/manifests/connector_manifest.yaml",
-      "source_record_id": "file:connector/manifests/connector_manifest.yaml:747276e9b1"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "manifest",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "manifest",
-      "id": "entity:file:connector/manifests/route_allowlist.yaml:1ba98f35b6",
-      "label": "connector/manifests/route_allowlist.yaml",
-      "source_record_id": "file:connector/manifests/route_allowlist.yaml:1ba98f35b6"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:connector/profiles/starter-permissioned.yaml:11321dbd42",
-      "label": "connector/profiles/starter-permissioned.yaml",
-      "source_record_id": "file:connector/profiles/starter-permissioned.yaml:11321dbd42"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/answer_packet.schema.json:3886462d56",
-      "label": "connector/schemas/answer_packet.schema.json",
-      "source_record_id": "file:connector/schemas/answer_packet.schema.json:3886462d56"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/applicability_report.schema.json:bfec791fa3",
-      "label": "connector/schemas/applicability_report.schema.json",
-      "source_record_id": "file:connector/schemas/applicability_report.schema.json:bfec791fa3"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/claim.schema.json:32e75444c5",
-      "label": "connector/schemas/claim.schema.json",
-      "source_record_id": "file:connector/schemas/claim.schema.json:32e75444c5"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/claim_relation.schema.json:383c535c0b",
-      "label": "connector/schemas/claim_relation.schema.json",
-      "source_record_id": "file:connector/schemas/claim_relation.schema.json:383c535c0b"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/conflict_report.schema.json:5a9c8bd05f",
-      "label": "connector/schemas/conflict_report.schema.json",
-      "source_record_id": "file:connector/schemas/conflict_report.schema.json:5a9c8bd05f"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/crawl_receipt.schema.json:b0b5287569",
-      "label": "connector/schemas/crawl_receipt.schema.json",
-      "source_record_id": "file:connector/schemas/crawl_receipt.schema.json:b0b5287569"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/evidence_packet.schema.json:22b1fd4258",
-      "label": "connector/schemas/evidence_packet.schema.json",
-      "source_record_id": "file:connector/schemas/evidence_packet.schema.json:22b1fd4258"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/freshness_report.schema.json:116037cdf5",
-      "label": "connector/schemas/freshness_report.schema.json",
-      "source_record_id": "file:connector/schemas/freshness_report.schema.json:116037cdf5"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/graph_edge.schema.json:7cdc761c31",
-      "label": "connector/schemas/graph_edge.schema.json",
-      "source_record_id": "file:connector/schemas/graph_edge.schema.json:7cdc761c31"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/graph_node.schema.json:1582c817b6",
-      "label": "connector/schemas/graph_node.schema.json",
-      "source_record_id": "file:connector/schemas/graph_node.schema.json:1582c817b6"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/index_manifest.schema.json:0bee62c710",
-      "label": "connector/schemas/index_manifest.schema.json",
-      "source_record_id": "file:connector/schemas/index_manifest.schema.json:0bee62c710"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f",
-      "label": "connector/schemas/materialize_receipt.schema.json",
-      "source_record_id": "file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/normalized_conversation.schema.json:dc266d26f7",
-      "label": "connector/schemas/normalized_conversation.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_conversation.schema.json:dc266d26f7"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/normalized_message.schema.json:0b182f13f7",
-      "label": "connector/schemas/normalized_message.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_message.schema.json:0b182f13f7"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/normalized_post.schema.json:2b0ac6226c",
-      "label": "connector/schemas/normalized_post.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_post.schema.json:2b0ac6226c"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/normalized_topic.schema.json:9d8d8799e9",
-      "label": "connector/schemas/normalized_topic.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_topic.schema.json:9d8d8799e9"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/permission_state.schema.json:7d3c587cf2",
-      "label": "connector/schemas/permission_state.schema.json",
-      "source_record_id": "file:connector/schemas/permission_state.schema.json:7d3c587cf2"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "schema",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "contract",
-      "id": "entity:file:connector/schemas/warning_report.schema.json:931d4eadc5",
-      "label": "connector/schemas/warning_report.schema.json",
-      "source_record_id": "file:connector/schemas/warning_report.schema.json:931d4eadc5"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:connector/seeds/starter_conversations.yaml:b30b2cecc0",
-      "label": "connector/seeds/starter_conversations.yaml",
-      "source_record_id": "file:connector/seeds/starter_conversations.yaml:b30b2cecc0"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/agent_install_route.md:38c86ecaa7",
-      "label": "docs/AGENT_INSTALL_ROUTE.md",
-      "source_record_id": "file:docs/agent_install_route.md:38c86ecaa7"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/architecture.md:ff21b6b9a3",
-      "label": "docs/ARCHITECTURE.md",
-      "source_record_id": "file:docs/architecture.md:ff21b6b9a3"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/connector_family_claim_contract.md:2fbbbc3cbc",
-      "label": "docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md",
-      "source_record_id": "file:docs/connector_family_claim_contract.md:2fbbbc3cbc"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/graph_model.md:72ed1bbd50",
-      "label": "docs/GRAPH_MODEL.md",
-      "source_record_id": "file:docs/graph_model.md:72ed1bbd50"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/install.md:93adeedb62",
-      "label": "docs/INSTALL.md",
-      "source_record_id": "file:docs/install.md:93adeedb62"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/mcp_rollout.md:7592ebe12e",
-      "label": "docs/MCP_ROLLOUT.md",
-      "source_record_id": "file:docs/mcp_rollout.md:7592ebe12e"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/query_model.md:dc059c6e17",
-      "label": "docs/QUERY_MODEL.md",
-      "source_record_id": "file:docs/query_model.md:dc059c6e17"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/runtime_contract.md:fa011f8c69",
-      "label": "docs/RUNTIME_CONTRACT.md",
-      "source_record_id": "file:docs/runtime_contract.md:fa011f8c69"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/starter_proof.md:a06d166b7c",
-      "label": "docs/STARTER_PROOF.md",
-      "source_record_id": "file:docs/starter_proof.md:a06d166b7c"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "decision",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "decision",
-      "id": "entity:file:docs/decisions/aoa-discord-d-0001-permissioned-conversation-proof.md:9403c91adc",
-      "label": "docs/decisions/AOA-DISCORD-D-0001-permissioned-conversation-proof.md",
-      "source_record_id": "file:docs/decisions/aoa-discord-d-0001-permissioned-conversation-proof.md:9403c91adc"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:docs/decisions/readme.md:e5ec0e7030",
-      "label": "docs/decisions/README.md",
-      "source_record_id": "file:docs/decisions/readme.md:e5ec0e7030"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "agents",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "agent_route",
-      "id": "entity:file:evals/agents.md:97b1e9d3cd",
-      "label": "evals/AGENTS.md",
-      "source_record_id": "file:evals/agents.md:97b1e9d3cd"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:evals/port.yaml:b027c5aa6b",
-      "label": "evals/PORT.yaml",
-      "source_record_id": "file:evals/port.yaml:b027c5aa6b"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:evals/readme.md:a1a9eeb43d",
-      "label": "evals/README.md",
-      "source_record_id": "file:evals/readme.md:a1a9eeb43d"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:evals/intake/readme.md:d27b56ff43",
-      "label": "evals/intake/README.md",
-      "source_record_id": "file:evals/intake/readme.md:d27b56ff43"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:evals/reports/readme.md:ac5e016ca2",
-      "label": "evals/reports/README.md",
-      "source_record_id": "file:evals/reports/readme.md:ac5e016ca2"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:evals/suites/readme.md:8611332c6f",
-      "label": "evals/suites/README.md",
-      "source_record_id": "file:evals/suites/readme.md:8611332c6f"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "unknown_document",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6",
-      "label": "evals/suites/connector-family-claim-runtime.suite.md",
-      "source_record_id": "file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:evals/suites/starter_claim_answer_packets.json:0406674f03",
-      "label": "evals/suites/starter_claim_answer_packets.json",
-      "source_record_id": "file:evals/suites/starter_claim_answer_packets.json:0406674f03"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49",
-      "label": "evals/suites/starter_claim_conflict_relations.json",
-      "source_record_id": "file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "agents",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "agent_route",
-      "id": "entity:file:kag/agents.md:f80d68b85b",
-      "label": "kag/AGENTS.md",
-      "source_record_id": "file:kag/agents.md:f80d68b85b"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "document",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "readme",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "document",
-      "id": "entity:file:kag/readme.md:213631cc86",
-      "label": "kag/README.md",
-      "source_record_id": "file:kag/readme.md:213631cc86"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "generated_readmodel"
-      },
-      "entity_kind": "readmodel",
-      "id": "entity:file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11",
-      "label": "kag/edges/source_routes_to_storage_boundary.json",
-      "source_record_id": "file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "index",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "generated_readmodel"
-      },
-      "entity_kind": "readmodel",
-      "id": "entity:file:kag/indexes/source_inventory.json:1416e51205",
-      "label": "kag/indexes/source_inventory.json",
-      "source_record_id": "file:kag/indexes/source_inventory.json:1416e51205"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:kag/manifest.json:0d25d90d08",
-      "label": "kag/manifest.json",
-      "source_record_id": "file:kag/manifest.json:0d25d90d08"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:kag/nodes/source_home.json:a87a1f114c",
-      "label": "kag/nodes/source_home.json",
-      "source_record_id": "file:kag/nodes/source_home.json:a87a1f114c"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "config",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:kag/nodes/storage_boundary.json:45dfb2e4b0",
-      "label": "kag/nodes/storage_boundary.json",
-      "source_record_id": "file:kag/nodes/storage_boundary.json:45dfb2e4b0"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "projection",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "generated_readmodel"
-      },
-      "entity_kind": "readmodel",
-      "id": "entity:file:kag/projections/source_return.json:1a2a306538",
-      "label": "kag/projections/source_return.json",
-      "source_record_id": "file:kag/projections/source_return.json:1a2a306538"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "receipt",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "receipt"
-      },
-      "entity_kind": "artifact",
-      "id": "entity:file:kag/receipts/validation_receipt.json:8e616be0cd",
-      "label": "kag/receipts/validation_receipt.json",
-      "source_record_id": "file:kag/receipts/validation_receipt.json:8e616be0cd"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "manifest",
-        "code_role": "none",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "manifest",
-      "id": "entity:file:pyproject.toml:50c86b7ed8",
-      "label": "pyproject.toml",
-      "source_record_id": "file:pyproject.toml:50c86b7ed8"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "validator",
-        "code_role": "validator",
-        "command_role": "validator",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "command",
-      "id": "entity:file:scripts/validate_connector.py:de39a47221",
-      "label": "scripts/validate_connector.py",
-      "source_record_id": "file:scripts/validate_connector.py:de39a47221"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/__init__.py:871e9c8d09",
-      "label": "src/aoa_discord_connector/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/__init__.py:871e9c8d09"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/answer/__init__.py:ddedd6bb4e",
-      "label": "src/aoa_discord_connector/answer/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/answer/__init__.py:ddedd6bb4e"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/claims/__init__.py:b3abcfe175",
-      "label": "src/aoa_discord_connector/claims/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/claims/__init__.py:b3abcfe175"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/cli.py:9f60acd227",
-      "label": "src/aoa_discord_connector/cli.py",
-      "source_record_id": "file:src/aoa_discord_connector/cli.py:9f60acd227"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/config.py:019d2a512b",
-      "label": "src/aoa_discord_connector/config.py",
-      "source_record_id": "file:src/aoa_discord_connector/config.py:019d2a512b"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/evaluation/__init__.py:1704a294cf",
-      "label": "src/aoa_discord_connector/evaluation/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/evaluation/__init__.py:1704a294cf"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/graph/__init__.py:1fcc16db63",
-      "label": "src/aoa_discord_connector/graph/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/graph/__init__.py:1fcc16db63"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/index/__init__.py:a16ae2472f",
-      "label": "src/aoa_discord_connector/index/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/index/__init__.py:a16ae2472f"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/normalize/__init__.py:962b796647",
-      "label": "src/aoa_discord_connector/normalize/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/normalize/__init__.py:962b796647"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/parse/__init__.py:ea3875fd34",
-      "label": "src/aoa_discord_connector/parse/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/parse/__init__.py:ea3875fd34"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/policy/__init__.py:87457ca831",
-      "label": "src/aoa_discord_connector/policy/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/policy/__init__.py:87457ca831"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/policy/rules.py:fe52a50aab",
-      "label": "src/aoa_discord_connector/policy/rules.py",
-      "source_record_id": "file:src/aoa_discord_connector/policy/rules.py:fe52a50aab"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/query/__init__.py:c84c183d6a",
-      "label": "src/aoa_discord_connector/query/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/query/__init__.py:c84c183d6a"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/sources/__init__.py:3244343318",
-      "label": "src/aoa_discord_connector/sources/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/sources/__init__.py:3244343318"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "source_code",
-        "code_role": "source_module",
-        "command_role": "none",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "code",
-      "id": "entity:file:src/aoa_discord_connector/storage/__init__.py:9b635e01eb",
-      "label": "src/aoa_discord_connector/storage/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/storage/__init__.py:9b635e01eb"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "test",
-        "code_role": "test",
-        "command_role": "test",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "command",
-      "id": "entity:file:tests/contract/test_validator.py:d2f4ffcf08",
-      "label": "tests/contract/test_validator.py",
-      "source_record_id": "file:tests/contract/test_validator.py:d2f4ffcf08"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "test",
-        "code_role": "test",
-        "command_role": "test",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "command",
-      "id": "entity:file:tests/integration/test_cli_eval.py:72e7f3ce47",
-      "label": "tests/integration/test_cli_eval.py",
-      "source_record_id": "file:tests/integration/test_cli_eval.py:72e7f3ce47"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "test",
-        "code_role": "test",
-        "command_role": "test",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "command",
-      "id": "entity:file:tests/unit/test_graph_answer.py:7bd472ece7",
-      "label": "tests/unit/test_graph_answer.py",
-      "source_record_id": "file:tests/unit/test_graph_answer.py:7bd472ece7"
-    },
-    {
-      "coordinates": {
-        "artifact_kind": "test",
-        "code_role": "test",
-        "command_role": "test",
-        "document_role": "none",
-        "mechanics_role": "none",
-        "surface_state": "authored_source"
-      },
-      "entity_kind": "command",
-      "id": "entity:file:tests/unit/test_parse_normalize_policy.py:4f69da0d97",
-      "label": "tests/unit/test_parse_normalize_policy.py",
-      "source_record_id": "file:tests/unit/test_parse_normalize_policy.py:4f69da0d97"
-    }
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:09c096118653971db43cd8dd"],"entity_kind":"agent_route","id":"aoa:aoa-discord-connector:entity:466f8eaeb29301fd8ea3a522","label":"kag/AGENTS.md","provenance_ref":"deterministic","semantic_key":"kag/AGENTS.md","source_digest":"7e043f3940616921878f0f95c33c5cf9fc8c9cff930bc4e1d1de1dbc00a73f17","source_record_ids":["aoa:aoa-discord-connector:artifact:f80d68b85bc445f7b8bc4a73"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6f7237c652bdf5d56de39a04"],"entity_kind":"agent_route","id":"aoa:aoa-discord-connector:entity:6a418adb27c1756cfef88564","label":"AGENTS.md","provenance_ref":"deterministic","semantic_key":"AGENTS.md","source_digest":"b78901fce5698986924aee7b8ee03f703e77cd3e52c15c49e7b56ed0dc4c33aa","source_record_ids":["aoa:aoa-discord-connector:artifact:a54ff182c7e8acf56acfd6e4"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:14f5cc67b29e2310b2d426ff"],"entity_kind":"agent_route","id":"aoa:aoa-discord-connector:entity:af1b77d07ee9a13dc19a8ed2","label":".connector-state/AGENTS.md","provenance_ref":"deterministic","semantic_key":".connector-state/AGENTS.md","source_digest":"86462099d6c331f2f23bd17d1c836a7eb23fa0eb0511eb42ab0dc1080b3e9cbb","source_record_ids":["aoa:aoa-discord-connector:artifact:c48b09d1eb9fe504dea19fd7"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:dc451f216d8568af2a321f97"],"entity_kind":"agent_route","id":"aoa:aoa-discord-connector:entity:d186dc960b49d86823910130","label":"evals/AGENTS.md","provenance_ref":"deterministic","semantic_key":"evals/AGENTS.md","source_digest":"148f3c3b340453006aa7d18b7ee04608cfd4c0161e9b90c63d8ae2dcd2323543","source_record_ids":["aoa:aoa-discord-connector:artifact:97b1e9d3cdd5039f97903b28"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f50beceb2feff60a09c9f492"],"entity_kind":"command","id":"aoa:aoa-discord-connector:entity:125ff41e1dc0bbfacb88be10","label":"scripts/validate_connector.py","provenance_ref":"deterministic","semantic_key":"scripts/validate_connector.py","source_digest":"3705ef02428951bb15d796ebee66b2cb501faab4393349e89dd0c1649b2f2cfd","source_record_ids":["aoa:aoa-discord-connector:artifact:de39a4722143afd5fd9d1e43"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fe96f1eab70c2a4421ddcaa8"],"entity_kind":"command","id":"aoa:aoa-discord-connector:entity:4364b25868502196dfb4e759","label":"tests/integration/test_cli_eval.py","provenance_ref":"deterministic","semantic_key":"tests/integration/test_cli_eval.py","source_digest":"b1ce07eb1ff10d0c98ea6abab9ab7666454461a7d23ae192373a15c0be367d2e","source_record_ids":["aoa:aoa-discord-connector:artifact:72e7f3ce473796ceebe6b66f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e4da42eea73b10b3ca59602c"],"entity_kind":"command","id":"aoa:aoa-discord-connector:entity:4ca2d559ca541517417acec4","label":"tests/unit/test_graph_answer.py","provenance_ref":"deterministic","semantic_key":"tests/unit/test_graph_answer.py","source_digest":"f851b6bad10f9833043351deb2fc5a364f8bc7408ccc17f27d75e95cd9b6e601","source_record_ids":["aoa:aoa-discord-connector:artifact:7bd472ece7c3b8c73188c47d"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fe51c2486fb5e418f913d644"],"entity_kind":"command","id":"aoa:aoa-discord-connector:entity:a25fe08ca509b0a84929972b","label":"tests/unit/test_parse_normalize_policy.py","provenance_ref":"deterministic","semantic_key":"tests/unit/test_parse_normalize_policy.py","source_digest":"0c029782831e155c9cf1155a06277979526be2efcf8acaf3adae47cc01855859","source_record_ids":["aoa:aoa-discord-connector:artifact:4f69da0d97fe1b7c3f444716"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8e30a53760acaf83153a401b"],"entity_kind":"command","id":"aoa:aoa-discord-connector:entity:c89f7239b086537902bc0bb8","label":"tests/contract/test_validator.py","provenance_ref":"deterministic","semantic_key":"tests/contract/test_validator.py","source_digest":"d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f","source_record_ids":["aoa:aoa-discord-connector:artifact:d2f4ffcf084f0e96fd5a6bd6"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3edd4d4004a2925b4ab97dbc"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:0b9774b3a475f107263cb159","label":"connector/schemas/index_manifest.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/index_manifest.schema.json","source_digest":"23bc64aa2abfb05397de01fd9448361ec7ec97ab5ed456a4ca0080af0af760f6","source_record_ids":["aoa:aoa-discord-connector:artifact:0bee62c7109961bf8ad8bcc2"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:af75a36f444df62d49a5d9d3"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:4e8eda1e768bab0376c6897d","label":"connector/schemas/normalized_message.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/normalized_message.schema.json","source_digest":"f672da77e45d92b6eded784ef507d6ef7cf13e18309dbd1da7aa40f666673c77","source_record_ids":["aoa:aoa-discord-connector:artifact:0b182f13f7d09259d7ce25e7"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:42f50ad5cc9d03600b064928"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:5b9078fb0070aa93543643f4","label":"connector/schemas/graph_edge.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/graph_edge.schema.json","source_digest":"8434330133325d9fb9a450f845be34e460dca3662c5717895fe0b715c8f0217b","source_record_ids":["aoa:aoa-discord-connector:artifact:7cdc761c3198c74623fc89dd"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:7c66b733afd09eb2a9150b2e"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:630da3a4741fde5b90b112fa","label":"connector/schemas/claim.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/claim.schema.json","source_digest":"72b49242ef185c6a7cff986383bb9c9357d84d6c62e7a88a3bbfa6661a605bee","source_record_ids":["aoa:aoa-discord-connector:artifact:32e75444c5948df7e0b1e7fa"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f0a1b4e31d6ddbf00aa4cecd"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:7380fb9c1ef2541b3a1f9f21","label":"connector/schemas/warning_report.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/warning_report.schema.json","source_digest":"c79c7b268057f7b54d46cac88f0535c3a569fd5aebc490c240c58a2d7c94aa4c","source_record_ids":["aoa:aoa-discord-connector:artifact:931d4eadc5ff3f80d734a323"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f5fb2309558c74b8391e9db8"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:7c448aea22b3799e6ee7776c","label":"connector/schemas/normalized_post.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/normalized_post.schema.json","source_digest":"bf4037d739b78038fd5d30de2e730eb5fa00dbade79ee15ec69db5904ef9aae8","source_record_ids":["aoa:aoa-discord-connector:artifact:2b0ac6226c78dbc34b37a4ac"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2c25239b26b1e88f49a64376"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:8438c34135fe76dbbff48827","label":"connector/schemas/permission_state.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/permission_state.schema.json","source_digest":"a4f16fa6a5e0be90e11fc2b626a447ddd15389342a4810ed9f029e98a19aa8ad","source_record_ids":["aoa:aoa-discord-connector:artifact:7d3c587cf2c51ee6f357367f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b958facfe982a705dac74265"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:8937d6b3cf4aa6ea4bd46efc","label":"connector/schemas/evidence_packet.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/evidence_packet.schema.json","source_digest":"591191aa69719c2df70686850421f4eefa1bbae772c4700e37eb52b2d4c7867f","source_record_ids":["aoa:aoa-discord-connector:artifact:22b1fd425863053e41411674"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0321363f10d4fb2046bdd27c"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:945ab1927b05c73831f01705","label":"connector/schemas/graph_node.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/graph_node.schema.json","source_digest":"6512c2d8f1264138c3ea8432cc72f77793ea44b7cd7ae4a9bc1f8f9e2f90ba3a","source_record_ids":["aoa:aoa-discord-connector:artifact:1582c817b6725b164225ceeb"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:46c0578dc2b43f61a42e4fe6"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:a08ed0de76b29f476575d8de","label":"connector/schemas/materialize_receipt.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/materialize_receipt.schema.json","source_digest":"60a586423b6613e9af67e0fca7bfbc05d9bebd1e4bdede02e8287a80c2169e1d","source_record_ids":["aoa:aoa-discord-connector:artifact:5aeacf8a1f48a8c8e307c865"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3416abc390bd7a324486cc11"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:ad7f5fa02ed6529e3da05e68","label":"connector/schemas/crawl_receipt.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/crawl_receipt.schema.json","source_digest":"de31d1f444eb3b9ffb350b32ee487d29c9dce8511e1ea87784a6f2d9b89cc59e","source_record_ids":["aoa:aoa-discord-connector:artifact:b0b5287569ea6de0c6023a8c"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a67e4ced5c2ae15522a697cc"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:baf9172cfbfedae18b8aef9e","label":"connector/schemas/answer_packet.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/answer_packet.schema.json","source_digest":"393451d73758945ce0fb1bd026789f421451fa4370a7cc081d246e44af454aa5","source_record_ids":["aoa:aoa-discord-connector:artifact:3886462d5604c8c4b735036c"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:897c8b7157655c0edf6896e4"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:bf8f3176349ff6dd3fc7861e","label":"connector/schemas/applicability_report.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/applicability_report.schema.json","source_digest":"046d3c02fa7c4e573866dfd5e4327f4f084cc8fd4f5204df78e5c5289e15c9dc","source_record_ids":["aoa:aoa-discord-connector:artifact:bfec791fa387e6ca3e8d3752"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:cd5083ac576fa281e0795b5a"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:c0d5a53a4612248cd24444e3","label":"connector/schemas/normalized_topic.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/normalized_topic.schema.json","source_digest":"002533df6a2d3c0acf7b493f4c0cc4620f9dd813c504da4a82d4b71eff9e3f2b","source_record_ids":["aoa:aoa-discord-connector:artifact:9d8d8799e9a19ad68b0d6a0c"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8e82ab51fbbdf001fbeb42b1"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:d163658a5ddcdd851cdb37f8","label":"connector/schemas/freshness_report.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/freshness_report.schema.json","source_digest":"8d55c49003264d025a82cd31a0e896a87609c6c236cb96f7712a450892f9ec78","source_record_ids":["aoa:aoa-discord-connector:artifact:116037cdf5557f0eda860bc9"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9c849c574fad613570e2221b"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:d1e63cea4d8b48507a9f4e43","label":"connector/schemas/conflict_report.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/conflict_report.schema.json","source_digest":"4a56dba814b5db2bc9182c893ccd0eb45b44b8255e3b73ac8cff47695f99594a","source_record_ids":["aoa:aoa-discord-connector:artifact:5a9c8bd05fce96cb59dc8dcf"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:69be2f851d17db83518fcc61"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:d729abc63aab17659fd5ed5a","label":"connector/schemas/claim_relation.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/claim_relation.schema.json","source_digest":"b9af89273265246634966c2f60505036ab9db2805733fe4e8dbaf74271d5e0bc","source_record_ids":["aoa:aoa-discord-connector:artifact:383c535c0b3acf1a8dd281cb"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:924c13cb24074b3315440426"],"entity_kind":"contract","id":"aoa:aoa-discord-connector:entity:f5a5ea66ae49d3f101ff0ac7","label":"connector/schemas/normalized_conversation.schema.json","provenance_ref":"deterministic","semantic_key":"connector/schemas/normalized_conversation.schema.json","source_digest":"301cdeb4f3da736e6048c8f4e6495658c718126149bb307af54f255e718418c1","source_record_ids":["aoa:aoa-discord-connector:artifact:dc266d26f7ae8e6c65689f04"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:cbe91faa61e9ca92ba8b293f"],"entity_kind":"decision","id":"aoa:aoa-discord-connector:entity:79479a5c65b706ce18795120","label":"docs/decisions/AOA-DISCORD-D-0001-permissioned-conversation-proof.md","provenance_ref":"deterministic","semantic_key":"docs/decisions/AOA-DISCORD-D-0001-permissioned-conversation-proof.md","source_digest":"0d288477ea564e11b17dce28477c0ac6f79d65511d384419e332040f22af4138","source_record_ids":["aoa:aoa-discord-connector:artifact:9403c91adc6c2b50eb5b361c"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:79b48ca40cd0727309e4ffcc"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:0218207e30ed70d6c59b4399","label":"connector","provenance_ref":"deterministic","semantic_key":"directory:connector","source_digest":"a7e8d2df3b08b7836c8f064f9da11d8a1940885f3db020b0cb395cd3b4b0b72a","source_record_ids":["aoa:aoa-discord-connector:artifact:1ec0689ca44c34dd0d3260ff"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3c2e776f181b000f97e89609"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:0b27d7de365e6dfa11ef24a3","label":"src","provenance_ref":"deterministic","semantic_key":"directory:src","source_digest":"f38302cbdae212838af896ca1b11083e1e1f8971f3feff42087ce352bef043e0","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3c2e776f181b000f97e89609"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:0f9cf9f40677baacfeff43b3","label":"aoa_discord_connector","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector","source_digest":"f38302cbdae212838af896ca1b11083e1e1f8971f3feff42087ce352bef043e0","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ea87dae86a9ee9dfccf5fbc6"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:1cd32e00f7a9413500e5260a","label":"storage","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/storage","source_digest":"8d66cd628c0c334a1d165d12000c657ea886d25e0c642a2367f80cee44f3c183","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:96edf78f78896aa60aceb657"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:306f75ccf54720b67957adb1","label":"reports","provenance_ref":"deterministic","semantic_key":"directory:evals/reports","source_digest":"117d850d8ea8b15e703eaef710c203a68ae05f179ac515e52911de823a7cbd32","source_record_ids":["aoa:aoa-discord-connector:artifact:ac5e016ca22d8a30850c20d8"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:593fe5d34200695ff94cfd65"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:32c2f52ffbb8f395bb76404c","label":"claims","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/claims","source_digest":"2d873022641193544a66f80f176956f74b0bdb9daebaad115a01b974cacef491","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f50beceb2feff60a09c9f492"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:335e0d72071b2ce5df2d8423","label":"scripts","provenance_ref":"deterministic","semantic_key":"directory:scripts","source_digest":"c32eb2499b7b01aab6cf5036190ab64219f697238d3ac8a34944db3c99f7ed1d","source_record_ids":["aoa:aoa-discord-connector:artifact:de39a4722143afd5fd9d1e43"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3aa682f602fbc3107acfaa17"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:339a81ea9ad39e9293412b13","label":"data","provenance_ref":"deterministic","semantic_key":"directory:.connector-state/data","source_digest":"2463c00e4937491f927aac43faa8986831b10e1f5f9756d68e34a5b8329eeaf4","source_record_ids":["aoa:aoa-discord-connector:artifact:c10ea2dd5030b4f0098fa68d"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fe51c2486fb5e418f913d644"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:3b72a0d172a2a6fca958d652","label":"unit","provenance_ref":"deterministic","semantic_key":"directory:tests/unit","source_digest":"1f5cb7d7c1a531a69cb647c362f21aa14ed8e49e9d6c88e2951ffb029a27f649","source_record_ids":["aoa:aoa-discord-connector:artifact:4f69da0d97fe1b7c3f444716"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2e0e4036d2cc16132b8b25f6"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:3bdc071b31f25c5d46d7170d","label":"discord","provenance_ref":"deterministic","semantic_key":"directory:connector/fixtures/discord","source_digest":"e7af7a517dc26b6c14f5d02d76af5db41f0ad7346e38529c6b30c6b938263c5a","source_record_ids":["aoa:aoa-discord-connector:artifact:2e97468a53352c896b9d901e"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:38b19a78ac94577cdcc91703"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:3fa99f13e188c0ff14d4830f","label":"indexes","provenance_ref":"deterministic","semantic_key":"directory:kag/indexes","source_digest":"68598325d0be30ffc99028651b6923c314c35e196a79c409e9223dc2dda6f389","source_record_ids":["aoa:aoa-discord-connector:artifact:1416e51205dd8339ed9f4b66"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b03f638f4015a9d9803e1702"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:4053dfeea882e78d3f31d314","label":".github","provenance_ref":"deterministic","semantic_key":"directory:.github","source_digest":"303a820ea53cd61e1bccf8b07fba3fb1f09ee3f0e75d0eb1ddd68b8d72a184f5","source_record_ids":["aoa:aoa-discord-connector:artifact:a5c0f08bc43f53a0451cad4a"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:588b474d61652f664eb4f065"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:462774f136601d290fa8ecc4","label":"profiles","provenance_ref":"deterministic","semantic_key":"directory:connector/profiles","source_digest":"32856fd53d6257ef341804db408eddf36376745be2492f5920b251c1fc372ac8","source_record_ids":["aoa:aoa-discord-connector:artifact:11321dbd4242ca0135bad96b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:bd9c3923eb09e1aced64ad5b"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:5581ef58f85a0d268744a60b","label":"projections","provenance_ref":"deterministic","semantic_key":"directory:kag/projections","source_digest":"0b2c4e35d54696b984885ed2915ea068e4972eebf5284c173594cc3b13ef046a","source_record_ids":["aoa:aoa-discord-connector:artifact:1a2a306538ed63040bdeab56"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a29bcc164d6f459b3e49a7d7"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:558c51d37fec198730947f01","label":"edges","provenance_ref":"deterministic","semantic_key":"directory:kag/edges","source_digest":"62e5c0fde444f9321f12c639c42ed056e77eef2260bcd7a5e6bf804799669980","source_record_ids":["aoa:aoa-discord-connector:artifact:8c12cb4c115b45c72311b213"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:cbe91faa61e9ca92ba8b293f"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:581e9749cdd2db16f6ce3b80","label":"decisions","provenance_ref":"deterministic","semantic_key":"directory:docs/decisions","source_digest":"cb85cbcdf6b9336e65b2d71300f21d81d74ede57b39a977dec78f06ed2a30e44","source_record_ids":["aoa:aoa-discord-connector:artifact:9403c91adc6c2b50eb5b361c"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b9cd955f8269cf15223d61f3"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:583deb632a584dc35bd47cb7","label":"nodes","provenance_ref":"deterministic","semantic_key":"directory:kag/nodes","source_digest":"5b64dc4dad3f2526d522ba64356d9d6480e37b041d2a363fcc1e92f61c059b76","source_record_ids":["aoa:aoa-discord-connector:artifact:45dfb2e4b04a03b42e00e4c7"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:eb782743e9c45e2e25fbdecc"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:5d4ad6f8af16bc68b4d55145","label":".connector-state","provenance_ref":"deterministic","semantic_key":"directory:.connector-state","source_digest":"4a8f053e2ad87f20ee0e57b915416c4647133e47a0d062d7610481b2c204e4c2","source_record_ids":["aoa:aoa-discord-connector:artifact:377f66e180bd91fd0a479887"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d6f6e25ae07b922b3fe10dc9"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:69e2c19e4c0eb2ff70e7974c","label":"docs","provenance_ref":"deterministic","semantic_key":"directory:docs","source_digest":"44661105411cb92027c515e300261113f6892dd43666f921d4737e6f2d04e95d","source_record_ids":["aoa:aoa-discord-connector:artifact:2fbbbc3cbc966fcfc236c963"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6a571e598f33a234851e4871"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:70634901492df952ec8b82bf","label":"intake","provenance_ref":"deterministic","semantic_key":"directory:evals/intake","source_digest":"c5580d23197c365c22327639601834ed08e7b98db7a30990bb9697b116922dbf","source_record_ids":["aoa:aoa-discord-connector:artifact:d27b56ff431893151fb5396d"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3f65bd3c4016b9f6cb1bd2e8"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:75e8680c8e60e4c7f0647deb","label":"graph","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/graph","source_digest":"808a406abf69d519fa737514ba755c1431bfb0c03cd852a04021586e04d8754b","source_record_ids":["aoa:aoa-discord-connector:artifact:1fcc16db63dc771db5644bcd"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ba3e4e6fc5eafdb0eaa53fad"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:7b673dc4f20e3b59741b26e1","label":"sources","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/sources","source_digest":"d173c7a13deab6759f71b50bc573420e9336eaeab38ca89754c227faec56fa4d","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8f721d570ec278141361404e"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:8fc8526a67056d280ab55de9","label":"manifests","provenance_ref":"deterministic","semantic_key":"directory:connector/manifests","source_digest":"97f1591bec3ef27aadaac96bc30d097f10f933fd4c715d9b8252760d6d4bc3f5","source_record_ids":["aoa:aoa-discord-connector:artifact:1ba98f35b6065a23e1a3c9c2"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8e30a53760acaf83153a401b"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:91de81631c2af9ad26860a75","label":"contract","provenance_ref":"deterministic","semantic_key":"directory:tests/contract","source_digest":"390c6622e29cdb5406e73ab756fd7d815e7008a4fe637a581e9f49f1f73ec619","source_record_ids":["aoa:aoa-discord-connector:artifact:d2f4ffcf084f0e96fd5a6bd6"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e80c2a8e60ee94227e59c067"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:a823a4f8896f04938f01b485","label":"normalize","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/normalize","source_digest":"cf8362200cdcd364e4c7a93735d13527d4b3d6bf13fc8ccfe0ab972b2f12a674","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:498b5a9de03d0e8bfb6032b4"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:a8318124a50b9ad5ae172aa9","label":"parse","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/parse","source_digest":"ab1e77f4cc1a5914b16fba4aa6441c905ea6bd9e916d9f81777336d1cb49f84c","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d38be0f4add70b858250cee9"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:b157c07635a5968ae46d8333","label":"index","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/index","source_digest":"d767e8222559907986fcdb0726d0028964ff4aacb5cec6649168c3321b54e399","source_record_ids":["aoa:aoa-discord-connector:artifact:a16ae2472f8f575653c68747"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:08954229d7a2eb121244b114"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:b3234e24a5dce56fe628bed9","label":"answer","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/answer","source_digest":"99c0ad0276d0da6c804d7538b49c7f5eea96001ac78dc23d95d57eadd0c20bc7","source_record_ids":["aoa:aoa-discord-connector:artifact:ddedd6bb4ea4d7da804c0183"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e96c2a6c91a82b26c882d355"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:ba7c6ae8458ac9ff612c2fcf","label":"policy","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/policy","source_digest":"99f9b85c24c03821fc18fa966d28b9be28a532c21f20390cd9ff0b2362f5ddc9","source_record_ids":["aoa:aoa-discord-connector:artifact:87457ca83148457af6654800"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:dc451f216d8568af2a321f97"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:bb56541d6c05888e788018cd","label":"evals","provenance_ref":"deterministic","semantic_key":"directory:evals","source_digest":"4ca48c079df393ec38ac9a5c999957406ef96daf6b840880fed471183b9e3b41","source_record_ids":["aoa:aoa-discord-connector:artifact:97b1e9d3cdd5039f97903b28"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9d42d2e8285e0e0cf03bd08d"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:c6e066f2b2f02ee37d81ce87","label":"seeds","provenance_ref":"deterministic","semantic_key":"directory:connector/seeds","source_digest":"0b1335ca3d2f8ae8581c4e262e7840856d46e215eea97b56918e9a5d26ed6559","source_record_ids":["aoa:aoa-discord-connector:artifact:b30b2cecc0f92d7cbc845f16"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b5695b60eabbde0b562db9b5"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:d20957345ae88e8fd0f1eecc","label":"kag","provenance_ref":"deterministic","semantic_key":"directory:kag","source_digest":"b559e50b1590f213bb8eb27ba3465965acef973d758c6c757b0734b43827f195","source_record_ids":["aoa:aoa-discord-connector:artifact:0d25d90d0812762fd5378e2f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d41747925b949f1de678c14d"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:d31f7398d014a24db5785a85","label":"suites","provenance_ref":"deterministic","semantic_key":"directory:evals/suites","source_digest":"eb6899ae2d961e9b30f68b156b34aa0f63ffe03e2c5fb783c4bb9fb2718b5178","source_record_ids":["aoa:aoa-discord-connector:artifact:0406674f038a13735575f3e1"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:24cc317feca0695ef2cbae65"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:d8ba3aec3129c05368f41df3","label":"evaluation","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/evaluation","source_digest":"f9b9407a82183aa961dcf034d473c6ac2b52fc13ed4bff2db6709006e2ad1f73","source_record_ids":["aoa:aoa-discord-connector:artifact:1704a294cf313288391205c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2e0e4036d2cc16132b8b25f6"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:d9f506bef93aa9ed61712461","label":"fixtures","provenance_ref":"deterministic","semantic_key":"directory:connector/fixtures","source_digest":"e7af7a517dc26b6c14f5d02d76af5db41f0ad7346e38529c6b30c6b938263c5a","source_record_ids":["aoa:aoa-discord-connector:artifact:2e97468a53352c896b9d901e"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fe96f1eab70c2a4421ddcaa8"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:ddaa749a54d2075a5689f2b7","label":"integration","provenance_ref":"deterministic","semantic_key":"directory:tests/integration","source_digest":"04d74dc514f1f51558695aefaa61bc30a5d6dc3fb4910412703e3f2d3cee8a51","source_record_ids":["aoa:aoa-discord-connector:artifact:72e7f3ce473796ceebe6b66f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:af75a36f444df62d49a5d9d3"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:dde4df496fa0154cbb94e299","label":"schemas","provenance_ref":"deterministic","semantic_key":"directory:connector/schemas","source_digest":"68ad0dc3f44e7e4cd51ac338f0f8085d279954e74eed5749db76f61d4f47cbb0","source_record_ids":["aoa:aoa-discord-connector:artifact:0b182f13f7d09259d7ce25e7"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:555de0415f9d6de0a66b148f"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:e1aea1cc276eb66cbdcb24d3","label":"receipts","provenance_ref":"deterministic","semantic_key":"directory:kag/receipts","source_digest":"6dfc8284acd27637f0116cf38eb1b165aa129962f61eefc786721a8a01076c98","source_record_ids":["aoa:aoa-discord-connector:artifact:8e616be0cdf2b775b3d0fcfd"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6fd8823ce48fd63700695076"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:e9931d0704cd04cf737071da","label":"query","provenance_ref":"deterministic","semantic_key":"directory:src/aoa_discord_connector/query","source_digest":"17d2a973943b4b30e75f581aa22cef2c8b8cfe1bc93140ce9498a7647dc52e59","source_record_ids":["aoa:aoa-discord-connector:artifact:c84c183d6ac5e5149775462b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:c9410a23a2b9acca2e466c35"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:ea11025c11f7a96e37a7d8f2","label":"cache","provenance_ref":"deterministic","semantic_key":"directory:.connector-state/cache","source_digest":"f89d8dea5a0d05260c26e80017f39c9b525fb46cf7fb777af199ee5b1bac807a","source_record_ids":["aoa:aoa-discord-connector:artifact:ffb60a731046fa6ceb4e8ba0"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b03f638f4015a9d9803e1702"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:f019620edd42955bd2ad859f","label":"workflows","provenance_ref":"deterministic","semantic_key":"directory:.github/workflows","source_digest":"303a820ea53cd61e1bccf8b07fba3fb1f09ee3f0e75d0eb1ddd68b8d72a184f5","source_record_ids":["aoa:aoa-discord-connector:artifact:a5c0f08bc43f53a0451cad4a"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0020904bf8bd08c4d965675f"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:f114eb5137a0336230f70910","label":"artifacts","provenance_ref":"deterministic","semantic_key":"directory:.connector-state/artifacts","source_digest":"f3c0920ac5e3f375d48aa5bb6092ff46bd1c55572c97bac2eae9cb99194beb57","source_record_ids":["aoa:aoa-discord-connector:artifact:9accf753951b664ae3e2e2bf"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fe51c2486fb5e418f913d644"],"entity_kind":"directory","id":"aoa:aoa-discord-connector:entity:f4fbc015ac0e0132e94d32c0","label":"tests","provenance_ref":"deterministic","semantic_key":"directory:tests","source_digest":"1f5cb7d7c1a531a69cb647c362f21aa14ed8e49e9d6c88e2951ffb029a27f649","source_record_ids":["aoa:aoa-discord-connector:artifact:4f69da0d97fe1b7c3f444716"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:530e4b74206df0da664f2365"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:090cc46771cad8fbbbf0ec09","label":"docs/INSTALL.md","provenance_ref":"deterministic","semantic_key":"docs/INSTALL.md","source_digest":"b9a0bce42e7f59feedd83096dbe600094b0303b6c37a1152dc277822eb14da78","source_record_ids":["aoa:aoa-discord-connector:artifact:93adeedb62ae4160af1d8713"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b2c6d9f81caaf940eca20ec9"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:0a9a519f45105cf329d7bdfc","label":"connector/STORAGE_POLICY.md","provenance_ref":"deterministic","semantic_key":"connector/STORAGE_POLICY.md","source_digest":"49d3666be532fe8feb92e168c3c45f78313a6026ab46cbeebc04ef7bfd61075d","source_record_ids":["aoa:aoa-discord-connector:artifact:aef066cc092465374fe3f115"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2a488a1bce8b2978e3581511"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:15511f7525c43f9d300eb6bf","label":"docs/decisions/README.md","provenance_ref":"deterministic","semantic_key":"docs/decisions/README.md","source_digest":"62cff78c8b0c97ceb5921fd5ea9dd42e9817b394daeca1bb34e7be77f021e4dc","source_record_ids":["aoa:aoa-discord-connector:artifact:e5ec0e7030077b7cf1bfed98"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:dd4977496a8b58b8c7d2f122"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:1a46d74c05de7a7adef11d69","label":"evals/suites/connector-family-claim-runtime.suite.md","provenance_ref":"deterministic","semantic_key":"evals/suites/connector-family-claim-runtime.suite.md","source_digest":"8f37df4aaec4bf74f6b251aa70972cc8e88cd8b19a4949703dc90bf551b75988","source_record_ids":["aoa:aoa-discord-connector:artifact:b972eb11b6cc50b29dad6816"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:eb782743e9c45e2e25fbdecc"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:283b798149170552b9d1d655","label":".connector-state/README.md","provenance_ref":"deterministic","semantic_key":".connector-state/README.md","source_digest":"93d10e2cf51bb7b33364e5c8512b65370721b815736424304b1409c2d111fccc","source_record_ids":["aoa:aoa-discord-connector:artifact:377f66e180bd91fd0a479887"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:968373be816155f5811183e6"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:316ac17d4987527d8b34bf32","label":"docs/ARCHITECTURE.md","provenance_ref":"deterministic","semantic_key":"docs/ARCHITECTURE.md","source_digest":"169a8358fab54720b58d9af3e46567014dd3693c0d7e398b9c4deefd2a07e38c","source_record_ids":["aoa:aoa-discord-connector:artifact:ff21b6b9a3a33e9d9056ac96"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:12ddcd3ecbb1d13c6c94f48d"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:4167cedbe7284f44b0253ca5","label":"kag/README.md","provenance_ref":"deterministic","semantic_key":"kag/README.md","source_digest":"34e5716dc6a0c050b7c1109b9d9b830a48597eee6fa0e2327719a975436d8a7e","source_record_ids":["aoa:aoa-discord-connector:artifact:213631cc86c1c0c7bdb579f5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:79b48ca40cd0727309e4ffcc"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:45f42b4ed787c5202389f226","label":"connector/SOURCE_POLICY.md","provenance_ref":"deterministic","semantic_key":"connector/SOURCE_POLICY.md","source_digest":"e6dc37081286e191baaa13d47452545b7f1af3b6d4b3b5d0b7d2f4905ebbaeac","source_record_ids":["aoa:aoa-discord-connector:artifact:1ec0689ca44c34dd0d3260ff"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e95af853139dda38955c4713"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:6dd2148f10e37048d8ba0bf4","label":"docs/RUNTIME_CONTRACT.md","provenance_ref":"deterministic","semantic_key":"docs/RUNTIME_CONTRACT.md","source_digest":"5ef086571e4afad6b2b44d03a338ea902008e129d801540ad49e85df98a89915","source_record_ids":["aoa:aoa-discord-connector:artifact:fa011f8c69f98428a5758cc9"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:891e230ee50a20dfe56f5df8"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:6ed49027e3e6bda0b1c3b37e","label":"connector/README.md","provenance_ref":"deterministic","semantic_key":"connector/README.md","source_digest":"3785eb90b999dfe685e335ac8d276ca8693057da4508a3a4be659f155cbec6d9","source_record_ids":["aoa:aoa-discord-connector:artifact:5aa00cda8edb94031adb99c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f8fd584107249f6bff674933"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:728849f00c086f1151f68399","label":"evals/README.md","provenance_ref":"deterministic","semantic_key":"evals/README.md","source_digest":"f27662a49bf58cf5fcbe84597502313cd335ca770bae80db998624068b533d09","source_record_ids":["aoa:aoa-discord-connector:artifact:a1a9eeb43d4de7693b860e12"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6a978662b6d791636b61c923"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:7f6ed68318aa1c65680a8590","label":"CHARTER.md","provenance_ref":"deterministic","semantic_key":"CHARTER.md","source_digest":"742e6f5e68c2e517a7024e34a15d135d42f5a26ad7eec5ff3f07f8f5e52aa6e8","source_record_ids":["aoa:aoa-discord-connector:artifact:91d16dd057bd39f6431e90a1"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b1726a53da9d1bfd8d2c3b0d"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:89d8ffa3e7eb5f6f4b8d25dc","label":"docs/QUERY_MODEL.md","provenance_ref":"deterministic","semantic_key":"docs/QUERY_MODEL.md","source_digest":"8caa91fd8c680a93dd8166c52bfa439c7c4dd3f80ba2fd6ded08d1faa710d73d","source_record_ids":["aoa:aoa-discord-connector:artifact:dc059c6e179d84850bca916f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:68929cc3cbeb236d173489d8"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:8b99cfb30469f6a4f056e2de","label":"CHANGELOG.md","provenance_ref":"deterministic","semantic_key":"CHANGELOG.md","source_digest":"531523859b7b01041c4e4a8905fb56a9c8ec63e366741e76f78cecc6a44280f8","source_record_ids":["aoa:aoa-discord-connector:artifact:06572a96a58dc510037d5efa"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6a571e598f33a234851e4871"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:9cd24e13c9510bba53f5f044","label":"evals/intake/README.md","provenance_ref":"deterministic","semantic_key":"evals/intake/README.md","source_digest":"f9540523b031e203c04577189b865fad0af154f166033b14d37ecd61788c5f15","source_record_ids":["aoa:aoa-discord-connector:artifact:d27b56ff431893151fb5396d"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:73e0f985fc38b43324978ee1"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:ab4e090a3e54871461ed5b1f","label":"docs/STARTER_PROOF.md","provenance_ref":"deterministic","semantic_key":"docs/STARTER_PROOF.md","source_digest":"889cae77317fd08cd1b810bba26897e5a020f5d3b82e5798c5343ec9ce45f19a","source_record_ids":["aoa:aoa-discord-connector:artifact:a06d166b7c2914561846ba0c"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:79215efb660fbfb9972c2dbc"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:ab98116671246523a6fffed5","label":"docs/MCP_ROLLOUT.md","provenance_ref":"deterministic","semantic_key":"docs/MCP_ROLLOUT.md","source_digest":"1349de5514a6a742dcc8e1e21c9f2ffe59d9657246906bb6cf3b68111c3753d3","source_record_ids":["aoa:aoa-discord-connector:artifact:7592ebe12e24b5f2c1b40033"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:79756c4c4cf937da42a32470"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:ad003caf6c24a0817b0cde86","label":"evals/suites/README.md","provenance_ref":"deterministic","semantic_key":"evals/suites/README.md","source_digest":"9b747f6d968d4a447cd86313d7b8a1a2caaa68e53dc7aaec235f0714357dc89c","source_record_ids":["aoa:aoa-discord-connector:artifact:8611332c6fcbad7921c5cd0c"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ef636b93a0ecd8376d38ae6d"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:b867c9277ce0cefd07d35223","label":"BOUNDARIES.md","provenance_ref":"deterministic","semantic_key":"BOUNDARIES.md","source_digest":"2433a78892085f9fb3a0be29ec878c4e71f13424c814f0c6f30dd7764aeecc37","source_record_ids":["aoa:aoa-discord-connector:artifact:22819d489ee6bbea874f5a03"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ce01ede8afdb511edb301a4b"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:c312f90eab78868a23ae685c","label":"README.md","provenance_ref":"deterministic","semantic_key":"README.md","source_digest":"3bd8aa0d810c196a898660f9c48d565614ef91dfaf80fa96b786f58356708105","source_record_ids":["aoa:aoa-discord-connector:artifact:b335630551682c19a781afeb"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d493ce24df0bb54b93a707ec"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:c70b6e90a79e4f2548f0f205","label":"docs/GRAPH_MODEL.md","provenance_ref":"deterministic","semantic_key":"docs/GRAPH_MODEL.md","source_digest":"090fb1eb936b3881ade2aa81f65123c4a73b9b4d69e5094a220d13e8b15d3eff","source_record_ids":["aoa:aoa-discord-connector:artifact:72ed1bbd50d1e98278f415c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:96edf78f78896aa60aceb657"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:cbd94079c7487f1606b929a3","label":"evals/reports/README.md","provenance_ref":"deterministic","semantic_key":"evals/reports/README.md","source_digest":"5d3b50090faa9e0031562b16769af6199800649bfe92dd376f815d2c7517f9cf","source_record_ids":["aoa:aoa-discord-connector:artifact:ac5e016ca22d8a30850c20d8"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6d34baf006f25dbf3e332cd8"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:d5c2b05488e770bef29d73ed","label":"docs/AGENT_INSTALL_ROUTE.md","provenance_ref":"deterministic","semantic_key":"docs/AGENT_INSTALL_ROUTE.md","source_digest":"1a1a14559739970691db6cc2878e535110bb02e7df362eb697534aed9729dc44","source_record_ids":["aoa:aoa-discord-connector:artifact:38c86ecaa79ed3efa73183dd"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d6f6e25ae07b922b3fe10dc9"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:e558452147ef68c6abb57be5","label":"docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md","provenance_ref":"deterministic","semantic_key":"docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md","source_digest":"b76bcd7f5d4978368e373a1aed9556b47b1fba60182f9678a525d33eae5c018d","source_record_ids":["aoa:aoa-discord-connector:artifact:2fbbbc3cbc966fcfc236c963"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:db7053a6a2617a3de80b8ea7"],"entity_kind":"document","id":"aoa:aoa-discord-connector:entity:ef22798bd96a6e1d64eac288","label":"ROADMAP.md","provenance_ref":"deterministic","semantic_key":"ROADMAP.md","source_digest":"186372a2d401291bc1440125501dfccdb4a6373a2a341db0198692c5438436b5","source_record_ids":["aoa:aoa-discord-connector:artifact:683343bdf93f55ed3cada861"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ca96eb5dbc02d3b7c7eec49e"],"entity_kind":"manifest","id":"aoa:aoa-discord-connector:entity:887fd1f22dd47e62d101d929","label":"connector/manifests/artifact_classes.yaml","provenance_ref":"deterministic","semantic_key":"connector/manifests/artifact_classes.yaml","source_digest":"7313a89d6336d84caeb463a504623ed90c43677083d89a55d6a7d5377229fdb1","source_record_ids":["aoa:aoa-discord-connector:artifact:702a5cec90358a6661e4e9bb"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:7b328cf732273f372239c1ed"],"entity_kind":"manifest","id":"aoa:aoa-discord-connector:entity:9432a2ed7c35eddeecd41384","label":"connector/manifests/connector_manifest.yaml","provenance_ref":"deterministic","semantic_key":"connector/manifests/connector_manifest.yaml","source_digest":"f821b586657199565ede170b2fcd9576ca006fdbf37ee25309a864a5150bbb20","source_record_ids":["aoa:aoa-discord-connector:artifact:747276e9b10f21d3c6259131"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8f721d570ec278141361404e"],"entity_kind":"manifest","id":"aoa:aoa-discord-connector:entity:9ac8512f38650f947a437dea","label":"connector/manifests/route_allowlist.yaml","provenance_ref":"deterministic","semantic_key":"connector/manifests/route_allowlist.yaml","source_digest":"1684aec182fb11848057108ad0b4a671ca3aac2b11b6b7e76167f4003c4653a9","source_record_ids":["aoa:aoa-discord-connector:artifact:1ba98f35b6065a23e1a3c9c2"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:40ccc8ceacc662a05969ad93"],"entity_kind":"manifest","id":"aoa:aoa-discord-connector:entity:bd8d6bd0e0b46a338cf14311","label":"pyproject.toml","provenance_ref":"deterministic","semantic_key":"pyproject.toml","source_digest":"e03e62d43fd8795b1370fdb1580a04cfd2a9bad04a5db12ab27e88600ad7d6b8","source_record_ids":["aoa:aoa-discord-connector:artifact:50c86b7ed8ac2cf95bd48334"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:00e68e504c3808ace0e1bf10"],"entity_kind":"owner_surface","id":"aoa:aoa-discord-connector:entity:5a0e5f3efe396e3ec422272a","label":".gitignore","provenance_ref":"deterministic","semantic_key":".gitignore","source_digest":"f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4","source_record_ids":["aoa:aoa-discord-connector:artifact:bc37d034bad564583790a46f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a18cb306a70b60498145d7f7"],"entity_kind":"python_class","id":"aoa:aoa-discord-connector:entity:6083b7f2e960e5ceabf165dc","label":"StorageRoots","provenance_ref":"deterministic","semantic_key":"python:class:StorageRoots","source_digest":"8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:552d8244f8200ed89f0d79c5"],"entity_kind":"python_class","id":"aoa:aoa-discord-connector:entity:f56494e8bde2e6633140cc54","label":"TextExtractor","provenance_ref":"deterministic","semantic_key":"python:class:TextExtractor","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2f4d17edef03ee12198d5675"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:00a0be83ebfe603eca8c1fea","label":"_default_access","provenance_ref":"deterministic","semantic_key":"python:function:_default_access","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:83be374dc6ff9ba8107e20f9"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:00bf967f0653c2518b5558d8","label":"_normalize_tags","provenance_ref":"deterministic","semantic_key":"python:function:_normalize_tags","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:851aecd4f4e24baab31ef1d7"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:056950c51eddd7b339fa78e0","label":"decode_html","provenance_ref":"deterministic","semantic_key":"python:function:decode_html","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:74271f00c294b8523d8bb46e"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:0645a4d29d72c904fc06e2bf","label":"cmd_init","provenance_ref":"deterministic","semantic_key":"python:function:cmd_init","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ce60ec54e4d318b8248dc94b"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:06817b912a24f02fb84b88f9","label":"main","provenance_ref":"deterministic","semantic_key":"python:function:main","source_digest":"3705ef02428951bb15d796ebee66b2cb501faab4393349e89dd0c1649b2f2cfd","source_record_ids":["aoa:aoa-discord-connector:artifact:de39a4722143afd5fd9d1e43"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ff6421fa2d81994cfa677219"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:06c18f4c06d13341bccdebef","label":"_proof","provenance_ref":"deterministic","semantic_key":"python:function:_proof","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:7f45276a7b1c84f3e731ad3f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:0818e954c9ebbbd73467ee64","label":"_labels_by_kind","provenance_ref":"deterministic","semantic_key":"python:function:_labels_by_kind","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9c4f40eddd18cfcb44fdd671"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:0b3158c8e80c617d3667f305","label":"cmd_materialize_fixture","provenance_ref":"deterministic","semantic_key":"python:function:cmd_materialize_fixture","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a697d076ce7f24bd704d49e9"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:0b7e53dc5e1cd79485448273","label":"select_sources","provenance_ref":"deterministic","semantic_key":"python:function:select_sources","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:c5dd8874f16f110f2714fa36"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:0cd6243a5ee193b7d9c42038","label":"tokenize","provenance_ref":"deterministic","semantic_key":"python:function:tokenize","source_digest":"1d80c3432f77ffd95890fbc02b04e539d22b081f10ed08268201510c11203b9b","source_record_ids":["aoa:aoa-discord-connector:artifact:a16ae2472f8f575653c68747"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:7c24fffd97fd9d78912cf891"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:0e7ce53015247dbb2b164f91","label":"_materialize_build","provenance_ref":"deterministic","semantic_key":"python:function:_materialize_build","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b592ebd58413515240a1abcd"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:0f67bec616ead66544ceecb8","label":"render_answer_packet","provenance_ref":"deterministic","semantic_key":"python:function:render_answer_packet","source_digest":"72b38b8e64f33e745291f89d13d4641b1a9908411b77ed5369aa5377b5368341","source_record_ids":["aoa:aoa-discord-connector:artifact:ddedd6bb4ea4d7da804c0183"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3990493a2b5b07038f15af33"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:129388a6ab980ef80fae6283","label":"_answer_item","provenance_ref":"deterministic","semantic_key":"python:function:_answer_item","source_digest":"72b38b8e64f33e745291f89d13d4641b1a9908411b77ed5369aa5377b5368341","source_record_ids":["aoa:aoa-discord-connector:artifact:ddedd6bb4ea4d7da804c0183"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b1afb6e2399379fc43b274d6"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:12a481f57288075cdfa5ecf9","label":"_parse_time","provenance_ref":"deterministic","semantic_key":"python:function:_parse_time","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:c41eda9aa9c83749820a1f86"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:13d2a11418faba888256c713","label":"_append_claim_edge","provenance_ref":"deterministic","semantic_key":"python:function:_append_claim_edge","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:22602acd2586bb9b3cc6c261"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:18d2013db05ba93029229510","label":"test_graph_contains_conversation_edges","provenance_ref":"deterministic","semantic_key":"python:function:test_graph_contains_conversation_edges","source_digest":"f851b6bad10f9833043351deb2fc5a364f8bc7408ccc17f27d75e95cd9b6e601","source_record_ids":["aoa:aoa-discord-connector:artifact:7bd472ece7c3b8c73188c47d"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fcaee4ab63de191d032c2a48"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:18d37457b77f7d47fca1f7b8","label":"_strip_non_evidence_blocks","provenance_ref":"deterministic","semantic_key":"python:function:_strip_non_evidence_blocks","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0d728bc1b8495a6beda3dbb5"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:1a5ab071eeff2bd1abbc0761","label":"_default_relation_reason","provenance_ref":"deterministic","semantic_key":"python:function:_default_relation_reason","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:c7b820088af6ad648081816c"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:1aaad6d76f74162cf1de564b","label":"build_source_plan","provenance_ref":"deterministic","semantic_key":"python:function:build_source_plan","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0eaf76cb4f4c022bcb91fb6c"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:1b3a58f42650008a56e2a486","label":"_measure_tree","provenance_ref":"deterministic","semantic_key":"python:function:_measure_tree","source_digest":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:5342db824e991085433230c4"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:1b3cb8a1df0391b0915e1dcc","label":"_has_negative_language","provenance_ref":"deterministic","semantic_key":"python:function:_has_negative_language","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e0afb08f54d8faedde71cab3"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:1c7713ee7c7be3dbb820e352","label":"test_cli_materialize_build_query_answer_and_eval","provenance_ref":"deterministic","semantic_key":"python:function:test_cli_materialize_build_query_answer_and_eval","source_digest":"b1ce07eb1ff10d0c98ea6abab9ab7666454461a7d23ae192373a15c0be367d2e","source_record_ids":["aoa:aoa-discord-connector:artifact:72e7f3ce473796ceebe6b66f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d4319cd82a57b90772ecb1f7"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:1fc36c5401ebb3732add27a2","label":"extract_post_claims","provenance_ref":"deterministic","semantic_key":"python:function:extract_post_claims","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:eb063966e87af579f367a482"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:205d22b7a8e8ac47b753e09f","label":"_unique","provenance_ref":"deterministic","semantic_key":"python:function:_unique","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:020b823545feda03a125ca37"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:223b2b402e86e3b69a1b85d6","label":"find_repo_root","provenance_ref":"deterministic","semantic_key":"python:function:find_repo_root","source_digest":"8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8bfd6d08bc84fc75c9fc5a50"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:2259ad6fcb6567dd93bc936e","label":"cmd_sources_plan","provenance_ref":"deterministic","semantic_key":"python:function:cmd_sources_plan","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2d9bbb7164760c09fbfa2179"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:24cb93f35d9d5e1bbe830250","label":"_dedupe_claims","provenance_ref":"deterministic","semantic_key":"python:function:_dedupe_claims","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:60c7ec269ab47e47eed9561d"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:284b47b01725d1c7c6557a93","label":"test_answer_packet_insufficient_evidence","provenance_ref":"deterministic","semantic_key":"python:function:test_answer_packet_insufficient_evidence","source_digest":"f851b6bad10f9833043351deb2fc5a364f8bc7408ccc17f27d75e95cd9b6e601","source_record_ids":["aoa:aoa-discord-connector:artifact:7bd472ece7c3b8c73188c47d"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ad79b8c61d120f97afbd97dd"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:2861edaa097db930cec38468","label":"_action_node_id","provenance_ref":"deterministic","semantic_key":"python:function:_action_node_id","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9244af6afb73d4a326ca0c76"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:2ab6b813965daee43258043d","label":"_node","provenance_ref":"deterministic","semantic_key":"python:function:_node","source_digest":"f1d3ac50815935efdc0a24f3715a8832634d10bbb24545dedae8d57a88916270","source_record_ids":["aoa:aoa-discord-connector:artifact:1fcc16db63dc771db5644bcd"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:cca7a1c9525fe741ccd55b71"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:30f79ab0aba616ce537ee2d2","label":"_nearest_existing_parent","provenance_ref":"deterministic","semantic_key":"python:function:_nearest_existing_parent","source_digest":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d03b6ce4cdbdeb8e93410281"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:348a25718f0942311154abf3","label":"test_data_package_mode_is_offline_account_owned_import","provenance_ref":"deterministic","semantic_key":"python:function:test_data_package_mode_is_offline_account_owned_import","source_digest":"0c029782831e155c9cf1155a06277979526be2efcf8acaf3adae47cc01855859","source_record_ids":["aoa:aoa-discord-connector:artifact:4f69da0d97fe1b7c3f444716"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:08102a4ead58d7a5597c7879"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:362bb112b5b31575dbb6d007","label":"test_normalizer_redacts_message_content_without_privileged_intent","provenance_ref":"deterministic","semantic_key":"python:function:test_normalizer_redacts_message_content_without_privileged_intent","source_digest":"0c029782831e155c9cf1155a06277979526be2efcf8acaf3adae47cc01855859","source_record_ids":["aoa:aoa-discord-connector:artifact:4f69da0d97fe1b7c3f444716"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:1ee3cb0987e00b7aa19640ec"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:3657e8425fcf63af6c6e87cb","label":"create_storage_roots","provenance_ref":"deterministic","semantic_key":"python:function:create_storage_roots","source_digest":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:398f3f95e0b96138c181fc11"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:36a4b6caec2a34298ce50e9b","label":"normalize_snapshot","provenance_ref":"deterministic","semantic_key":"python:function:normalize_snapshot","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:306faeb6d317310a9b825c82"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:3a537751d91e060c75595857","label":"_extract_entities","provenance_ref":"deterministic","semantic_key":"python:function:_extract_entities","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:70f169950611a4f92ee71db4"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:3a85dc2e7ccfa8c5853b6039","label":"_has_warning","provenance_ref":"deterministic","semantic_key":"python:function:_has_warning","source_digest":"72b38b8e64f33e745291f89d13d4641b1a9908411b77ed5369aa5377b5368341","source_record_ids":["aoa:aoa-discord-connector:artifact:ddedd6bb4ea4d7da804c0183"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:98425c3e7e052cfb88f6c329"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:3a9ecd5eb1be5877f57687ba","label":"_text_available","provenance_ref":"deterministic","semantic_key":"python:function:_text_available","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:7edc8b0fdbe7550514d2a684"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:3ce31c47f96fc2dd4096bd97","label":"_has_negative_status","provenance_ref":"deterministic","semantic_key":"python:function:_has_negative_status","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:5e7398690d388052b3b4dc41"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:3e9d59273b5273272d7223bb","label":"cmd_eval_answer_packets","provenance_ref":"deterministic","semantic_key":"python:function:cmd_eval_answer_packets","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6388bf0727682c2a23b6502f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:3eb7d9347a8dbec143fc8a7c","label":"_has_update_language","provenance_ref":"deterministic","semantic_key":"python:function:_has_update_language","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:be8fd6a7ae7adf6765969a1e"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:404a3d370fb38b91a8887406","label":"_authorization_state","provenance_ref":"deterministic","semantic_key":"python:function:_authorization_state","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:033c3dd81ca447bd9d2dce0b"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:41f6c81bbbf8cd8b7b530c76","label":"_claim_label","provenance_ref":"deterministic","semantic_key":"python:function:_claim_label","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:88d43673f901370ed386712e"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:428b241ce148db8b7f3f15f7","label":"_freshness_state","provenance_ref":"deterministic","semantic_key":"python:function:_freshness_state","source_digest":"72b38b8e64f33e745291f89d13d4641b1a9908411b77ed5369aa5377b5368341","source_record_ids":["aoa:aoa-discord-connector:artifact:ddedd6bb4ea4d7da804c0183"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:1ef1435f434c545b48c58b95"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:43a80c5bedff6e741b3f1890","label":"_evidence_span","provenance_ref":"deterministic","semantic_key":"python:function:_evidence_span","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:12a91b55107c1459f8f219a5"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:4456af370145b3b6a5b87618","label":"_extract_body","provenance_ref":"deterministic","semantic_key":"python:function:_extract_body","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0c1f3a98d57f688182c6fdeb"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:445f6fd3fe0b9808d1756834","label":"parse_csv","provenance_ref":"deterministic","semantic_key":"python:function:parse_csv","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3e3c1d5f252e61a81d5d5248"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:45256feab577edbc161431bd","label":"cmd_answer","provenance_ref":"deterministic","semantic_key":"python:function:cmd_answer","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:965b1a627bd35aa4c52eb1db"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:45a890c8e34864b70e86800e","label":"assign_freshness_windows","provenance_ref":"deterministic","semantic_key":"python:function:assign_freshness_windows","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:5ac116236fbb3b172704732e"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:46764fdd536cc20b75a17dcb","label":"_append_cross_claim_edges","provenance_ref":"deterministic","semantic_key":"python:function:_append_cross_claim_edges","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9171f6bb11111cab2bbebb8f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:477e07f8a5fc90229c5d7885","label":"path_is_inside","provenance_ref":"deterministic","semantic_key":"python:function:path_is_inside","source_digest":"8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a6347edb8ed06a115b17675f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:490cac7f42ad535040b36a41","label":"_tool_labels","provenance_ref":"deterministic","semantic_key":"python:function:_tool_labels","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:70028b4a14a5a1cc7a10688f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:4adce064b79fab6589b9a6a8","label":"_add_source_filter_args","provenance_ref":"deterministic","semantic_key":"python:function:_add_source_filter_args","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:10153d6ae0f93e61a1fb6cbf"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:4c0b765eac4f80fe7b3ca7bb","label":"_post_order","provenance_ref":"deterministic","semantic_key":"python:function:_post_order","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0ce875e86e3088a819396c31"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:4f584a2fd56b46b99a6da3bd","label":"_now","provenance_ref":"deterministic","semantic_key":"python:function:_now","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f0d2c52289d3b22e74d83133"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:57ffd1333f6ffe51249524b8","label":"cmd_build_graph","provenance_ref":"deterministic","semantic_key":"python:function:cmd_build_graph","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d61e8c4620a26e3e0b7b3bb1"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:58ce301b459b88d9998940ee","label":"_normalize_message","provenance_ref":"deterministic","semantic_key":"python:function:_normalize_message","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:92a1ac2b6ed3b22a5268a72d"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:5dda0ab4b1229bef546c5ce5","label":"extract_posts","provenance_ref":"deterministic","semantic_key":"python:function:extract_posts","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a2ec5e205a4332c04b7c63a6"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:5f993dbcbf6872b40d98af2f","label":"_claim","provenance_ref":"deterministic","semantic_key":"python:function:_claim","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:322b904b06bf435840615336"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:61131eac758329fbf51143f2","label":"load_registry","provenance_ref":"deterministic","semantic_key":"python:function:load_registry","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a5af85c3b2544c9401d11b94"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:631d218ee5623b6385ec7e0e","label":"relation_edges_for_claims","provenance_ref":"deterministic","semantic_key":"python:function:relation_edges_for_claims","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:4d64fb3f6ddc63d3b7fa3208"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:636211bd6b636e4327f7cb03","label":"build_keyword_index","provenance_ref":"deterministic","semantic_key":"python:function:build_keyword_index","source_digest":"1d80c3432f77ffd95890fbc02b04e539d22b081f10ed08268201510c11203b9b","source_record_ids":["aoa:aoa-discord-connector:artifact:a16ae2472f8f575653c68747"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:52a7cb56a467013e73fc1f4f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:63ceff136690c405ae58130c","label":"_context_node_id","provenance_ref":"deterministic","semantic_key":"python:function:_context_node_id","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:af6cfd685b841a1622d34b6d"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:64c32b7699a9a6cd228dedb2","label":"_slug","provenance_ref":"deterministic","semantic_key":"python:function:_slug","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8364c8552f45797c0b2fc2c0"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:684a4f79156b34fac7ae0359","label":"_validate","provenance_ref":"deterministic","semantic_key":"python:function:_validate","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:91a917dc1c90eaf0af15174e"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:68667c3972f9ffae169f6238","label":"test_policy_models_authorized_and_denied_routes","provenance_ref":"deterministic","semantic_key":"python:function:test_policy_models_authorized_and_denied_routes","source_digest":"0c029782831e155c9cf1155a06277979526be2efcf8acaf3adae47cc01855859","source_record_ids":["aoa:aoa-discord-connector:artifact:4f69da0d97fe1b7c3f444716"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:7d1cd06090b62d0f4fb0a978"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:6970f71396b966beb19548c4","label":"_tool_node_id","provenance_ref":"deterministic","semantic_key":"python:function:_tool_node_id","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:64061cd5e7476f55e4fa17c5"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:6b42c4c7c27f97c6ee99ce59","label":"main","provenance_ref":"deterministic","semantic_key":"python:function:main","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a014b842c763f5b7ba1cb8e8"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:6b49dd87d1f32dae67196ca3","label":"_check_text","provenance_ref":"deterministic","semantic_key":"python:function:_check_text","source_digest":"3705ef02428951bb15d796ebee66b2cb501faab4393349e89dd0c1649b2f2cfd","source_record_ids":["aoa:aoa-discord-connector:artifact:de39a4722143afd5fd9d1e43"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:40abce2e3adb2dff59a1d31f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:6fecb4ee6198c5cc03725aa1","label":"storage_status","provenance_ref":"deterministic","semantic_key":"python:function:storage_status","source_digest":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:022f84922c65e38366912392"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:71c7d138169c314535f0b240","label":"clean_text","provenance_ref":"deterministic","semantic_key":"python:function:clean_text","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e3fb1ba91e914f8ea0f596e3"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:73271605d24ba9690932a581","label":"save_registry","provenance_ref":"deterministic","semantic_key":"python:function:save_registry","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:bbfd5e66a3d7efee53016fc6"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:747b2b754e6a26bc1ecc7ce4","label":"_chain_item","provenance_ref":"deterministic","semantic_key":"python:function:_chain_item","source_digest":"72b38b8e64f33e745291f89d13d4641b1a9908411b77ed5369aa5377b5368341","source_record_ids":["aoa:aoa-discord-connector:artifact:ddedd6bb4ea4d7da804c0183"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ddb8fb05ef01ea77e0da33d0"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:7623b79e21311a67d05fe2c6","label":"_warning_target_labels","provenance_ref":"deterministic","semantic_key":"python:function:_warning_target_labels","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9c306c1dc8320605f9d0162a"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:7a1e2d02774215539a5b9156","label":"build_graph","provenance_ref":"deterministic","semantic_key":"python:function:build_graph","source_digest":"f1d3ac50815935efdc0a24f3715a8832634d10bbb24545dedae8d57a88916270","source_record_ids":["aoa:aoa-discord-connector:artifact:1fcc16db63dc771db5644bcd"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0bebde7561f18b54eb41fe2d"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:7a6ba20098bd2c8443f71ca4","label":"cmd_build_index","provenance_ref":"deterministic","semantic_key":"python:function:cmd_build_index","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:07adb88512cbaf0c831ceec9"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:7d535c5f4ddc130f0222bafc","label":"cmd_query_graph","provenance_ref":"deterministic","semantic_key":"python:function:cmd_query_graph","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:70e346bbdd33b56176949508"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:7fbacab3f03311b84c24ac0d","label":"_run","provenance_ref":"deterministic","semantic_key":"python:function:_run","source_digest":"b1ce07eb1ff10d0c98ea6abab9ab7666454461a7d23ae192373a15c0be367d2e","source_record_ids":["aoa:aoa-discord-connector:artifact:72e7f3ce473796ceebe6b66f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0a01e2d20845e47d5d5d5b59"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:81af32e4c85a8df25232311c","label":"_dedupe_entities","provenance_ref":"deterministic","semantic_key":"python:function:_dedupe_entities","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:15986cb73ca1a0cca3d1971a"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8384ab5e6a65d0ea0e0bc074","label":"_selected_sources","provenance_ref":"deterministic","semantic_key":"python:function:_selected_sources","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:cd927cfa037fd2f43511ce0d"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8390c9637910ce7fb89142cd","label":"test_validator_rejects_malformed_kag_json","provenance_ref":"deterministic","semantic_key":"python:function:test_validator_rejects_malformed_kag_json","source_digest":"d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f","source_record_ids":["aoa:aoa-discord-connector:artifact:d2f4ffcf084f0e96fd5a6bd6"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:4fdbd2ad923983269e0c7967"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8496adb350be294e1ad7f99c","label":"_upsert_node","provenance_ref":"deterministic","semantic_key":"python:function:_upsert_node","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:4ffe5fdcf4a49f836a5d616b"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8523377db964bb298f6ef807","label":"_code_excerpts","provenance_ref":"deterministic","semantic_key":"python:function:_code_excerpts","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:7dfc0dcacfb9d0e826c212ce"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:86be84a629944f963699296c","label":"_deny","provenance_ref":"deterministic","semantic_key":"python:function:_deny","source_digest":"7419a3e35f21b98f4a826d5762ebd1ccf6d2d5b641b00bdcda2e6d6986e9460b","source_record_ids":["aoa:aoa-discord-connector:artifact:fe52a50aab70f176976d1b55"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0113142a0a3ad55f1497411a"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:86c6e905a776b50ddf19f0d4","label":"_warning_node_id","provenance_ref":"deterministic","semantic_key":"python:function:_warning_node_id","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:18c3eb37de31fd4971e8921b"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:86d9800fd567883194340da9","label":"_now","provenance_ref":"deterministic","semantic_key":"python:function:_now","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ec941e7e26c6539eb41ac3e4"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:883c3ad1a623d9f07c3b2033","label":"route_decision","provenance_ref":"deterministic","semantic_key":"python:function:route_decision","source_digest":"7419a3e35f21b98f4a826d5762ebd1ccf6d2d5b641b00bdcda2e6d6986e9460b","source_record_ids":["aoa:aoa-discord-connector:artifact:fe52a50aab70f176976d1b55"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8385b8f5e3427dee65cedb0c"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8a8328d977682de742c35e7a","label":"_env_path","provenance_ref":"deterministic","semantic_key":"python:function:_env_path","source_digest":"8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2d6d770c854cb4cb078a3263"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8b304e9eb9954599899b7873","label":"_condition_node_id","provenance_ref":"deterministic","semantic_key":"python:function:_condition_node_id","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:8f86e15e20ce1192868f60ac"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8bb0bdfa779fd81ba9d5ce86","label":"_target_node_id","provenance_ref":"deterministic","semantic_key":"python:function:_target_node_id","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2fcbbc0cc1f5abd933f473dc"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8be5eb430162556db976a0bc","label":"query_graph_packet","provenance_ref":"deterministic","semantic_key":"python:function:query_graph_packet","source_digest":"a9e0f6cc1ca95c14eb8392dce6cdd8d2fed3b0c111ebdf49c28f85c6e24fb88e","source_record_ids":["aoa:aoa-discord-connector:artifact:c84c183d6ac5e5149775462b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0c7caed61a0c3a6167f9aa34"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8d1b6bd740a461739b3ef72e","label":"query_keyword_index","provenance_ref":"deterministic","semantic_key":"python:function:query_keyword_index","source_digest":"a9e0f6cc1ca95c14eb8392dce6cdd8d2fed3b0c111ebdf49c28f85c6e24fb88e","source_record_ids":["aoa:aoa-discord-connector:artifact:c84c183d6ac5e5149775462b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:888b63508280635e41237903"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8dae88feac14460154baa6d5","label":"_focused_snippet","provenance_ref":"deterministic","semantic_key":"python:function:_focused_snippet","source_digest":"a9e0f6cc1ca95c14eb8392dce6cdd8d2fed3b0c111ebdf49c28f85c6e24fb88e","source_record_ids":["aoa:aoa-discord-connector:artifact:c84c183d6ac5e5149775462b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9cb3e84040b2d04076664d04"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:8e67363b664eb81c15d3b0e0","label":"_is_allowed_kag_record_path","provenance_ref":"deterministic","semantic_key":"python:function:_is_allowed_kag_record_path","source_digest":"3705ef02428951bb15d796ebee66b2cb501faab4393349e89dd0c1649b2f2cfd","source_record_ids":["aoa:aoa-discord-connector:artifact:de39a4722143afd5fd9d1e43"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6efe3ce57e0be68f7efa0425"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:900cd688e1297115783b9275","label":"cmd_policy_check","provenance_ref":"deterministic","semantic_key":"python:function:cmd_policy_check","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:faf906a87e51676cc7fdc259"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:94607aca982122829cdcb01c","label":"_link_excerpts","provenance_ref":"deterministic","semantic_key":"python:function:_link_excerpts","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:3f3b7019112b68d0895ae066"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:967488dd38e0c5060cf6cf72","label":"_strings","provenance_ref":"deterministic","semantic_key":"python:function:_strings","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b0eebaac091f569bc1bdd177"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:976d9713c26024039617ee0c","label":"_emit","provenance_ref":"deterministic","semantic_key":"python:function:_emit","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:09da7c1f7e655ed8b2f6ef7f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:9ea340d9e5bef25abb1e139b","label":"test_validator_passes","provenance_ref":"deterministic","semantic_key":"python:function:test_validator_passes","source_digest":"d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f","source_record_ids":["aoa:aoa-discord-connector:artifact:d2f4ffcf084f0e96fd5a6bd6"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:c45a2ade2385576d5663cadc"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:9ef0663c1534d36875cdeb01","label":"cmd_doctor","provenance_ref":"deterministic","semantic_key":"python:function:cmd_doctor","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:67f56100bfad30d4a3eaf4e3"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:a5cab84fe218ee57de288f1b","label":"test_answer_packet_reports_warning_and_permissions","provenance_ref":"deterministic","semantic_key":"python:function:test_answer_packet_reports_warning_and_permissions","source_digest":"f851b6bad10f9833043351deb2fc5a364f8bc7408ccc17f27d75e95cd9b6e601","source_record_ids":["aoa:aoa-discord-connector:artifact:7bd472ece7c3b8c73188c47d"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:59ffa378c6870d81cab6411b"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:a7217d43ac82f7a03896c433","label":"_related_claims","provenance_ref":"deterministic","semantic_key":"python:function:_related_claims","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:eea4cdae7fb11d5a622ccdb4"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:aceec983947db510b2d09be4","label":"_now","provenance_ref":"deterministic","semantic_key":"python:function:_now","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:5d23b883a7bc728e2dbf9bc8"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:acfad871f80c916cce579617","label":"_receipt_status","provenance_ref":"deterministic","semantic_key":"python:function:_receipt_status","source_digest":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:41edf157928ee4dd467cc642"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:acfd62b05d263eec975b7b12","label":"_relation_key","provenance_ref":"deterministic","semantic_key":"python:function:_relation_key","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:218e576b22ea1522479ad61e"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:ae981bc730b4e3a9429390ac","label":"extract_thread_id","provenance_ref":"deterministic","semantic_key":"python:function:extract_thread_id","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a6542f5705b3762552351c3e"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:b00e935f318d69ed6de56768","label":"cmd_query","provenance_ref":"deterministic","semantic_key":"python:function:cmd_query","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:ffe1860831af9aee8a07688d"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:b2dc0dfa255513f791112858","label":"registry_path","provenance_ref":"deterministic","semantic_key":"python:function:registry_path","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:907233b50702ac21b617a13d"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:b747daa8b47dedb8ce34a40c","label":"_load_json","provenance_ref":"deterministic","semantic_key":"python:function:_load_json","source_digest":"3705ef02428951bb15d796ebee66b2cb501faab4393349e89dd0c1649b2f2cfd","source_record_ids":["aoa:aoa-discord-connector:artifact:de39a4722143afd5fd9d1e43"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:6030ec8b2aeb30092ac9a9eb"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:b7a7eb93212d5dd94ba74db4","label":"_permission_state","provenance_ref":"deterministic","semantic_key":"python:function:_permission_state","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:1d15aeb9d4beb3ac0f09d0eb"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:b7ea340011827a8b10c703cd","label":"cmd_sources_add","provenance_ref":"deterministic","semantic_key":"python:function:cmd_sources_add","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fadb79e925589c577baead1a"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:b7ff4f1fb8e82199f4716fe1","label":"cmd_sources_list","provenance_ref":"deterministic","semantic_key":"python:function:cmd_sources_list","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2164d93b6be150b0e8e16dcf"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:b89f42d560fe5fc06d52d651","label":"graph_nodes_for_claims","provenance_ref":"deterministic","semantic_key":"python:function:graph_nodes_for_claims","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fb698f2b86ae8f08450d720e"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:b9a53c70ecd3b5fb57aef687","label":"_write_receipt","provenance_ref":"deterministic","semantic_key":"python:function:_write_receipt","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9e34073fb863399ff47fa1a9"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:be5251ea7ced6c454a008072","label":"test_cli_sources_registry_plans_discord_scope","provenance_ref":"deterministic","semantic_key":"python:function:test_cli_sources_registry_plans_discord_scope","source_digest":"b1ce07eb1ff10d0c98ea6abab9ab7666454461a7d23ae192373a15c0be367d2e","source_record_ids":["aoa:aoa-discord-connector:artifact:72e7f3ce473796ceebe6b66f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0a07622910c3a42321962717"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:beef0e76ed8ca6fb5ac74bd1","label":"_trust_score","provenance_ref":"deterministic","semantic_key":"python:function:_trust_score","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e03417cc2d1c6057884c49d8"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:bf5ba6a0d2e533c8cd450ba7","label":"_freshness_state","provenance_ref":"deterministic","semantic_key":"python:function:_freshness_state","source_digest":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","source_record_ids":["aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:542e3108cb7f0fd28868ee79"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:c0f3fbc2ebe93c1db1599f2c","label":"_has_freshness_update","provenance_ref":"deterministic","semantic_key":"python:function:_has_freshness_update","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a4a89ae1517d6f0c6a0d065c"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:c109ab9b8cb858d48600c197","label":"_claim_time_sort_key","provenance_ref":"deterministic","semantic_key":"python:function:_claim_time_sort_key","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2b732ac1a2dc48fb985ba439"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:c11c0712f875f1109a8d2acb","label":"_context_labels","provenance_ref":"deterministic","semantic_key":"python:function:_context_labels","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:12db8ffdc09521290bf2ad17"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:c1abb42e3b722f9098c04840","label":"claim_graph_stats","provenance_ref":"deterministic","semantic_key":"python:function:claim_graph_stats","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:866fb4045b6ef179a0fc0a17"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:c3e77c22bec10dc5b1065007","label":"upsert_source","provenance_ref":"deterministic","semantic_key":"python:function:upsert_source","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:918246e0503468df9f7eb61f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:c642d9476f54d322ffb03821","label":"test_normalizer_with_message_content_intent_can_index_channel_text","provenance_ref":"deterministic","semantic_key":"python:function:test_normalizer_with_message_content_intent_can_index_channel_text","source_digest":"0c029782831e155c9cf1155a06277979526be2efcf8acaf3adae47cc01855859","source_record_ids":["aoa:aoa-discord-connector:artifact:4f69da0d97fe1b7c3f444716"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:9b7909bc88d9c65d61e4f99b"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:c65c3540079cca9a396ef7a0","label":"_extract_optional","provenance_ref":"deterministic","semantic_key":"python:function:_extract_optional","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2052bebdc83acc6f1cc30450"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:c7050244be6205aa5d154f6c","label":"_targets_for_action","provenance_ref":"deterministic","semantic_key":"python:function:_targets_for_action","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b629564cc766f39a4898cd76"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:cc7e277e789e8621706824aa","label":"storage_warnings","provenance_ref":"deterministic","semantic_key":"python:function:storage_warnings","source_digest":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a0a9348178bd7799680345b6"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:cf62f888f58c5137f61ee526","label":"extract_title","provenance_ref":"deterministic","semantic_key":"python:function:extract_title","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b284db988080b7c080cbf444"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:d56a9a9d441c36cffc665398","label":"_check_eval_port","provenance_ref":"deterministic","semantic_key":"python:function:_check_eval_port","source_digest":"3705ef02428951bb15d796ebee66b2cb501faab4393349e89dd0c1649b2f2cfd","source_record_ids":["aoa:aoa-discord-connector:artifact:de39a4722143afd5fd9d1e43"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:c0b32d7328b38efd7be1650f"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:d6487bde61249c7bf8f69431","label":"_source_id","provenance_ref":"deterministic","semantic_key":"python:function:_source_id","source_digest":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","source_record_ids":["aoa:aoa-discord-connector:artifact:32443433184d29e162f80036"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f82b94b48d08a11bb5980839"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:dceadc1d53ec4affc9bcf89a","label":"cmd_storage_status","provenance_ref":"deterministic","semantic_key":"python:function:cmd_storage_status","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:fab0ee5cd8d5ce3b3fd5e636"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:e1129539fed4e870b7d12311","label":"_agent_answer","provenance_ref":"deterministic","semantic_key":"python:function:_agent_answer","source_digest":"72b38b8e64f33e745291f89d13d4641b1a9908411b77ed5369aa5377b5368341","source_record_ids":["aoa:aoa-discord-connector:artifact:ddedd6bb4ea4d7da804c0183"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:2a0200bb8fd93b0cbc7b0a23"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:e2f1362b72a10bcde113ead9","label":"_edge","provenance_ref":"deterministic","semantic_key":"python:function:_edge","source_digest":"f1d3ac50815935efdc0a24f3715a8832634d10bbb24545dedae8d57a88916270","source_record_ids":["aoa:aoa-discord-connector:artifact:1fcc16db63dc771db5644bcd"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e15730beba8fc07d0fcb68e6"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:e61d8a4a9d7304ac0ea0a1e5","label":"_read_receipt_summary","provenance_ref":"deterministic","semantic_key":"python:function:_read_receipt_summary","source_digest":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:003f110c0d0202cefb39e472"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:e94076ce039f09832b7014b5","label":"build_parser","provenance_ref":"deterministic","semantic_key":"python:function:build_parser","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e8f4a90853de66001ae2b71d"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:ea32c8e498d8f6ea07b60d9e","label":"cmd_eval_permissions","provenance_ref":"deterministic","semantic_key":"python:function:cmd_eval_permissions","source_digest":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","source_record_ids":["aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:d518849c8380f4503004dcc4"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:f21534f0234ee68c461dcfc5","label":"_build","provenance_ref":"deterministic","semantic_key":"python:function:_build","source_digest":"f851b6bad10f9833043351deb2fc5a364f8bc7408ccc17f27d75e95cd9b6e601","source_record_ids":["aoa:aoa-discord-connector:artifact:7bd472ece7c3b8c73188c47d"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:963e2ebc3a8e1335d73778e5"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:faee377afd841f45dd69115d","label":"_root_status","provenance_ref":"deterministic","semantic_key":"python:function:_root_status","source_digest":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","source_record_ids":["aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:86f1300fe5009c817728e626"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:fb1e6bd58508a62b4a5817e7","label":"packet_id_for_query","provenance_ref":"deterministic","semantic_key":"python:function:packet_id_for_query","source_digest":"a9e0f6cc1ca95c14eb8392dce6cdd8d2fed3b0c111ebdf49c28f85c6e24fb88e","source_record_ids":["aoa:aoa-discord-connector:artifact:c84c183d6ac5e5149775462b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:0a639ba997bec81bc29e8cbc"],"entity_kind":"python_function","id":"aoa:aoa-discord-connector:entity:fb5b8dc952786309025c387f","label":"_entities_by_kind","provenance_ref":"deterministic","semantic_key":"python:function:_entities_by_kind","source_digest":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","source_record_ids":["aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:02d0863862739e4e20217aa4"],"entity_kind":"python_method","id":"aoa:aoa-discord-connector:entity:150b881bd35fbe5ea91f5af4","label":"from_env","provenance_ref":"deterministic","semantic_key":"python:method:StorageRoots.from_env","source_digest":"8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:b678471bedc652561400d6f7"],"entity_kind":"python_method","id":"aoa:aoa-discord-connector:entity:342dd6daa380d43691a378a3","label":"as_dict","provenance_ref":"deterministic","semantic_key":"python:method:StorageRoots.as_dict","source_digest":"8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:aa5b2ad23c63909bf77874eb"],"entity_kind":"python_method","id":"aoa:aoa-discord-connector:entity:479308125779bd2d8e17b0ce","label":"get_text","provenance_ref":"deterministic","semantic_key":"python:method:TextExtractor.get_text","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f245c8a1899e6f931cd29da8"],"entity_kind":"python_method","id":"aoa:aoa-discord-connector:entity:86c6b3ded90319d61765d6af","label":"handle_starttag","provenance_ref":"deterministic","semantic_key":"python:method:TextExtractor.handle_starttag","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a2d9d63827308dc57cc47161"],"entity_kind":"python_method","id":"aoa:aoa-discord-connector:entity:92d6755b77a9c4c789b60dd3","label":"handle_endtag","provenance_ref":"deterministic","semantic_key":"python:method:TextExtractor.handle_endtag","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:f8c96d33757bbda9ea2c4077"],"entity_kind":"python_method","id":"aoa:aoa-discord-connector:entity:93cfbe0f5a72f76ea539654d","label":"handle_data","provenance_ref":"deterministic","semantic_key":"python:method:TextExtractor.handle_data","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:e6940f3ca6b4ca10e1811cce"],"entity_kind":"python_method","id":"aoa:aoa-discord-connector:entity:bd64831afcea88c0dc4976e3","label":"__init__","provenance_ref":"deterministic","semantic_key":"python:method:TextExtractor.__init__","source_digest":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","source_record_ids":["aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:cc365711685fbfb1d978aae8"],"entity_kind":"python_method","id":"aoa:aoa-discord-connector:entity:c71e4709047a976e6e15bea7","label":"missing","provenance_ref":"deterministic","semantic_key":"python:method:StorageRoots.missing","source_digest":"8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5","source_record_ids":["aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:38b19a78ac94577cdcc91703"],"entity_kind":"readmodel","id":"aoa:aoa-discord-connector:entity:0573ffc7abcabe8a9a43ee3d","label":"kag/indexes/source_inventory.json","provenance_ref":"deterministic","semantic_key":"kag/indexes/source_inventory.json","source_digest":"a1ce77652d7e040289df7eaa2b3f5dd22e4fd9e86603a2935ba853ee606a47de","source_record_ids":["aoa:aoa-discord-connector:artifact:1416e51205dd8339ed9f4b66"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:a29bcc164d6f459b3e49a7d7"],"entity_kind":"readmodel","id":"aoa:aoa-discord-connector:entity:90d2649e83cf77d3dcd4778c","label":"kag/edges/source_routes_to_storage_boundary.json","provenance_ref":"deterministic","semantic_key":"kag/edges/source_routes_to_storage_boundary.json","source_digest":"c1739d13adffc1ce2f03a84e47e9851281eadbd73ca5cbcb03a75777f2bbc1c1","source_record_ids":["aoa:aoa-discord-connector:artifact:8c12cb4c115b45c72311b213"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:bd9c3923eb09e1aced64ad5b"],"entity_kind":"readmodel","id":"aoa:aoa-discord-connector:entity:d84278249e7dd1f920fef9f5","label":"kag/projections/source_return.json","provenance_ref":"deterministic","semantic_key":"kag/projections/source_return.json","source_digest":"cfb68b54b1611efac5c7acad0d319764127e249e1a94d3a9142a1f79d6ba2798","source_record_ids":["aoa:aoa-discord-connector:artifact:1a2a306538ed63040bdeab56"],"temporal_ref":"current","trust_ref":"deterministic"},
+    {"anchor_ids":["aoa:aoa-discord-connector:anchor:68929cc3cbeb236d173489d8"],"entity_kind":"repository","id":"aoa:aoa-discord-connector:entity:1ebc26f279153617949f5c39","label":"aoa-discord-connector","provenance_ref":"deterministic","semantic_key":"directory:.","source_digest":"d7ba76a274bd866e8eea11481d2936155f7ff00d39803e0ddc6ad6e7644b0100","source_record_ids":["aoa:aoa-discord-connector:artifact:06572a96a58dc510037d5efa"],"temporal_ref":"current","trust_ref":"deterministic"}
   ],
   "index_identity": {
     "artifact_kind": "repository_entity_index",
-    "content_digest": "2874f5da1339de9bed3fefe52fdd0ba0b4bae1da607ccf0d90a7a11ee2317e58",
+    "content_digest": "2e804e02074ec4518ece9030e1340f2438e72e4f3c240f0adcc1a5764549a8c9",
     "index_kind": "entity",
     "local_id": "index:repo-local:entities",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
   },
+  "profiles": {
+    "extractors": {
+      "aoa-repo-local-kag@2": {
+        "name": "aoa-repo-local-kag",
+        "version": "2"
+      }
+    },
+    "parsers": {},
+    "provenance": {
+      "declared": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "declared"
+      },
+      "deterministic": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "deterministic"
+      },
+      "inferred": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "inferred"
+      },
+      "observed": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "observed"
+      }
+    },
+    "temporal": {
+      "current": {
+        "state": "current",
+        "valid_from": "",
+        "valid_to": ""
+      },
+      "historical": {
+        "state": "historical",
+        "valid_from": "",
+        "valid_to": ""
+      }
+    },
+    "trust": {
+      "declared": {
+        "class": "declared",
+        "confidence": 0.75
+      },
+      "deterministic": {
+        "class": "deterministic",
+        "confidence": 1.0
+      },
+      "inferred": {
+        "class": "inferred",
+        "confidence": 0.5
+      },
+      "observed": {
+        "class": "observed",
+        "confidence": 1.0
+      }
+    }
+  },
   "registry_output": {
-    "consumer": "aoa-kag-mcp",
+    "consumer": "aoa-kag",
     "resource_shape": "repo-local-entity-index",
     "stable_fields": [
       "id",
       "entity_kind",
-      "source_record_id",
-      "coordinates"
+      "semantic_key",
+      "source_record_ids",
+      "anchor_ids",
+      "provenance_ref",
+      "temporal_ref",
+      "trust_ref"
     ]
   },
   "repo": {
     "git_ref": "git-index-source-tree",
     "name": "aoa-discord-connector",
+    "namespace": "aoa:aoa-discord-connector",
     "owner_type": "connector",
     "root": "."
   },
-  "schema_version": "aoa-repo-local-kag-repository-index-v1",
+  "schema_version": "aoa-repo-local-kag-repository-index-v2",
   "source_index": {
-    "content_digest": "2cf70c610f491394ae497c189c2b3a36bd915f9fbcdbb3e44c17a70616fa1e75",
+    "content_digest": "cf3d4ea3410152b51fa1f99981ae11c6e6810636c0c954caa651e261d845d01a",
     "local_id": "index:repo-local:source-surfaces",
     "path": "kag/indexes/source_surface_index.json"
   },
   "summary": {
-    "entry_count": 91,
+    "entry_count": 254,
     "kind_counts": {
       "agent_route": 4,
-      "artifact": 15,
-      "code": 15,
       "command": 5,
       "contract": 18,
       "decision": 1,
+      "directory": 43,
       "document": 25,
       "manifest": 4,
       "owner_surface": 1,
-      "readmodel": 3
+      "python_class": 2,
+      "python_function": 139,
+      "python_method": 8,
+      "readmodel": 3,
+      "repository": 1
     }
   }
 }
