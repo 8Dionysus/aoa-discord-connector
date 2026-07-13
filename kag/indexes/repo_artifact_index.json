@@ -1,761 +1,186 @@
 {
   "entries": [
-    {
-      "artifact_kind": "document",
-      "content_hash": "86462099d6c331f2f23bd17d1c836a7eb23fa0eb0511eb42ab0dc1080b3e9cbb",
-      "id": "artifact:file:.connector-state/agents.md:c48b09d1eb",
-      "path": ".connector-state/AGENTS.md",
-      "source_record_id": "file:.connector-state/agents.md:c48b09d1eb",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "93d10e2cf51bb7b33364e5c8512b65370721b815736424304b1409c2d111fccc",
-      "id": "artifact:file:.connector-state/readme.md:377f66e180",
-      "path": ".connector-state/README.md",
-      "source_record_id": "file:.connector-state/readme.md:377f66e180",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "directory_marker",
-      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "id": "artifact:file:.connector-state/artifacts/.gitkeep:9accf75395",
-      "path": ".connector-state/artifacts/.gitkeep",
-      "source_record_id": "file:.connector-state/artifacts/.gitkeep:9accf75395",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "directory_marker",
-      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "id": "artifact:file:.connector-state/cache/.gitkeep:ffb60a7310",
-      "path": ".connector-state/cache/.gitkeep",
-      "source_record_id": "file:.connector-state/cache/.gitkeep:ffb60a7310",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "directory_marker",
-      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "id": "artifact:file:.connector-state/data/.gitkeep:c10ea2dd50",
-      "path": ".connector-state/data/.gitkeep",
-      "source_record_id": "file:.connector-state/data/.gitkeep:c10ea2dd50",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "7f6e80a6404bbeabf46b9f26fd4b65c897165bebb5e95503cd2eb8cf7873d681",
-      "id": "artifact:file:.env.example:a3046da0d1",
-      "path": ".env.example",
-      "source_record_id": "file:.env.example:a3046da0d1",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "0408125f0204477ae37f9e27523102e9849ad4222ce10543d03477f7a6b8fdb0",
-      "id": "artifact:file:.github/workflows/validate.yml:a5c0f08bc4",
-      "path": ".github/workflows/validate.yml",
-      "source_record_id": "file:.github/workflows/validate.yml:a5c0f08bc4",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "owner_metadata",
-      "content_hash": "f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4",
-      "id": "artifact:file:.gitignore:bc37d034ba",
-      "path": ".gitignore",
-      "source_record_id": "file:.gitignore:bc37d034ba",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "b78901fce5698986924aee7b8ee03f703e77cd3e52c15c49e7b56ed0dc4c33aa",
-      "id": "artifact:file:agents.md:a54ff182c7",
-      "path": "AGENTS.md",
-      "source_record_id": "file:agents.md:a54ff182c7",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "2433a78892085f9fb3a0be29ec878c4e71f13424c814f0c6f30dd7764aeecc37",
-      "id": "artifact:file:boundaries.md:22819d489e",
-      "path": "BOUNDARIES.md",
-      "source_record_id": "file:boundaries.md:22819d489e",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "531523859b7b01041c4e4a8905fb56a9c8ec63e366741e76f78cecc6a44280f8",
-      "id": "artifact:file:changelog.md:06572a96a5",
-      "path": "CHANGELOG.md",
-      "source_record_id": "file:changelog.md:06572a96a5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "742e6f5e68c2e517a7024e34a15d135d42f5a26ad7eec5ff3f07f8f5e52aa6e8",
-      "id": "artifact:file:charter.md:91d16dd057",
-      "path": "CHARTER.md",
-      "source_record_id": "file:charter.md:91d16dd057",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "3bd8aa0d810c196a898660f9c48d565614ef91dfaf80fa96b786f58356708105",
-      "id": "artifact:file:readme.md:b335630551",
-      "path": "README.md",
-      "source_record_id": "file:readme.md:b335630551",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "186372a2d401291bc1440125501dfccdb4a6373a2a341db0198692c5438436b5",
-      "id": "artifact:file:roadmap.md:683343bdf9",
-      "path": "ROADMAP.md",
-      "source_record_id": "file:roadmap.md:683343bdf9",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "3785eb90b999dfe685e335ac8d276ca8693057da4508a3a4be659f155cbec6d9",
-      "id": "artifact:file:connector/readme.md:5aa00cda8e",
-      "path": "connector/README.md",
-      "source_record_id": "file:connector/readme.md:5aa00cda8e",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "e6dc37081286e191baaa13d47452545b7f1af3b6d4b3b5d0b7d2f4905ebbaeac",
-      "id": "artifact:file:connector/source_policy.md:1ec0689ca4",
-      "path": "connector/SOURCE_POLICY.md",
-      "source_record_id": "file:connector/source_policy.md:1ec0689ca4",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "49d3666be532fe8feb92e168c3c45f78313a6026ab46cbeebc04ef7bfd61075d",
-      "id": "artifact:file:connector/storage_policy.md:aef066cc09",
-      "path": "connector/STORAGE_POLICY.md",
-      "source_record_id": "file:connector/storage_policy.md:aef066cc09",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "c848ae4d42d886eb61f34210b077b199552cb6817fd602a0d76b1cd3ee0875cd",
-      "id": "artifact:file:connector/fixtures/discord/starter_conversation.json:2e97468a53",
-      "path": "connector/fixtures/discord/starter_conversation.json",
-      "source_record_id": "file:connector/fixtures/discord/starter_conversation.json:2e97468a53",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "manifest",
-      "content_hash": "7313a89d6336d84caeb463a504623ed90c43677083d89a55d6a7d5377229fdb1",
-      "id": "artifact:file:connector/manifests/artifact_classes.yaml:702a5cec90",
-      "path": "connector/manifests/artifact_classes.yaml",
-      "source_record_id": "file:connector/manifests/artifact_classes.yaml:702a5cec90",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "manifest",
-      "content_hash": "f821b586657199565ede170b2fcd9576ca006fdbf37ee25309a864a5150bbb20",
-      "id": "artifact:file:connector/manifests/connector_manifest.yaml:747276e9b1",
-      "path": "connector/manifests/connector_manifest.yaml",
-      "source_record_id": "file:connector/manifests/connector_manifest.yaml:747276e9b1",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "manifest",
-      "content_hash": "1684aec182fb11848057108ad0b4a671ca3aac2b11b6b7e76167f4003c4653a9",
-      "id": "artifact:file:connector/manifests/route_allowlist.yaml:1ba98f35b6",
-      "path": "connector/manifests/route_allowlist.yaml",
-      "source_record_id": "file:connector/manifests/route_allowlist.yaml:1ba98f35b6",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "6b36d13965dab940a43395f966a2387fde1527d4a77c8fbf7a73f949b88ede77",
-      "id": "artifact:file:connector/profiles/starter-permissioned.yaml:11321dbd42",
-      "path": "connector/profiles/starter-permissioned.yaml",
-      "source_record_id": "file:connector/profiles/starter-permissioned.yaml:11321dbd42",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "393451d73758945ce0fb1bd026789f421451fa4370a7cc081d246e44af454aa5",
-      "id": "artifact:file:connector/schemas/answer_packet.schema.json:3886462d56",
-      "path": "connector/schemas/answer_packet.schema.json",
-      "source_record_id": "file:connector/schemas/answer_packet.schema.json:3886462d56",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "046d3c02fa7c4e573866dfd5e4327f4f084cc8fd4f5204df78e5c5289e15c9dc",
-      "id": "artifact:file:connector/schemas/applicability_report.schema.json:bfec791fa3",
-      "path": "connector/schemas/applicability_report.schema.json",
-      "source_record_id": "file:connector/schemas/applicability_report.schema.json:bfec791fa3",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "72b49242ef185c6a7cff986383bb9c9357d84d6c62e7a88a3bbfa6661a605bee",
-      "id": "artifact:file:connector/schemas/claim.schema.json:32e75444c5",
-      "path": "connector/schemas/claim.schema.json",
-      "source_record_id": "file:connector/schemas/claim.schema.json:32e75444c5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "b9af89273265246634966c2f60505036ab9db2805733fe4e8dbaf74271d5e0bc",
-      "id": "artifact:file:connector/schemas/claim_relation.schema.json:383c535c0b",
-      "path": "connector/schemas/claim_relation.schema.json",
-      "source_record_id": "file:connector/schemas/claim_relation.schema.json:383c535c0b",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "4a56dba814b5db2bc9182c893ccd0eb45b44b8255e3b73ac8cff47695f99594a",
-      "id": "artifact:file:connector/schemas/conflict_report.schema.json:5a9c8bd05f",
-      "path": "connector/schemas/conflict_report.schema.json",
-      "source_record_id": "file:connector/schemas/conflict_report.schema.json:5a9c8bd05f",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "de31d1f444eb3b9ffb350b32ee487d29c9dce8511e1ea87784a6f2d9b89cc59e",
-      "id": "artifact:file:connector/schemas/crawl_receipt.schema.json:b0b5287569",
-      "path": "connector/schemas/crawl_receipt.schema.json",
-      "source_record_id": "file:connector/schemas/crawl_receipt.schema.json:b0b5287569",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "591191aa69719c2df70686850421f4eefa1bbae772c4700e37eb52b2d4c7867f",
-      "id": "artifact:file:connector/schemas/evidence_packet.schema.json:22b1fd4258",
-      "path": "connector/schemas/evidence_packet.schema.json",
-      "source_record_id": "file:connector/schemas/evidence_packet.schema.json:22b1fd4258",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "8d55c49003264d025a82cd31a0e896a87609c6c236cb96f7712a450892f9ec78",
-      "id": "artifact:file:connector/schemas/freshness_report.schema.json:116037cdf5",
-      "path": "connector/schemas/freshness_report.schema.json",
-      "source_record_id": "file:connector/schemas/freshness_report.schema.json:116037cdf5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "8434330133325d9fb9a450f845be34e460dca3662c5717895fe0b715c8f0217b",
-      "id": "artifact:file:connector/schemas/graph_edge.schema.json:7cdc761c31",
-      "path": "connector/schemas/graph_edge.schema.json",
-      "source_record_id": "file:connector/schemas/graph_edge.schema.json:7cdc761c31",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "6512c2d8f1264138c3ea8432cc72f77793ea44b7cd7ae4a9bc1f8f9e2f90ba3a",
-      "id": "artifact:file:connector/schemas/graph_node.schema.json:1582c817b6",
-      "path": "connector/schemas/graph_node.schema.json",
-      "source_record_id": "file:connector/schemas/graph_node.schema.json:1582c817b6",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "23bc64aa2abfb05397de01fd9448361ec7ec97ab5ed456a4ca0080af0af760f6",
-      "id": "artifact:file:connector/schemas/index_manifest.schema.json:0bee62c710",
-      "path": "connector/schemas/index_manifest.schema.json",
-      "source_record_id": "file:connector/schemas/index_manifest.schema.json:0bee62c710",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "60a586423b6613e9af67e0fca7bfbc05d9bebd1e4bdede02e8287a80c2169e1d",
-      "id": "artifact:file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f",
-      "path": "connector/schemas/materialize_receipt.schema.json",
-      "source_record_id": "file:connector/schemas/materialize_receipt.schema.json:5aeacf8a1f",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "301cdeb4f3da736e6048c8f4e6495658c718126149bb307af54f255e718418c1",
-      "id": "artifact:file:connector/schemas/normalized_conversation.schema.json:dc266d26f7",
-      "path": "connector/schemas/normalized_conversation.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_conversation.schema.json:dc266d26f7",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "f672da77e45d92b6eded784ef507d6ef7cf13e18309dbd1da7aa40f666673c77",
-      "id": "artifact:file:connector/schemas/normalized_message.schema.json:0b182f13f7",
-      "path": "connector/schemas/normalized_message.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_message.schema.json:0b182f13f7",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "bf4037d739b78038fd5d30de2e730eb5fa00dbade79ee15ec69db5904ef9aae8",
-      "id": "artifact:file:connector/schemas/normalized_post.schema.json:2b0ac6226c",
-      "path": "connector/schemas/normalized_post.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_post.schema.json:2b0ac6226c",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "002533df6a2d3c0acf7b493f4c0cc4620f9dd813c504da4a82d4b71eff9e3f2b",
-      "id": "artifact:file:connector/schemas/normalized_topic.schema.json:9d8d8799e9",
-      "path": "connector/schemas/normalized_topic.schema.json",
-      "source_record_id": "file:connector/schemas/normalized_topic.schema.json:9d8d8799e9",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "a4f16fa6a5e0be90e11fc2b626a447ddd15389342a4810ed9f029e98a19aa8ad",
-      "id": "artifact:file:connector/schemas/permission_state.schema.json:7d3c587cf2",
-      "path": "connector/schemas/permission_state.schema.json",
-      "source_record_id": "file:connector/schemas/permission_state.schema.json:7d3c587cf2",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "schema",
-      "content_hash": "c79c7b268057f7b54d46cac88f0535c3a569fd5aebc490c240c58a2d7c94aa4c",
-      "id": "artifact:file:connector/schemas/warning_report.schema.json:931d4eadc5",
-      "path": "connector/schemas/warning_report.schema.json",
-      "source_record_id": "file:connector/schemas/warning_report.schema.json:931d4eadc5",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "26f9b23f5fa792414e2a899338b0d610a4977a248a5f749d207f2f3ca8e9d102",
-      "id": "artifact:file:connector/seeds/starter_conversations.yaml:b30b2cecc0",
-      "path": "connector/seeds/starter_conversations.yaml",
-      "source_record_id": "file:connector/seeds/starter_conversations.yaml:b30b2cecc0",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "1a1a14559739970691db6cc2878e535110bb02e7df362eb697534aed9729dc44",
-      "id": "artifact:file:docs/agent_install_route.md:38c86ecaa7",
-      "path": "docs/AGENT_INSTALL_ROUTE.md",
-      "source_record_id": "file:docs/agent_install_route.md:38c86ecaa7",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "169a8358fab54720b58d9af3e46567014dd3693c0d7e398b9c4deefd2a07e38c",
-      "id": "artifact:file:docs/architecture.md:ff21b6b9a3",
-      "path": "docs/ARCHITECTURE.md",
-      "source_record_id": "file:docs/architecture.md:ff21b6b9a3",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "b76bcd7f5d4978368e373a1aed9556b47b1fba60182f9678a525d33eae5c018d",
-      "id": "artifact:file:docs/connector_family_claim_contract.md:2fbbbc3cbc",
-      "path": "docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md",
-      "source_record_id": "file:docs/connector_family_claim_contract.md:2fbbbc3cbc",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "090fb1eb936b3881ade2aa81f65123c4a73b9b4d69e5094a220d13e8b15d3eff",
-      "id": "artifact:file:docs/graph_model.md:72ed1bbd50",
-      "path": "docs/GRAPH_MODEL.md",
-      "source_record_id": "file:docs/graph_model.md:72ed1bbd50",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "b9a0bce42e7f59feedd83096dbe600094b0303b6c37a1152dc277822eb14da78",
-      "id": "artifact:file:docs/install.md:93adeedb62",
-      "path": "docs/INSTALL.md",
-      "source_record_id": "file:docs/install.md:93adeedb62",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "1349de5514a6a742dcc8e1e21c9f2ffe59d9657246906bb6cf3b68111c3753d3",
-      "id": "artifact:file:docs/mcp_rollout.md:7592ebe12e",
-      "path": "docs/MCP_ROLLOUT.md",
-      "source_record_id": "file:docs/mcp_rollout.md:7592ebe12e",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "8caa91fd8c680a93dd8166c52bfa439c7c4dd3f80ba2fd6ded08d1faa710d73d",
-      "id": "artifact:file:docs/query_model.md:dc059c6e17",
-      "path": "docs/QUERY_MODEL.md",
-      "source_record_id": "file:docs/query_model.md:dc059c6e17",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "5ef086571e4afad6b2b44d03a338ea902008e129d801540ad49e85df98a89915",
-      "id": "artifact:file:docs/runtime_contract.md:fa011f8c69",
-      "path": "docs/RUNTIME_CONTRACT.md",
-      "source_record_id": "file:docs/runtime_contract.md:fa011f8c69",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "889cae77317fd08cd1b810bba26897e5a020f5d3b82e5798c5343ec9ce45f19a",
-      "id": "artifact:file:docs/starter_proof.md:a06d166b7c",
-      "path": "docs/STARTER_PROOF.md",
-      "source_record_id": "file:docs/starter_proof.md:a06d166b7c",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "0d288477ea564e11b17dce28477c0ac6f79d65511d384419e332040f22af4138",
-      "id": "artifact:file:docs/decisions/aoa-discord-d-0001-permissioned-conversation-proof.md:9403c91adc",
-      "path": "docs/decisions/AOA-DISCORD-D-0001-permissioned-conversation-proof.md",
-      "source_record_id": "file:docs/decisions/aoa-discord-d-0001-permissioned-conversation-proof.md:9403c91adc",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "62cff78c8b0c97ceb5921fd5ea9dd42e9817b394daeca1bb34e7be77f021e4dc",
-      "id": "artifact:file:docs/decisions/readme.md:e5ec0e7030",
-      "path": "docs/decisions/README.md",
-      "source_record_id": "file:docs/decisions/readme.md:e5ec0e7030",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "148f3c3b340453006aa7d18b7ee04608cfd4c0161e9b90c63d8ae2dcd2323543",
-      "id": "artifact:file:evals/agents.md:97b1e9d3cd",
-      "path": "evals/AGENTS.md",
-      "source_record_id": "file:evals/agents.md:97b1e9d3cd",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "8bf1f4083ecc646ed116125b7b1384caf92b0b5650274843f2dcf66bae4d4b45",
-      "id": "artifact:file:evals/port.yaml:b027c5aa6b",
-      "path": "evals/PORT.yaml",
-      "source_record_id": "file:evals/port.yaml:b027c5aa6b",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "f27662a49bf58cf5fcbe84597502313cd335ca770bae80db998624068b533d09",
-      "id": "artifact:file:evals/readme.md:a1a9eeb43d",
-      "path": "evals/README.md",
-      "source_record_id": "file:evals/readme.md:a1a9eeb43d",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "f9540523b031e203c04577189b865fad0af154f166033b14d37ecd61788c5f15",
-      "id": "artifact:file:evals/intake/readme.md:d27b56ff43",
-      "path": "evals/intake/README.md",
-      "source_record_id": "file:evals/intake/readme.md:d27b56ff43",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "5d3b50090faa9e0031562b16769af6199800649bfe92dd376f815d2c7517f9cf",
-      "id": "artifact:file:evals/reports/readme.md:ac5e016ca2",
-      "path": "evals/reports/README.md",
-      "source_record_id": "file:evals/reports/readme.md:ac5e016ca2",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "9b747f6d968d4a447cd86313d7b8a1a2caaa68e53dc7aaec235f0714357dc89c",
-      "id": "artifact:file:evals/suites/readme.md:8611332c6f",
-      "path": "evals/suites/README.md",
-      "source_record_id": "file:evals/suites/readme.md:8611332c6f",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "8f37df4aaec4bf74f6b251aa70972cc8e88cd8b19a4949703dc90bf551b75988",
-      "id": "artifact:file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6",
-      "path": "evals/suites/connector-family-claim-runtime.suite.md",
-      "source_record_id": "file:evals/suites/connector-family-claim-runtime.suite.md:b972eb11b6",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "5089a3f2366b54a849c26aa415f2d07e9e971ffc263df1e1f5cabb23c3073d69",
-      "id": "artifact:file:evals/suites/starter_claim_answer_packets.json:0406674f03",
-      "path": "evals/suites/starter_claim_answer_packets.json",
-      "source_record_id": "file:evals/suites/starter_claim_answer_packets.json:0406674f03",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "7b7988ef02903a98f75b1e2ff41239e87f20dfc81c02bfe64d16e54ef3477587",
-      "id": "artifact:file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49",
-      "path": "evals/suites/starter_claim_conflict_relations.json",
-      "source_record_id": "file:evals/suites/starter_claim_conflict_relations.json:3880ed3d49",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "7e043f3940616921878f0f95c33c5cf9fc8c9cff930bc4e1d1de1dbc00a73f17",
-      "id": "artifact:file:kag/agents.md:f80d68b85b",
-      "path": "kag/AGENTS.md",
-      "source_record_id": "file:kag/agents.md:f80d68b85b",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "document",
-      "content_hash": "34e5716dc6a0c050b7c1109b9d9b830a48597eee6fa0e2327719a975436d8a7e",
-      "id": "artifact:file:kag/readme.md:213631cc86",
-      "path": "kag/README.md",
-      "source_record_id": "file:kag/readme.md:213631cc86",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "c1739d13adffc1ce2f03a84e47e9851281eadbd73ca5cbcb03a75777f2bbc1c1",
-      "id": "artifact:file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11",
-      "path": "kag/edges/source_routes_to_storage_boundary.json",
-      "source_record_id": "file:kag/edges/source_routes_to_storage_boundary.json:8c12cb4c11",
-      "surface_state": "generated_readmodel"
-    },
-    {
-      "artifact_kind": "index",
-      "content_hash": "a1ce77652d7e040289df7eaa2b3f5dd22e4fd9e86603a2935ba853ee606a47de",
-      "id": "artifact:file:kag/indexes/source_inventory.json:1416e51205",
-      "path": "kag/indexes/source_inventory.json",
-      "source_record_id": "file:kag/indexes/source_inventory.json:1416e51205",
-      "surface_state": "generated_readmodel"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "b0043390c7d939e572598ad4e4c584878f4f15643e831bb9bb1170214edcf40f",
-      "id": "artifact:file:kag/manifest.json:0d25d90d08",
-      "path": "kag/manifest.json",
-      "source_record_id": "file:kag/manifest.json:0d25d90d08",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "cef18be6efa2743387b8689899c2fe58a5dd739f7acf9c541fc2c29bfcb85032",
-      "id": "artifact:file:kag/nodes/source_home.json:a87a1f114c",
-      "path": "kag/nodes/source_home.json",
-      "source_record_id": "file:kag/nodes/source_home.json:a87a1f114c",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "config",
-      "content_hash": "833dcec28b9399db86c23982558b4184a84aab40419135c25dfc92c33c3ebc32",
-      "id": "artifact:file:kag/nodes/storage_boundary.json:45dfb2e4b0",
-      "path": "kag/nodes/storage_boundary.json",
-      "source_record_id": "file:kag/nodes/storage_boundary.json:45dfb2e4b0",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "projection",
-      "content_hash": "cfb68b54b1611efac5c7acad0d319764127e249e1a94d3a9142a1f79d6ba2798",
-      "id": "artifact:file:kag/projections/source_return.json:1a2a306538",
-      "path": "kag/projections/source_return.json",
-      "source_record_id": "file:kag/projections/source_return.json:1a2a306538",
-      "surface_state": "generated_readmodel"
-    },
-    {
-      "artifact_kind": "receipt",
-      "content_hash": "5dbc4898acab038ef618946623de1f690bda39e868c099c9a41d7519ef89f457",
-      "id": "artifact:file:kag/receipts/validation_receipt.json:8e616be0cd",
-      "path": "kag/receipts/validation_receipt.json",
-      "source_record_id": "file:kag/receipts/validation_receipt.json:8e616be0cd",
-      "surface_state": "receipt"
-    },
-    {
-      "artifact_kind": "manifest",
-      "content_hash": "e03e62d43fd8795b1370fdb1580a04cfd2a9bad04a5db12ab27e88600ad7d6b8",
-      "id": "artifact:file:pyproject.toml:50c86b7ed8",
-      "path": "pyproject.toml",
-      "source_record_id": "file:pyproject.toml:50c86b7ed8",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "validator",
-      "content_hash": "3705ef02428951bb15d796ebee66b2cb501faab4393349e89dd0c1649b2f2cfd",
-      "id": "artifact:file:scripts/validate_connector.py:de39a47221",
-      "path": "scripts/validate_connector.py",
-      "source_record_id": "file:scripts/validate_connector.py:de39a47221",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "549b22dc8f146107927f37d6c9332f2d59074bd5f23457e283ccdd3373f18014",
-      "id": "artifact:file:src/aoa_discord_connector/__init__.py:871e9c8d09",
-      "path": "src/aoa_discord_connector/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/__init__.py:871e9c8d09",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "72b38b8e64f33e745291f89d13d4641b1a9908411b77ed5369aa5377b5368341",
-      "id": "artifact:file:src/aoa_discord_connector/answer/__init__.py:ddedd6bb4e",
-      "path": "src/aoa_discord_connector/answer/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/answer/__init__.py:ddedd6bb4e",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08",
-      "id": "artifact:file:src/aoa_discord_connector/claims/__init__.py:b3abcfe175",
-      "path": "src/aoa_discord_connector/claims/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/claims/__init__.py:b3abcfe175",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8",
-      "id": "artifact:file:src/aoa_discord_connector/cli.py:9f60acd227",
-      "path": "src/aoa_discord_connector/cli.py",
-      "source_record_id": "file:src/aoa_discord_connector/cli.py:9f60acd227",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5",
-      "id": "artifact:file:src/aoa_discord_connector/config.py:019d2a512b",
-      "path": "src/aoa_discord_connector/config.py",
-      "source_record_id": "file:src/aoa_discord_connector/config.py:019d2a512b",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "d453f85c12fdcad2648bcb589852e8da672afa68c3b5234c8d13f8bc21c5b534",
-      "id": "artifact:file:src/aoa_discord_connector/evaluation/__init__.py:1704a294cf",
-      "path": "src/aoa_discord_connector/evaluation/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/evaluation/__init__.py:1704a294cf",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "f1d3ac50815935efdc0a24f3715a8832634d10bbb24545dedae8d57a88916270",
-      "id": "artifact:file:src/aoa_discord_connector/graph/__init__.py:1fcc16db63",
-      "path": "src/aoa_discord_connector/graph/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/graph/__init__.py:1fcc16db63",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "1d80c3432f77ffd95890fbc02b04e539d22b081f10ed08268201510c11203b9b",
-      "id": "artifact:file:src/aoa_discord_connector/index/__init__.py:a16ae2472f",
-      "path": "src/aoa_discord_connector/index/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/index/__init__.py:a16ae2472f",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73",
-      "id": "artifact:file:src/aoa_discord_connector/normalize/__init__.py:962b796647",
-      "path": "src/aoa_discord_connector/normalize/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/normalize/__init__.py:962b796647",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852",
-      "id": "artifact:file:src/aoa_discord_connector/parse/__init__.py:ea3875fd34",
-      "path": "src/aoa_discord_connector/parse/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/parse/__init__.py:ea3875fd34",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "3b90e5ea017eed663f17a8f2df16c9f64ef9dccf32883bd51b60c9adb0d13e36",
-      "id": "artifact:file:src/aoa_discord_connector/policy/__init__.py:87457ca831",
-      "path": "src/aoa_discord_connector/policy/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/policy/__init__.py:87457ca831",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "7419a3e35f21b98f4a826d5762ebd1ccf6d2d5b641b00bdcda2e6d6986e9460b",
-      "id": "artifact:file:src/aoa_discord_connector/policy/rules.py:fe52a50aab",
-      "path": "src/aoa_discord_connector/policy/rules.py",
-      "source_record_id": "file:src/aoa_discord_connector/policy/rules.py:fe52a50aab",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "a9e0f6cc1ca95c14eb8392dce6cdd8d2fed3b0c111ebdf49c28f85c6e24fb88e",
-      "id": "artifact:file:src/aoa_discord_connector/query/__init__.py:c84c183d6a",
-      "path": "src/aoa_discord_connector/query/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/query/__init__.py:c84c183d6a",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10",
-      "id": "artifact:file:src/aoa_discord_connector/sources/__init__.py:3244343318",
-      "path": "src/aoa_discord_connector/sources/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/sources/__init__.py:3244343318",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "source_code",
-      "content_hash": "a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3",
-      "id": "artifact:file:src/aoa_discord_connector/storage/__init__.py:9b635e01eb",
-      "path": "src/aoa_discord_connector/storage/__init__.py",
-      "source_record_id": "file:src/aoa_discord_connector/storage/__init__.py:9b635e01eb",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "test",
-      "content_hash": "d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f",
-      "id": "artifact:file:tests/contract/test_validator.py:d2f4ffcf08",
-      "path": "tests/contract/test_validator.py",
-      "source_record_id": "file:tests/contract/test_validator.py:d2f4ffcf08",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "test",
-      "content_hash": "b1ce07eb1ff10d0c98ea6abab9ab7666454461a7d23ae192373a15c0be367d2e",
-      "id": "artifact:file:tests/integration/test_cli_eval.py:72e7f3ce47",
-      "path": "tests/integration/test_cli_eval.py",
-      "source_record_id": "file:tests/integration/test_cli_eval.py:72e7f3ce47",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "test",
-      "content_hash": "f851b6bad10f9833043351deb2fc5a364f8bc7408ccc17f27d75e95cd9b6e601",
-      "id": "artifact:file:tests/unit/test_graph_answer.py:7bd472ece7",
-      "path": "tests/unit/test_graph_answer.py",
-      "source_record_id": "file:tests/unit/test_graph_answer.py:7bd472ece7",
-      "surface_state": "authored_source"
-    },
-    {
-      "artifact_kind": "test",
-      "content_hash": "0c029782831e155c9cf1155a06277979526be2efcf8acaf3adae47cc01855859",
-      "id": "artifact:file:tests/unit/test_parse_normalize_policy.py:4f69da0d97",
-      "path": "tests/unit/test_parse_normalize_policy.py",
-      "source_record_id": "file:tests/unit/test_parse_normalize_policy.py:4f69da0d97",
-      "surface_state": "authored_source"
-    }
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:14f5cc67b29e2310b2d426ff","artifact_kind":"document","content_hash":"86462099d6c331f2f23bd17d1c836a7eb23fa0eb0511eb42ab0dc1080b3e9cbb","id":"aoa:aoa-discord-connector:artifact:c48b09d1eb9fe504dea19fd7","lineage_path":".connector-state/AGENTS.md","mime":"text/markdown","path":".connector-state/AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:19a24095d3fe83ec635550cf"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:eb782743e9c45e2e25fbdecc","artifact_kind":"document","content_hash":"93d10e2cf51bb7b33364e5c8512b65370721b815736424304b1409c2d111fccc","id":"aoa:aoa-discord-connector:artifact:377f66e180bd91fd0a479887","lineage_path":".connector-state/README.md","mime":"text/markdown","path":".connector-state/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:4a8f053e2ad87f20ee0e57b9"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:0020904bf8bd08c4d965675f","artifact_kind":"directory_marker","content_hash":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","id":"aoa:aoa-discord-connector:artifact:9accf753951b664ae3e2e2bf","lineage_path":".connector-state/artifacts/.gitkeep","mime":"text/plain","path":".connector-state/artifacts/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:f3c0920ac5e3f375d48aa5bb"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:c9410a23a2b9acca2e466c35","artifact_kind":"directory_marker","content_hash":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","id":"aoa:aoa-discord-connector:artifact:ffb60a731046fa6ceb4e8ba0","lineage_path":".connector-state/cache/.gitkeep","mime":"text/plain","path":".connector-state/cache/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:f89d8dea5a0d05260c26e800"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:3aa682f602fbc3107acfaa17","artifact_kind":"directory_marker","content_hash":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","id":"aoa:aoa-discord-connector:artifact:c10ea2dd5030b4f0098fa68d","lineage_path":".connector-state/data/.gitkeep","mime":"text/plain","path":".connector-state/data/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:2463c00e4937491f927aac43"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:d3302fd7ead818135e906ca9","artifact_kind":"config","content_hash":"7f6e80a6404bbeabf46b9f26fd4b65c897165bebb5e95503cd2eb8cf7873d681","id":"aoa:aoa-discord-connector:artifact:a3046da0d15a27e89f2afe63","lineage_path":".env.example","mime":"text/plain","path":".env.example","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:85c95b547bdf36869b6eae4d"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:b03f638f4015a9d9803e1702","artifact_kind":"config","content_hash":"3783dff5ce455a3c8f5cc77e04000c510217a63eeeb94d3071569a941d94efea","id":"aoa:aoa-discord-connector:artifact:a5c0f08bc43f53a0451cad4a","lineage_path":".github/workflows/validate.yml","mime":"application/yaml","path":".github/workflows/validate.yml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:e4e62c2787a144d8bacfb43e"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:00e68e504c3808ace0e1bf10","artifact_kind":"owner_metadata","content_hash":"f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4","id":"aoa:aoa-discord-connector:artifact:bc37d034bad564583790a46f","lineage_path":".gitignore","mime":"text/plain","path":".gitignore","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:ae6684180150810072ae8b47"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:6f7237c652bdf5d56de39a04","artifact_kind":"document","content_hash":"b78901fce5698986924aee7b8ee03f703e77cd3e52c15c49e7b56ed0dc4c33aa","id":"aoa:aoa-discord-connector:artifact:a54ff182c7e8acf56acfd6e4","lineage_path":"AGENTS.md","mime":"text/markdown","path":"AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:191e88f43ad4114b52728a22"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:ef636b93a0ecd8376d38ae6d","artifact_kind":"document","content_hash":"2433a78892085f9fb3a0be29ec878c4e71f13424c814f0c6f30dd7764aeecc37","id":"aoa:aoa-discord-connector:artifact:22819d489ee6bbea874f5a03","lineage_path":"BOUNDARIES.md","mime":"text/markdown","path":"BOUNDARIES.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:71483eee72344b2740e437de"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:68929cc3cbeb236d173489d8","artifact_kind":"document","content_hash":"531523859b7b01041c4e4a8905fb56a9c8ec63e366741e76f78cecc6a44280f8","id":"aoa:aoa-discord-connector:artifact:06572a96a58dc510037d5efa","lineage_path":"CHANGELOG.md","mime":"text/markdown","path":"CHANGELOG.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:d7ba76a274bd866e8eea1148"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:6a978662b6d791636b61c923","artifact_kind":"document","content_hash":"742e6f5e68c2e517a7024e34a15d135d42f5a26ad7eec5ff3f07f8f5e52aa6e8","id":"aoa:aoa-discord-connector:artifact:91d16dd057bd39f6431e90a1","lineage_path":"CHARTER.md","mime":"text/markdown","path":"CHARTER.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:3d2cdb1188f67481acfadf0a"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:ce01ede8afdb511edb301a4b","artifact_kind":"document","content_hash":"3bd8aa0d810c196a898660f9c48d565614ef91dfaf80fa96b786f58356708105","id":"aoa:aoa-discord-connector:artifact:b335630551682c19a781afeb","lineage_path":"README.md","mime":"text/markdown","path":"README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:3a898675f962ee1b6ffea36d"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:db7053a6a2617a3de80b8ea7","artifact_kind":"document","content_hash":"186372a2d401291bc1440125501dfccdb4a6373a2a341db0198692c5438436b5","id":"aoa:aoa-discord-connector:artifact:683343bdf93f55ed3cada861","lineage_path":"ROADMAP.md","mime":"text/markdown","path":"ROADMAP.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:336743360f6e5b8360f29a0f"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:891e230ee50a20dfe56f5df8","artifact_kind":"document","content_hash":"3785eb90b999dfe685e335ac8d276ca8693057da4508a3a4be659f155cbec6d9","id":"aoa:aoa-discord-connector:artifact:5aa00cda8edb94031adb99c5","lineage_path":"connector/README.md","mime":"text/markdown","path":"connector/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:bf7fea2eb6fa45f02a9961ed"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:79b48ca40cd0727309e4ffcc","artifact_kind":"document","content_hash":"e6dc37081286e191baaa13d47452545b7f1af3b6d4b3b5d0b7d2f4905ebbaeac","id":"aoa:aoa-discord-connector:artifact:1ec0689ca44c34dd0d3260ff","lineage_path":"connector/SOURCE_POLICY.md","mime":"text/markdown","path":"connector/SOURCE_POLICY.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:a7e8d2df3b08b7836c8f064f"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:b2c6d9f81caaf940eca20ec9","artifact_kind":"document","content_hash":"49d3666be532fe8feb92e168c3c45f78313a6026ab46cbeebc04ef7bfd61075d","id":"aoa:aoa-discord-connector:artifact:aef066cc092465374fe3f115","lineage_path":"connector/STORAGE_POLICY.md","mime":"text/markdown","path":"connector/STORAGE_POLICY.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:009a9b263a359444169ce9ae"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:2e0e4036d2cc16132b8b25f6","artifact_kind":"config","content_hash":"c848ae4d42d886eb61f34210b077b199552cb6817fd602a0d76b1cd3ee0875cd","id":"aoa:aoa-discord-connector:artifact:2e97468a53352c896b9d901e","lineage_path":"connector/fixtures/discord/starter_conversation.json","mime":"application/json","path":"connector/fixtures/discord/starter_conversation.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:e7af7a517dc26b6c14f5d02d"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:ca96eb5dbc02d3b7c7eec49e","artifact_kind":"manifest","content_hash":"7313a89d6336d84caeb463a504623ed90c43677083d89a55d6a7d5377229fdb1","id":"aoa:aoa-discord-connector:artifact:702a5cec90358a6661e4e9bb","lineage_path":"connector/manifests/artifact_classes.yaml","mime":"application/yaml","path":"connector/manifests/artifact_classes.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:8ec90263ef9809c9110e4f63"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:7b328cf732273f372239c1ed","artifact_kind":"manifest","content_hash":"f821b586657199565ede170b2fcd9576ca006fdbf37ee25309a864a5150bbb20","id":"aoa:aoa-discord-connector:artifact:747276e9b10f21d3c6259131","lineage_path":"connector/manifests/connector_manifest.yaml","mime":"application/yaml","path":"connector/manifests/connector_manifest.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:c85608b36966710b4f153b20"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:8f721d570ec278141361404e","artifact_kind":"manifest","content_hash":"1684aec182fb11848057108ad0b4a671ca3aac2b11b6b7e76167f4003c4653a9","id":"aoa:aoa-discord-connector:artifact:1ba98f35b6065a23e1a3c9c2","lineage_path":"connector/manifests/route_allowlist.yaml","mime":"application/yaml","path":"connector/manifests/route_allowlist.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:97f1591bec3ef27aadaac96b"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:588b474d61652f664eb4f065","artifact_kind":"config","content_hash":"6b36d13965dab940a43395f966a2387fde1527d4a77c8fbf7a73f949b88ede77","id":"aoa:aoa-discord-connector:artifact:11321dbd4242ca0135bad96b","lineage_path":"connector/profiles/starter-permissioned.yaml","mime":"application/yaml","path":"connector/profiles/starter-permissioned.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:32856fd53d6257ef341804db"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:a67e4ced5c2ae15522a697cc","artifact_kind":"schema","content_hash":"393451d73758945ce0fb1bd026789f421451fa4370a7cc081d246e44af454aa5","id":"aoa:aoa-discord-connector:artifact:3886462d5604c8c4b735036c","lineage_path":"connector/schemas/answer_packet.schema.json","mime":"application/json","path":"connector/schemas/answer_packet.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:2f1417ba14c9fb7ad076ab15"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:897c8b7157655c0edf6896e4","artifact_kind":"schema","content_hash":"046d3c02fa7c4e573866dfd5e4327f4f084cc8fd4f5204df78e5c5289e15c9dc","id":"aoa:aoa-discord-connector:artifact:bfec791fa387e6ca3e8d3752","lineage_path":"connector/schemas/applicability_report.schema.json","mime":"application/json","path":"connector/schemas/applicability_report.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:f2160d2497e84653baabc02b"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:7c66b733afd09eb2a9150b2e","artifact_kind":"schema","content_hash":"72b49242ef185c6a7cff986383bb9c9357d84d6c62e7a88a3bbfa6661a605bee","id":"aoa:aoa-discord-connector:artifact:32e75444c5948df7e0b1e7fa","lineage_path":"connector/schemas/claim.schema.json","mime":"application/json","path":"connector/schemas/claim.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:d601fab828247bd8b88fc191"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:69be2f851d17db83518fcc61","artifact_kind":"schema","content_hash":"b9af89273265246634966c2f60505036ab9db2805733fe4e8dbaf74271d5e0bc","id":"aoa:aoa-discord-connector:artifact:383c535c0b3acf1a8dd281cb","lineage_path":"connector/schemas/claim_relation.schema.json","mime":"application/json","path":"connector/schemas/claim_relation.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:cad4a8a83c54738092fb4870"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:9c849c574fad613570e2221b","artifact_kind":"schema","content_hash":"4a56dba814b5db2bc9182c893ccd0eb45b44b8255e3b73ac8cff47695f99594a","id":"aoa:aoa-discord-connector:artifact:5a9c8bd05fce96cb59dc8dcf","lineage_path":"connector/schemas/conflict_report.schema.json","mime":"application/json","path":"connector/schemas/conflict_report.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:032cd3628e415ed322a3a5ed"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:3416abc390bd7a324486cc11","artifact_kind":"schema","content_hash":"de31d1f444eb3b9ffb350b32ee487d29c9dce8511e1ea87784a6f2d9b89cc59e","id":"aoa:aoa-discord-connector:artifact:b0b5287569ea6de0c6023a8c","lineage_path":"connector/schemas/crawl_receipt.schema.json","mime":"application/json","path":"connector/schemas/crawl_receipt.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:11c6e89da996b4bad479d772"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:b958facfe982a705dac74265","artifact_kind":"schema","content_hash":"591191aa69719c2df70686850421f4eefa1bbae772c4700e37eb52b2d4c7867f","id":"aoa:aoa-discord-connector:artifact:22b1fd425863053e41411674","lineage_path":"connector/schemas/evidence_packet.schema.json","mime":"application/json","path":"connector/schemas/evidence_packet.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:2d18e8c1f4dfced4293e74e3"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:8e82ab51fbbdf001fbeb42b1","artifact_kind":"schema","content_hash":"8d55c49003264d025a82cd31a0e896a87609c6c236cb96f7712a450892f9ec78","id":"aoa:aoa-discord-connector:artifact:116037cdf5557f0eda860bc9","lineage_path":"connector/schemas/freshness_report.schema.json","mime":"application/json","path":"connector/schemas/freshness_report.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:613d174741661aa188f9cf2c"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:42f50ad5cc9d03600b064928","artifact_kind":"schema","content_hash":"8434330133325d9fb9a450f845be34e460dca3662c5717895fe0b715c8f0217b","id":"aoa:aoa-discord-connector:artifact:7cdc761c3198c74623fc89dd","lineage_path":"connector/schemas/graph_edge.schema.json","mime":"application/json","path":"connector/schemas/graph_edge.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:1b0e76181fe294c1f07ea526"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:0321363f10d4fb2046bdd27c","artifact_kind":"schema","content_hash":"6512c2d8f1264138c3ea8432cc72f77793ea44b7cd7ae4a9bc1f8f9e2f90ba3a","id":"aoa:aoa-discord-connector:artifact:1582c817b6725b164225ceeb","lineage_path":"connector/schemas/graph_node.schema.json","mime":"application/json","path":"connector/schemas/graph_node.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:10da5e1b06069f9bfc57859a"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:3edd4d4004a2925b4ab97dbc","artifact_kind":"schema","content_hash":"23bc64aa2abfb05397de01fd9448361ec7ec97ab5ed456a4ca0080af0af760f6","id":"aoa:aoa-discord-connector:artifact:0bee62c7109961bf8ad8bcc2","lineage_path":"connector/schemas/index_manifest.schema.json","mime":"application/json","path":"connector/schemas/index_manifest.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:2f478ddcc8dc3cc28f2e9715"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:46c0578dc2b43f61a42e4fe6","artifact_kind":"schema","content_hash":"60a586423b6613e9af67e0fca7bfbc05d9bebd1e4bdede02e8287a80c2169e1d","id":"aoa:aoa-discord-connector:artifact:5aeacf8a1f48a8c8e307c865","lineage_path":"connector/schemas/materialize_receipt.schema.json","mime":"application/json","path":"connector/schemas/materialize_receipt.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:57ec50ed47d3ff0c5fc0ef49"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:924c13cb24074b3315440426","artifact_kind":"schema","content_hash":"301cdeb4f3da736e6048c8f4e6495658c718126149bb307af54f255e718418c1","id":"aoa:aoa-discord-connector:artifact:dc266d26f7ae8e6c65689f04","lineage_path":"connector/schemas/normalized_conversation.schema.json","mime":"application/json","path":"connector/schemas/normalized_conversation.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:74ee0988b4294571a5855261"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:af75a36f444df62d49a5d9d3","artifact_kind":"schema","content_hash":"f672da77e45d92b6eded784ef507d6ef7cf13e18309dbd1da7aa40f666673c77","id":"aoa:aoa-discord-connector:artifact:0b182f13f7d09259d7ce25e7","lineage_path":"connector/schemas/normalized_message.schema.json","mime":"application/json","path":"connector/schemas/normalized_message.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:68ad0dc3f44e7e4cd51ac338"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:f5fb2309558c74b8391e9db8","artifact_kind":"schema","content_hash":"bf4037d739b78038fd5d30de2e730eb5fa00dbade79ee15ec69db5904ef9aae8","id":"aoa:aoa-discord-connector:artifact:2b0ac6226c78dbc34b37a4ac","lineage_path":"connector/schemas/normalized_post.schema.json","mime":"application/json","path":"connector/schemas/normalized_post.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:13caeb98219b62d4dfa5dbbe"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:cd5083ac576fa281e0795b5a","artifact_kind":"schema","content_hash":"002533df6a2d3c0acf7b493f4c0cc4620f9dd813c504da4a82d4b71eff9e3f2b","id":"aoa:aoa-discord-connector:artifact:9d8d8799e9a19ad68b0d6a0c","lineage_path":"connector/schemas/normalized_topic.schema.json","mime":"application/json","path":"connector/schemas/normalized_topic.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:9e5826218f307c0398b8535e"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:2c25239b26b1e88f49a64376","artifact_kind":"schema","content_hash":"a4f16fa6a5e0be90e11fc2b626a447ddd15389342a4810ed9f029e98a19aa8ad","id":"aoa:aoa-discord-connector:artifact:7d3c587cf2c51ee6f357367f","lineage_path":"connector/schemas/permission_state.schema.json","mime":"application/json","path":"connector/schemas/permission_state.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:8b01032872e9081bc646c021"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:f0a1b4e31d6ddbf00aa4cecd","artifact_kind":"schema","content_hash":"c79c7b268057f7b54d46cac88f0535c3a569fd5aebc490c240c58a2d7c94aa4c","id":"aoa:aoa-discord-connector:artifact:931d4eadc5ff3f80d734a323","lineage_path":"connector/schemas/warning_report.schema.json","mime":"application/json","path":"connector/schemas/warning_report.schema.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:06dff37ec446c9e70d23e6e5"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:9d42d2e8285e0e0cf03bd08d","artifact_kind":"config","content_hash":"26f9b23f5fa792414e2a899338b0d610a4977a248a5f749d207f2f3ca8e9d102","id":"aoa:aoa-discord-connector:artifact:b30b2cecc0f92d7cbc845f16","lineage_path":"connector/seeds/starter_conversations.yaml","mime":"application/yaml","path":"connector/seeds/starter_conversations.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:0b1335ca3d2f8ae8581c4e26"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:6d34baf006f25dbf3e332cd8","artifact_kind":"document","content_hash":"1a1a14559739970691db6cc2878e535110bb02e7df362eb697534aed9729dc44","id":"aoa:aoa-discord-connector:artifact:38c86ecaa79ed3efa73183dd","lineage_path":"docs/AGENT_INSTALL_ROUTE.md","mime":"text/markdown","path":"docs/AGENT_INSTALL_ROUTE.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:024591ce28291086ff42f38e"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:968373be816155f5811183e6","artifact_kind":"document","content_hash":"169a8358fab54720b58d9af3e46567014dd3693c0d7e398b9c4deefd2a07e38c","id":"aoa:aoa-discord-connector:artifact:ff21b6b9a3a33e9d9056ac96","lineage_path":"docs/ARCHITECTURE.md","mime":"text/markdown","path":"docs/ARCHITECTURE.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:231a9254af31d1710ab67c4c"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:d6f6e25ae07b922b3fe10dc9","artifact_kind":"document","content_hash":"b76bcd7f5d4978368e373a1aed9556b47b1fba60182f9678a525d33eae5c018d","id":"aoa:aoa-discord-connector:artifact:2fbbbc3cbc966fcfc236c963","lineage_path":"docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md","mime":"text/markdown","path":"docs/CONNECTOR_FAMILY_CLAIM_CONTRACT.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:44661105411cb92027c515e3"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:d493ce24df0bb54b93a707ec","artifact_kind":"document","content_hash":"090fb1eb936b3881ade2aa81f65123c4a73b9b4d69e5094a220d13e8b15d3eff","id":"aoa:aoa-discord-connector:artifact:72ed1bbd50d1e98278f415c5","lineage_path":"docs/GRAPH_MODEL.md","mime":"text/markdown","path":"docs/GRAPH_MODEL.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:83278916c93aad7aa9c5cae5"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:530e4b74206df0da664f2365","artifact_kind":"document","content_hash":"b9a0bce42e7f59feedd83096dbe600094b0303b6c37a1152dc277822eb14da78","id":"aoa:aoa-discord-connector:artifact:93adeedb62ae4160af1d8713","lineage_path":"docs/INSTALL.md","mime":"text/markdown","path":"docs/INSTALL.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:2c4e22e471a287899f0834ff"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:79215efb660fbfb9972c2dbc","artifact_kind":"document","content_hash":"1349de5514a6a742dcc8e1e21c9f2ffe59d9657246906bb6cf3b68111c3753d3","id":"aoa:aoa-discord-connector:artifact:7592ebe12e24b5f2c1b40033","lineage_path":"docs/MCP_ROLLOUT.md","mime":"text/markdown","path":"docs/MCP_ROLLOUT.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:03b6ce614b2156c0f4b00704"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:b1726a53da9d1bfd8d2c3b0d","artifact_kind":"document","content_hash":"8caa91fd8c680a93dd8166c52bfa439c7c4dd3f80ba2fd6ded08d1faa710d73d","id":"aoa:aoa-discord-connector:artifact:dc059c6e179d84850bca916f","lineage_path":"docs/QUERY_MODEL.md","mime":"text/markdown","path":"docs/QUERY_MODEL.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:5e9460cd79b42f369825fa9a"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:e95af853139dda38955c4713","artifact_kind":"document","content_hash":"5ef086571e4afad6b2b44d03a338ea902008e129d801540ad49e85df98a89915","id":"aoa:aoa-discord-connector:artifact:fa011f8c69f98428a5758cc9","lineage_path":"docs/RUNTIME_CONTRACT.md","mime":"text/markdown","path":"docs/RUNTIME_CONTRACT.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:3a7204f352e9bcf0fbc54c83"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:73e0f985fc38b43324978ee1","artifact_kind":"document","content_hash":"889cae77317fd08cd1b810bba26897e5a020f5d3b82e5798c5343ec9ce45f19a","id":"aoa:aoa-discord-connector:artifact:a06d166b7c2914561846ba0c","lineage_path":"docs/STARTER_PROOF.md","mime":"text/markdown","path":"docs/STARTER_PROOF.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:714c9467a748805461836ca3"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:cbe91faa61e9ca92ba8b293f","artifact_kind":"document","content_hash":"0d288477ea564e11b17dce28477c0ac6f79d65511d384419e332040f22af4138","id":"aoa:aoa-discord-connector:artifact:9403c91adc6c2b50eb5b361c","lineage_path":"docs/decisions/AOA-DISCORD-D-0001-permissioned-conversation-proof.md","mime":"text/markdown","path":"docs/decisions/AOA-DISCORD-D-0001-permissioned-conversation-proof.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:cb85cbcdf6b9336e65b2d713"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:2a488a1bce8b2978e3581511","artifact_kind":"document","content_hash":"62cff78c8b0c97ceb5921fd5ea9dd42e9817b394daeca1bb34e7be77f021e4dc","id":"aoa:aoa-discord-connector:artifact:e5ec0e7030077b7cf1bfed98","lineage_path":"docs/decisions/README.md","mime":"text/markdown","path":"docs/decisions/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:119bff371209e227927547c7"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:dc451f216d8568af2a321f97","artifact_kind":"document","content_hash":"148f3c3b340453006aa7d18b7ee04608cfd4c0161e9b90c63d8ae2dcd2323543","id":"aoa:aoa-discord-connector:artifact:97b1e9d3cdd5039f97903b28","lineage_path":"evals/AGENTS.md","mime":"text/markdown","path":"evals/AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:4ca48c079df393ec38ac9a5c"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:65aad53ab3f633ad4a02ea44","artifact_kind":"config","content_hash":"8bf1f4083ecc646ed116125b7b1384caf92b0b5650274843f2dcf66bae4d4b45","id":"aoa:aoa-discord-connector:artifact:b027c5aa6bfa309e504db8b6","lineage_path":"evals/PORT.yaml","mime":"application/yaml","path":"evals/PORT.yaml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:9fd55aacdeb6d31f71b37d57"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:f8fd584107249f6bff674933","artifact_kind":"document","content_hash":"f27662a49bf58cf5fcbe84597502313cd335ca770bae80db998624068b533d09","id":"aoa:aoa-discord-connector:artifact:a1a9eeb43d4de7693b860e12","lineage_path":"evals/README.md","mime":"text/markdown","path":"evals/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:f3ce1959ab0182ff71c415d8"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:6a571e598f33a234851e4871","artifact_kind":"document","content_hash":"f9540523b031e203c04577189b865fad0af154f166033b14d37ecd61788c5f15","id":"aoa:aoa-discord-connector:artifact:d27b56ff431893151fb5396d","lineage_path":"evals/intake/README.md","mime":"text/markdown","path":"evals/intake/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:c5580d23197c365c22327639"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:96edf78f78896aa60aceb657","artifact_kind":"document","content_hash":"5d3b50090faa9e0031562b16769af6199800649bfe92dd376f815d2c7517f9cf","id":"aoa:aoa-discord-connector:artifact:ac5e016ca22d8a30850c20d8","lineage_path":"evals/reports/README.md","mime":"text/markdown","path":"evals/reports/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:117d850d8ea8b15e703eaef7"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:79756c4c4cf937da42a32470","artifact_kind":"document","content_hash":"9b747f6d968d4a447cd86313d7b8a1a2caaa68e53dc7aaec235f0714357dc89c","id":"aoa:aoa-discord-connector:artifact:8611332c6fcbad7921c5cd0c","lineage_path":"evals/suites/README.md","mime":"text/markdown","path":"evals/suites/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:ece23cad68d2c8902db37088"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:dd4977496a8b58b8c7d2f122","artifact_kind":"document","content_hash":"8f37df4aaec4bf74f6b251aa70972cc8e88cd8b19a4949703dc90bf551b75988","id":"aoa:aoa-discord-connector:artifact:b972eb11b6cc50b29dad6816","lineage_path":"evals/suites/connector-family-claim-runtime.suite.md","mime":"text/markdown","path":"evals/suites/connector-family-claim-runtime.suite.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:15b24d09e51a11f6686587f1"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:d41747925b949f1de678c14d","artifact_kind":"config","content_hash":"5089a3f2366b54a849c26aa415f2d07e9e971ffc263df1e1f5cabb23c3073d69","id":"aoa:aoa-discord-connector:artifact:0406674f038a13735575f3e1","lineage_path":"evals/suites/starter_claim_answer_packets.json","mime":"application/json","path":"evals/suites/starter_claim_answer_packets.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:eb6899ae2d961e9b30f68b15"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:c709c24a22f1f2c806393ec7","artifact_kind":"config","content_hash":"7b7988ef02903a98f75b1e2ff41239e87f20dfc81c02bfe64d16e54ef3477587","id":"aoa:aoa-discord-connector:artifact:3880ed3d49acdbd8c555ca89","lineage_path":"evals/suites/starter_claim_conflict_relations.json","mime":"application/json","path":"evals/suites/starter_claim_conflict_relations.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:ecf653571a499e398750487a"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:09c096118653971db43cd8dd","artifact_kind":"document","content_hash":"7e043f3940616921878f0f95c33c5cf9fc8c9cff930bc4e1d1de1dbc00a73f17","id":"aoa:aoa-discord-connector:artifact:f80d68b85bc445f7b8bc4a73","lineage_path":"kag/AGENTS.md","mime":"text/markdown","path":"kag/AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:b7bc73da8a46582d061d5972"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:12ddcd3ecbb1d13c6c94f48d","artifact_kind":"document","content_hash":"34e5716dc6a0c050b7c1109b9d9b830a48597eee6fa0e2327719a975436d8a7e","id":"aoa:aoa-discord-connector:artifact:213631cc86c1c0c7bdb579f5","lineage_path":"kag/README.md","mime":"text/markdown","path":"kag/README.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:35da26d28852bedaa4b92c31"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:a29bcc164d6f459b3e49a7d7","artifact_kind":"config","content_hash":"c1739d13adffc1ce2f03a84e47e9851281eadbd73ca5cbcb03a75777f2bbc1c1","id":"aoa:aoa-discord-connector:artifact:8c12cb4c115b45c72311b213","lineage_path":"kag/edges/source_routes_to_storage_boundary.json","mime":"application/json","path":"kag/edges/source_routes_to_storage_boundary.json","provenance_ref":"deterministic","surface_state":"generated_readmodel","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:62e5c0fde444f9321f12c639"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:38b19a78ac94577cdcc91703","artifact_kind":"index","content_hash":"a1ce77652d7e040289df7eaa2b3f5dd22e4fd9e86603a2935ba853ee606a47de","id":"aoa:aoa-discord-connector:artifact:1416e51205dd8339ed9f4b66","lineage_path":"kag/indexes/source_inventory.json","mime":"application/json","path":"kag/indexes/source_inventory.json","provenance_ref":"deterministic","surface_state":"generated_readmodel","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:68598325d0be30ffc9902865"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:b5695b60eabbde0b562db9b5","artifact_kind":"config","content_hash":"b0043390c7d939e572598ad4e4c584878f4f15643e831bb9bb1170214edcf40f","id":"aoa:aoa-discord-connector:artifact:0d25d90d0812762fd5378e2f","lineage_path":"kag/manifest.json","mime":"application/json","path":"kag/manifest.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:b559e50b1590f213bb8eb27b"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:a32066e616d00c14ae932c48","artifact_kind":"config","content_hash":"cef18be6efa2743387b8689899c2fe58a5dd739f7acf9c541fc2c29bfcb85032","id":"aoa:aoa-discord-connector:artifact:a87a1f114ca78cbfb08f3359","lineage_path":"kag/nodes/source_home.json","mime":"application/json","path":"kag/nodes/source_home.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:19505a2dd89324b64b9a5ea7"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:b9cd955f8269cf15223d61f3","artifact_kind":"config","content_hash":"833dcec28b9399db86c23982558b4184a84aab40419135c25dfc92c33c3ebc32","id":"aoa:aoa-discord-connector:artifact:45dfb2e4b04a03b42e00e4c7","lineage_path":"kag/nodes/storage_boundary.json","mime":"application/json","path":"kag/nodes/storage_boundary.json","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:5b64dc4dad3f2526d522ba64"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:bd9c3923eb09e1aced64ad5b","artifact_kind":"projection","content_hash":"cfb68b54b1611efac5c7acad0d319764127e249e1a94d3a9142a1f79d6ba2798","id":"aoa:aoa-discord-connector:artifact:1a2a306538ed63040bdeab56","lineage_path":"kag/projections/source_return.json","mime":"application/json","path":"kag/projections/source_return.json","provenance_ref":"deterministic","surface_state":"generated_readmodel","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:0b2c4e35d54696b984885ed2"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:555de0415f9d6de0a66b148f","artifact_kind":"receipt","content_hash":"5dbc4898acab038ef618946623de1f690bda39e868c099c9a41d7519ef89f457","id":"aoa:aoa-discord-connector:artifact:8e616be0cdf2b775b3d0fcfd","lineage_path":"kag/receipts/validation_receipt.json","mime":"application/json","path":"kag/receipts/validation_receipt.json","provenance_ref":"deterministic","surface_state":"receipt","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:6dfc8284acd27637f0116cf3"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:40ccc8ceacc662a05969ad93","artifact_kind":"manifest","content_hash":"e03e62d43fd8795b1370fdb1580a04cfd2a9bad04a5db12ab27e88600ad7d6b8","id":"aoa:aoa-discord-connector:artifact:50c86b7ed8ac2cf95bd48334","lineage_path":"pyproject.toml","mime":"application/toml","path":"pyproject.toml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:d43e6a0d41da97a4992432d4"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:f50beceb2feff60a09c9f492","artifact_kind":"validator","content_hash":"3705ef02428951bb15d796ebee66b2cb501faab4393349e89dd0c1649b2f2cfd","id":"aoa:aoa-discord-connector:artifact:de39a4722143afd5fd9d1e43","lineage_path":"scripts/validate_connector.py","mime":"text/x-python","path":"scripts/validate_connector.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:c32eb2499b7b01aab6cf5036"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:469a1f9e75b723e7905ec131","artifact_kind":"source_code","content_hash":"549b22dc8f146107927f37d6c9332f2d59074bd5f23457e283ccdd3373f18014","id":"aoa:aoa-discord-connector:artifact:871e9c8d093529937b83e110","lineage_path":"src/aoa_discord_connector/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:f7ce50b3067755112b15b366"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:08954229d7a2eb121244b114","artifact_kind":"source_code","content_hash":"72b38b8e64f33e745291f89d13d4641b1a9908411b77ed5369aa5377b5368341","id":"aoa:aoa-discord-connector:artifact:ddedd6bb4ea4d7da804c0183","lineage_path":"src/aoa_discord_connector/answer/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/answer/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:99c0ad0276d0da6c804d7538"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:593fe5d34200695ff94cfd65","artifact_kind":"source_code","content_hash":"f1beade9ad32b6d6374f2640a000f762b7c9204591724ee9c18fd5339d277d08","id":"aoa:aoa-discord-connector:artifact:b3abcfe175440cd47febc23b","lineage_path":"src/aoa_discord_connector/claims/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/claims/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:2d873022641193544a66f80f"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:ecf51caafc5fc6d7f9eed3ac","artifact_kind":"source_code","content_hash":"6b725eff91091aeaa081a7e368ed930402b1d73842ffc19e9c55dbc4887b8fd8","id":"aoa:aoa-discord-connector:artifact:9f60acd227f049a84f74b163","lineage_path":"src/aoa_discord_connector/cli.py","mime":"text/x-python","path":"src/aoa_discord_connector/cli.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:58c284eb9ab32e29c26ce1f2"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:3c2e776f181b000f97e89609","artifact_kind":"source_code","content_hash":"8adce3be37b3c682a4e4387bd4caa06d7ce031f3394300c9eadd9d5e416fc4e5","id":"aoa:aoa-discord-connector:artifact:019d2a512b30516e14548960","lineage_path":"src/aoa_discord_connector/config.py","mime":"text/x-python","path":"src/aoa_discord_connector/config.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:f38302cbdae212838af896ca"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:24cc317feca0695ef2cbae65","artifact_kind":"source_code","content_hash":"d453f85c12fdcad2648bcb589852e8da672afa68c3b5234c8d13f8bc21c5b534","id":"aoa:aoa-discord-connector:artifact:1704a294cf313288391205c5","lineage_path":"src/aoa_discord_connector/evaluation/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/evaluation/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:f9b9407a82183aa961dcf034"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:3f65bd3c4016b9f6cb1bd2e8","artifact_kind":"source_code","content_hash":"f1d3ac50815935efdc0a24f3715a8832634d10bbb24545dedae8d57a88916270","id":"aoa:aoa-discord-connector:artifact:1fcc16db63dc771db5644bcd","lineage_path":"src/aoa_discord_connector/graph/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/graph/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:808a406abf69d519fa737514"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:d38be0f4add70b858250cee9","artifact_kind":"source_code","content_hash":"1d80c3432f77ffd95890fbc02b04e539d22b081f10ed08268201510c11203b9b","id":"aoa:aoa-discord-connector:artifact:a16ae2472f8f575653c68747","lineage_path":"src/aoa_discord_connector/index/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/index/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:d767e8222559907986fcdb07"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:e80c2a8e60ee94227e59c067","artifact_kind":"source_code","content_hash":"a5d6cf965815c72813e6ac247eac98a4e313d27933af8bddbc77cde55ed47d73","id":"aoa:aoa-discord-connector:artifact:962b79664741c43cec32b0c5","lineage_path":"src/aoa_discord_connector/normalize/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/normalize/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:cf8362200cdcd364e4c7a937"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:498b5a9de03d0e8bfb6032b4","artifact_kind":"source_code","content_hash":"a4a8048dddc28f78f0d66326c5f97f4a62b2fcb781d460d0f0040e7ad4864852","id":"aoa:aoa-discord-connector:artifact:ea3875fd344319303728db9f","lineage_path":"src/aoa_discord_connector/parse/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/parse/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:ab1e77f4cc1a5914b16fba4a"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:e96c2a6c91a82b26c882d355","artifact_kind":"source_code","content_hash":"3b90e5ea017eed663f17a8f2df16c9f64ef9dccf32883bd51b60c9adb0d13e36","id":"aoa:aoa-discord-connector:artifact:87457ca83148457af6654800","lineage_path":"src/aoa_discord_connector/policy/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/policy/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:99f9b85c24c03821fc18fa96"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:93928b205b5b12e2e9f9e9eb","artifact_kind":"source_code","content_hash":"7419a3e35f21b98f4a826d5762ebd1ccf6d2d5b641b00bdcda2e6d6986e9460b","id":"aoa:aoa-discord-connector:artifact:fe52a50aab70f176976d1b55","lineage_path":"src/aoa_discord_connector/policy/rules.py","mime":"text/x-python","path":"src/aoa_discord_connector/policy/rules.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:53e9b2f0e9a75441a4e4c2ab"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:6fd8823ce48fd63700695076","artifact_kind":"source_code","content_hash":"a9e0f6cc1ca95c14eb8392dce6cdd8d2fed3b0c111ebdf49c28f85c6e24fb88e","id":"aoa:aoa-discord-connector:artifact:c84c183d6ac5e5149775462b","lineage_path":"src/aoa_discord_connector/query/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/query/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:17d2a973943b4b30e75f581a"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:ba3e4e6fc5eafdb0eaa53fad","artifact_kind":"source_code","content_hash":"952030bb80c2c9e1abd72c6abac7cbfbcb949059a345f723836afafb24962c10","id":"aoa:aoa-discord-connector:artifact:32443433184d29e162f80036","lineage_path":"src/aoa_discord_connector/sources/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/sources/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:d173c7a13deab6759f71b50b"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:ea87dae86a9ee9dfccf5fbc6","artifact_kind":"source_code","content_hash":"a1bb80a1a163623a5d8c4e8a9a7f22b3cc16dc259a98c5f9935bc227234f93f3","id":"aoa:aoa-discord-connector:artifact:9b635e01ebcdbd32cb8dae11","lineage_path":"src/aoa_discord_connector/storage/__init__.py","mime":"text/x-python","path":"src/aoa_discord_connector/storage/__init__.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:8d66cd628c0c334a1d165d12"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:8e30a53760acaf83153a401b","artifact_kind":"test","content_hash":"d34f7e7045eb3eebc87833f287188d05acdd533e1ec2b0adc10b811b617e155f","id":"aoa:aoa-discord-connector:artifact:d2f4ffcf084f0e96fd5a6bd6","lineage_path":"tests/contract/test_validator.py","mime":"text/x-python","path":"tests/contract/test_validator.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:390c6622e29cdb5406e73ab7"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:fe96f1eab70c2a4421ddcaa8","artifact_kind":"test","content_hash":"b1ce07eb1ff10d0c98ea6abab9ab7666454461a7d23ae192373a15c0be367d2e","id":"aoa:aoa-discord-connector:artifact:72e7f3ce473796ceebe6b66f","lineage_path":"tests/integration/test_cli_eval.py","mime":"text/x-python","path":"tests/integration/test_cli_eval.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:04d74dc514f1f51558695aef"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:e4da42eea73b10b3ca59602c","artifact_kind":"test","content_hash":"f851b6bad10f9833043351deb2fc5a364f8bc7408ccc17f27d75e95cd9b6e601","id":"aoa:aoa-discord-connector:artifact:7bd472ece7c3b8c73188c47d","lineage_path":"tests/unit/test_graph_answer.py","mime":"text/x-python","path":"tests/unit/test_graph_answer.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:097af65b14dea096b0ad8493"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:fe51c2486fb5e418f913d644","artifact_kind":"test","content_hash":"0c029782831e155c9cf1155a06277979526be2efcf8acaf3adae47cc01855859","id":"aoa:aoa-discord-connector:artifact:4f69da0d97fe1b7c3f444716","lineage_path":"tests/unit/test_parse_normalize_policy.py","mime":"text/x-python","path":"tests/unit/test_parse_normalize_policy.py","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:1f5cb7d7c1a531a69cb647c3"}
   ],
   "index_identity": {
     "artifact_kind": "repository_artifact_index",
-    "content_digest": "006c87ce43afcf91cc78921a1b65bd9479c263bccfcde3c46c2d58d61c0350c2",
+    "content_digest": "4f77c67ade3bd2ac940b1c16f0860fa5bb432ceba7416783d503acdc1011169a",
     "index_kind": "artifact",
     "local_id": "index:repo-local:artifacts",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
   },
+  "profiles": {
+    "extractors": {
+      "aoa-repo-local-kag@2": {
+        "name": "aoa-repo-local-kag",
+        "version": "2"
+      }
+    },
+    "parsers": {},
+    "provenance": {
+      "declared": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "declared"
+      },
+      "deterministic": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "deterministic"
+      },
+      "inferred": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "inferred"
+      },
+      "observed": {
+        "extractor_ref": "aoa-repo-local-kag@2",
+        "mode": "observed"
+      }
+    },
+    "temporal": {
+      "current": {
+        "state": "current",
+        "valid_from": "",
+        "valid_to": ""
+      },
+      "historical": {
+        "state": "historical",
+        "valid_from": "",
+        "valid_to": ""
+      }
+    },
+    "trust": {
+      "declared": {
+        "class": "declared",
+        "confidence": 0.75
+      },
+      "deterministic": {
+        "class": "deterministic",
+        "confidence": 1.0
+      },
+      "inferred": {
+        "class": "inferred",
+        "confidence": 0.5
+      },
+      "observed": {
+        "class": "observed",
+        "confidence": 1.0
+      }
+    }
+  },
   "registry_output": {
-    "consumer": "aoa-kag-mcp",
+    "consumer": "aoa-kag",
     "resource_shape": "repo-local-artifact-index",
     "stable_fields": [
       "id",
+      "version_id",
       "artifact_kind",
-      "source_record_id",
+      "anchor_id",
       "path",
-      "content_hash"
+      "content_hash",
+      "provenance_ref",
+      "temporal_ref",
+      "trust_ref"
     ]
   },
   "repo": {
     "git_ref": "git-index-source-tree",
     "name": "aoa-discord-connector",
+    "namespace": "aoa:aoa-discord-connector",
     "owner_type": "connector",
     "root": "."
   },
-  "schema_version": "aoa-repo-local-kag-repository-index-v1",
+  "schema_version": "aoa-repo-local-kag-repository-index-v2",
   "source_index": {
-    "content_digest": "2cf70c610f491394ae497c189c2b3a36bd915f9fbcdbb3e44c17a70616fa1e75",
+    "content_digest": "29119f691bb75eb6ff6dd0c93c81ef36be79017b413e50add40a47e5d907a310",
     "local_id": "index:repo-local:source-surfaces",
     "path": "kag/indexes/source_surface_index.json"
   },
