@@ -171,7 +171,6 @@
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-discord-connector:anchor:2164d93b6be150b0e8e16dcf"],"evidence_class":"deterministic","from_id":"aoa:aoa-discord-connector:entity:b89f42d560fe5fc06d52d651","id":"aoa:aoa-discord-connector:relation:680e8e8e86b68bcfba9598a3","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-discord-connector:entity:8b304e9eb9954599899b7873","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-discord-connector:anchor:2164d93b6be150b0e8e16dcf"],"evidence_class":"deterministic","from_id":"aoa:aoa-discord-connector:entity:b89f42d560fe5fc06d52d651","id":"aoa:aoa-discord-connector:relation:a0604261feaad6ac21bb124b","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-discord-connector:entity:8bb0bdfa779fd81ba9d5ce86","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-discord-connector:anchor:2164d93b6be150b0e8e16dcf"],"evidence_class":"deterministic","from_id":"aoa:aoa-discord-connector:entity:b89f42d560fe5fc06d52d651","id":"aoa:aoa-discord-connector:relation:7f6d71a16acdca8c2bb2b8ce","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-discord-connector:entity:967488dd38e0c5060cf6cf72","trust_ref":"deterministic"},
-    {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-discord-connector:anchor:e6940f3ca6b4ca10e1811cce"],"evidence_class":"deterministic","from_id":"aoa:aoa-discord-connector:entity:bd64831afcea88c0dc4976e3","id":"aoa:aoa-discord-connector:relation:0ce24fbb2509aacfb875e77c","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-discord-connector:entity:bd64831afcea88c0dc4976e3","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-discord-connector:anchor:9e34073fb863399ff47fa1a9"],"evidence_class":"deterministic","from_id":"aoa:aoa-discord-connector:entity:be5251ea7ced6c454a008072","id":"aoa:aoa-discord-connector:relation:541db59d33a84288cc4baa72","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-discord-connector:entity:7fbacab3f03311b84c24ac0d","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-discord-connector:anchor:a4a89ae1517d6f0c6a0d065c"],"evidence_class":"deterministic","from_id":"aoa:aoa-discord-connector:entity:c109ab9b8cb858d48600c197","id":"aoa:aoa-discord-connector:relation:8cb93492b33bb4728e56127d","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-discord-connector:entity:12a481f57288075cdfa5ecf9","trust_ref":"deterministic"},
     {"confidence":1.0,"evidence_anchor_ids":["aoa:aoa-discord-connector:anchor:a4a89ae1517d6f0c6a0d065c"],"evidence_class":"deterministic","from_id":"aoa:aoa-discord-connector:entity:c109ab9b8cb858d48600c197","id":"aoa:aoa-discord-connector:relation:87810851dd6060a66acd6dd2","provenance_ref":"deterministic","relation_kind":"calls","temporal_ref":"current","to_id":"aoa:aoa-discord-connector:entity:4c0b765eac4f80fe7b3ca7bb","trust_ref":"deterministic"},
@@ -551,7 +550,7 @@
   ],
   "index_identity": {
     "artifact_kind": "repository_relation_index",
-    "content_digest": "addf3bc64471cae25b92e480b4b25fd1a5e6e421ad9d95adbfd747012e00d5be",
+    "content_digest": "cba4d36e2f6d0e64903394ca1fd7f940317fe19459b6b9ed8149abf9619ec9fb",
     "index_kind": "relation",
     "local_id": "index:repo-local:relations",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
@@ -637,14 +636,14 @@
   },
   "schema_version": "aoa-repo-local-kag-repository-index-v2",
   "source_index": {
-    "content_digest": "039b01820486bab509e09ba6944dbff8b52ec6bfdb34a89e2e1ae7b927377f6a",
+    "content_digest": "ed308a67f5f4dbff8803b40771b4cd3ea5f0d30a6cf9acff1f1aa008e7dc99ad",
     "local_id": "index:repo-local:source-surfaces",
     "path": "kag/indexes/source_surface_index.json"
   },
   "summary": {
-    "entry_count": 548,
+    "entry_count": 547,
     "kind_counts": {
-      "calls": 204,
+      "calls": 203,
       "contains": 134,
       "defines": 149,
       "represents": 61

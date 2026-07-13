@@ -6,7 +6,7 @@
     {"anchor_id":"aoa:aoa-discord-connector:anchor:c9410a23a2b9acca2e466c35","artifact_kind":"directory_marker","content_hash":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","id":"aoa:aoa-discord-connector:artifact:ffb60a731046fa6ceb4e8ba0","lineage_path":".connector-state/cache/.gitkeep","mime":"text/plain","path":".connector-state/cache/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:f89d8dea5a0d05260c26e800"},
     {"anchor_id":"aoa:aoa-discord-connector:anchor:3aa682f602fbc3107acfaa17","artifact_kind":"directory_marker","content_hash":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","id":"aoa:aoa-discord-connector:artifact:c10ea2dd5030b4f0098fa68d","lineage_path":".connector-state/data/.gitkeep","mime":"text/plain","path":".connector-state/data/.gitkeep","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:2463c00e4937491f927aac43"},
     {"anchor_id":"aoa:aoa-discord-connector:anchor:d3302fd7ead818135e906ca9","artifact_kind":"config","content_hash":"7f6e80a6404bbeabf46b9f26fd4b65c897165bebb5e95503cd2eb8cf7873d681","id":"aoa:aoa-discord-connector:artifact:a3046da0d15a27e89f2afe63","lineage_path":".env.example","mime":"text/plain","path":".env.example","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:85c95b547bdf36869b6eae4d"},
-    {"anchor_id":"aoa:aoa-discord-connector:anchor:b03f638f4015a9d9803e1702","artifact_kind":"config","content_hash":"cb7fae999803d1e022e6a681e3148be1fd6b5bdc869195fe54ebda2c7cc4868a","id":"aoa:aoa-discord-connector:artifact:a5c0f08bc43f53a0451cad4a","lineage_path":".github/workflows/validate.yml","mime":"application/yaml","path":".github/workflows/validate.yml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:6254a2824907eb6b8ef3ad49"},
+    {"anchor_id":"aoa:aoa-discord-connector:anchor:b03f638f4015a9d9803e1702","artifact_kind":"config","content_hash":"348f1f51340d5d0d1d82695f207a9d2604f4f8b802853329197f00370afc261f","id":"aoa:aoa-discord-connector:artifact:a5c0f08bc43f53a0451cad4a","lineage_path":".github/workflows/validate.yml","mime":"application/yaml","path":".github/workflows/validate.yml","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:2790aec201fec0f438d3906f"},
     {"anchor_id":"aoa:aoa-discord-connector:anchor:00e68e504c3808ace0e1bf10","artifact_kind":"owner_metadata","content_hash":"f94a4b1676b45782c4e42323ad3c351e5b6ff391108d54d1815dcba9ebca69f4","id":"aoa:aoa-discord-connector:artifact:bc37d034bad564583790a46f","lineage_path":".gitignore","mime":"text/plain","path":".gitignore","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:ae6684180150810072ae8b47"},
     {"anchor_id":"aoa:aoa-discord-connector:anchor:6f7237c652bdf5d56de39a04","artifact_kind":"document","content_hash":"b78901fce5698986924aee7b8ee03f703e77cd3e52c15c49e7b56ed0dc4c33aa","id":"aoa:aoa-discord-connector:artifact:a54ff182c7e8acf56acfd6e4","lineage_path":"AGENTS.md","mime":"text/markdown","path":"AGENTS.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:191e88f43ad4114b52728a22"},
     {"anchor_id":"aoa:aoa-discord-connector:anchor:ef636b93a0ecd8376d38ae6d","artifact_kind":"document","content_hash":"2433a78892085f9fb3a0be29ec878c4e71f13424c814f0c6f30dd7764aeecc37","id":"aoa:aoa-discord-connector:artifact:22819d489ee6bbea874f5a03","lineage_path":"BOUNDARIES.md","mime":"text/markdown","path":"BOUNDARIES.md","provenance_ref":"deterministic","surface_state":"authored_source","temporal_ref":"current","trust_ref":"deterministic","version_id":"aoa:aoa-discord-connector:artifact-version:71483eee72344b2740e437de"},
@@ -94,7 +94,7 @@
   ],
   "index_identity": {
     "artifact_kind": "repository_artifact_index",
-    "content_digest": "ebd73942a72dacd28d996d7d45976f3562246994ceaefd134696fc51597f49f8",
+    "content_digest": "0462c6e8a8797f422f7cc3c146dad7a0cbba5c86a269d8ef5ecd47293b323854",
     "index_kind": "artifact",
     "local_id": "index:repo-local:artifacts",
     "schema_ref": "aoa-kag:schemas/repo-local-kag-repository-index.schema.json"
@@ -180,7 +180,7 @@
   },
   "schema_version": "aoa-repo-local-kag-repository-index-v2",
   "source_index": {
-    "content_digest": "039b01820486bab509e09ba6944dbff8b52ec6bfdb34a89e2e1ae7b927377f6a",
+    "content_digest": "ed308a67f5f4dbff8803b40771b4cd3ea5f0d30a6cf9acff1f1aa008e7dc99ad",
     "local_id": "index:repo-local:source-surfaces",
     "path": "kag/indexes/source_surface_index.json"
   },
