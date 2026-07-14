@@ -1,0 +1,122 @@
+{
+  "schema_version": "aoa_stats_local_port_v1",
+  "contract_version": "1.0.0",
+  "owner_repo": "aoa-discord-connector",
+  "status": "active",
+  "owner_boundary_ref": "BOUNDARIES.md",
+  "central_contract_refs": [
+    "aoa-stats:stats/measurement-contract/measurement-contract.schema.json",
+    "aoa-stats:stats/measurement-contract/measurement-packet.schema.json"
+  ],
+  "evidence_posture": {
+    "live_state": "reference_only",
+    "privacy": "public",
+    "raw_content_allowed": false
+  },
+  "questions": [
+    {
+      "id": "question:starter-guild-message-content-observability-ratio",
+      "question": "Under each paired Gateway permission posture in the canonical public starter fixture, what fraction of the same declared guild-message population is normalized with authorized, non-empty text?",
+      "consumer_refs": [
+        "stats/README.md",
+        "docs/STARTER_PROOF.md",
+        "docs/ARCHITECTURE.md"
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "schema_version": "aoa_stats_measurement_contract_v1",
+      "measurement_id": "aoa-discord-connector/starter-guild-message-content-observability-ratio",
+      "contract_version": "1.0.0",
+      "owner_repo": "aoa-discord-connector",
+      "question_ref": "question:starter-guild-message-content-observability-ratio",
+      "semantic_class": "statistic",
+      "statistic": "ratio",
+      "object_kind": "fixture-guild-message",
+      "unit": {
+        "symbol": "1",
+        "quantity": "proportion"
+      },
+      "population": {
+        "subject": "guild messages in the canonical public starter fixture declared visible in both paired Gateway modes",
+        "definition": "one unique conversation_id and message_id pair with non-empty fixture text in a guild_text_channel whose visible_in_modes includes both bot_gateway and bot_gateway_message_content",
+        "inclusion_rule": "every valid unique message in the complete non-empty paired Gateway population of the canonical public starter fixture",
+        "exclusion_rule": "Data Package DMs, messages outside the paired Gateway population, message bodies, authors, attachments, entities, REST-only access, private or live Discord content, index and graph artifacts, eval outcomes, readiness, proof, and runtime state",
+        "sampling": "census"
+      },
+      "window": {
+        "temporality": "instant",
+        "clock": "owner_defined"
+      },
+      "dimensions": {
+        "allowed": [
+          {
+            "name": "source_mode",
+            "max_cardinality": 2,
+            "sensitivity": "public"
+          }
+        ],
+        "prohibited": [
+          "guild_id",
+          "channel_id",
+          "conversation_id",
+          "message_id",
+          "author_id",
+          "user_id",
+          "run_id"
+        ]
+      },
+      "aggregation": {
+        "operator": "none",
+        "across": []
+      },
+      "missingness": {
+        "states": [
+          "missing",
+          "unknown",
+          "stale"
+        ],
+        "zero_is_observation": true
+      },
+      "uncertainty": {
+        "required": false,
+        "methods": [
+          "not_applicable"
+        ]
+      },
+      "provenance": {
+        "evidence_refs_required": true,
+        "source_revision_required": true
+      },
+      "lifecycle": {
+        "status": "active",
+        "compatible_with": []
+      },
+      "privacy": {
+        "classification": "public",
+        "raw_content_allowed": false,
+        "sensitive_dimensions_allowed": false
+      },
+      "live_state": {
+        "capability": "reference_only"
+      },
+      "authority_ceiling": "Reports only the ratio of authorized non-empty normalized text for the same public starter guild-message population under the paired bot_gateway and bot_gateway_message_content modes at one source revision; it does not establish real bot authorization, live guild or channel coverage, Message Content configuration, source completeness, index or graph quality, retrieval or answer quality, connector readiness, eval success, proof verdicts, or runtime health."
+    }
+  ],
+  "exports": [
+    {
+      "measurement_id": "aoa-discord-connector/starter-guild-message-content-observability-ratio",
+      "posture": "reference",
+      "packet_refs": [
+        "stats/packets/starter-guild-message-content-observability-ratio.bot-gateway.reference.json",
+        "stats/packets/starter-guild-message-content-observability-ratio.message-content.reference.json"
+      ],
+      "evidence_refs": [
+        "connector/fixtures/discord/starter_conversation.json",
+        "src/aoa_discord_connector/normalize/__init__.py",
+        "connector/SOURCE_POLICY.md"
+      ]
+    }
+  ]
+}

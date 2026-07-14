@@ -3,17 +3,11 @@
 `aoa-discord-connector` is a GitHub-publishable AoA connector skeleton for
 permissioned Discord conversation evidence.
 
-It proves a small no-network path:
-
-```bash
-python scripts/validate_connector.py
-PYTHONPATH=src python -m pytest -q
-PYTHONPATH=src python -m aoa_discord_connector.cli doctor
-PYTHONPATH=src python -m aoa_discord_connector.cli materialize fixture --mode bot_gateway_message_content
-PYTHONPATH=src python -m aoa_discord_connector.cli build-index
-PYTHONPATH=src python -m aoa_discord_connector.cli build-graph
-PYTHONPATH=src python -m aoa_discord_connector.cli answer "vendor_boot bootloop warning"
-```
+It proves a small no-network path from the synthetic fixture through
+normalization, local index and graph construction, evidence query, answer
+packets, and permission-aware evals. The bounded operator route is owned by
+`AGENTS.md`; exact behavior and syntax remain with the CLI parser, validator,
+tests, and CI workflow.
 
 ## Modes
 
@@ -27,3 +21,11 @@ PYTHONPATH=src python -m aoa_discord_connector.cli answer "vendor_boot bootloop 
 The repository stores method, code, schemas, synthetic fixtures, evals, and docs.
 It does not store bot tokens, user tokens, Data Packages, private messages,
 indexes, graph databases, or media downloads.
+
+## Local statistics
+
+The root `stats/` port compares text observability for the same public starter
+guild-message population under the paired Gateway modes with and without
+Message Content intent. It exports only reference counts and source links;
+permission policy, raw content, eval verdicts, and live state stay with their
+owners. See `stats/README.md` for the measurement boundary.
