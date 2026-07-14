@@ -21,3 +21,11 @@ Modes:
 
 Message Content is a permission boundary. A message can exist as metadata while
 its text remains unavailable to the connector.
+
+## Statistical port
+
+`stats/` derives a reference-only ratio from the public fixture and normalizer
+for each of the paired Gateway modes. The fixture owns the fixed guild-message
+population, normalization owns text-availability behavior, and the packets
+retain only counts, mode, and portable provenance. The port does not consume
+or reproduce the permission eval verdict.

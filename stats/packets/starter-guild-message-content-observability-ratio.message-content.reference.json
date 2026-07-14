@@ -1,0 +1,80 @@
+{
+  "schema_version": "aoa_stats_measurement_packet_v1",
+  "contract_ref": "stats/port.manifest.json#/measurements/0",
+  "contract_version": "1.0.0",
+  "measurement_id": "aoa-discord-connector/starter-guild-message-content-observability-ratio",
+  "writer_repo": "aoa-discord-connector",
+  "observation_id": "aoa-discord-connector:starter-guild-message-content-observability-ratio:bot_gateway_message_content:fcac6256dbded4a8",
+  "observed_at": "2026-07-14T12:59:58Z",
+  "object_ref": {
+    "kind": "fixture-guild-message",
+    "id": "starter-paired-gateway-guild-messages:fcac6256dbded4a8",
+    "version": "fcac6256dbded4a8694b22f1c9cb9fb478a58347"
+  },
+  "population": {
+    "id": "starter-paired-gateway-guild-messages:fcac6256dbded4a8",
+    "definition_ref": "stats/port.manifest.json#/measurements/0/population",
+    "size": 2
+  },
+  "sample": {
+    "size": 2,
+    "selection": "census of unique non-empty-text guild messages declared visible in both paired Gateway modes in the canonical public starter fixture"
+  },
+  "cohort": null,
+  "window": {
+    "id": "source-revision:fcac6256dbded4a8694b22f1c9cb9fb478a58347",
+    "start": "2026-07-14T12:59:58Z",
+    "end": "2026-07-14T12:59:58Z",
+    "temporality": "instant"
+  },
+  "dimensions": {
+    "source_mode": "bot_gateway_message_content"
+  },
+  "value": {
+    "status": "observed",
+    "kind": "ratio",
+    "unit": "1",
+    "number": 1.0,
+    "numerator": 2,
+    "denominator": 2
+  },
+  "uncertainty": {
+    "status": "not_applicable",
+    "sample_size": 2,
+    "method": "not_applicable",
+    "reason": "The reference observation is a census of the complete paired Gateway guild-message population in the canonical public starter fixture."
+  },
+  "provenance": {
+    "evidence_refs": [
+      {
+        "kind": "public-starter-fixture",
+        "ref": "connector/fixtures/discord/starter_conversation.json"
+      },
+      {
+        "kind": "normalization-owner",
+        "ref": "src/aoa_discord_connector/normalize/__init__.py"
+      },
+      {
+        "kind": "permission-policy",
+        "ref": "connector/SOURCE_POLICY.md"
+      }
+    ],
+    "derivation_ref": "stats/README.md#current-reference-measurement",
+    "source_revision": "fcac6256dbded4a8694b22f1c9cb9fb478a58347"
+  },
+  "reporting_rule": {
+    "id": "aoa-discord-connector/starter-guild-message-content-observability-ratio/reference-census-by-source-mode",
+    "version": "1.0.0"
+  },
+  "posture": {
+    "freshness": "current",
+    "live_state": "reference",
+    "privacy": "public",
+    "raw_content_included": false
+  },
+  "progress": {
+    "state": "terminal",
+    "completed": 2,
+    "total": 2
+  }
+}
