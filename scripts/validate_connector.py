@@ -161,6 +161,7 @@ REQUIRED_GITIGNORE = [
 
 FORBIDDEN_HEAVY_ROOTS = {"data", "cache", "artifacts", "raw", "indexes", "vectors", "graphs", "exports"}
 IGNORED_LOCAL_CACHE_DIR_NAMES = {"__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv"}
+IGNORED_REPO_SCAN_ROOTS = {".connector-state", ".deps"}
 ALLOWED_KAG_RECORD_DIRS = {("kag", "indexes")}
 
 
@@ -172,6 +173,13 @@ def _is_allowed_kag_record_path(path: Path, rel_parts: tuple[str, ...]) -> bool:
         and tuple(rel_parts[:2]) in ALLOWED_KAG_RECORD_DIRS
         and path.is_file()
         and path.suffix == ".json"
+    )
+
+
+def _is_ignored_repo_scan_path(rel_parts: tuple[str, ...]) -> bool:
+    return (
+        bool(rel_parts and rel_parts[0] in IGNORED_REPO_SCAN_ROOTS)
+        or any(part in IGNORED_LOCAL_CACHE_DIR_NAMES for part in rel_parts)
     )
 
 
@@ -216,9 +224,7 @@ def main() -> int:
         if ".git" in path.parts:
             continue
         rel_parts = path.relative_to(repo_root).parts
-        if any(part in IGNORED_LOCAL_CACHE_DIR_NAMES for part in rel_parts):
-            continue
-        if rel_parts and rel_parts[0] == ".connector-state":
+        if _is_ignored_repo_scan_path(rel_parts):
             continue
         if _is_allowed_kag_record_path(path, rel_parts):
             continue

@@ -73,3 +73,12 @@ def test_markdown_hygiene_rejects_command_fence_outside_agents(tmp_path: Path) -
     validator._check_markdown_command_hygiene(tmp_path, errors)
 
     assert errors == ["command block outside AGENTS.md: README.md:3"]
+
+
+def test_dependency_checkout_is_outside_owner_artifact_scan() -> None:
+    validator = load_validator_module()
+
+    assert validator._is_ignored_repo_scan_path(
+        (".deps", "aoa-stats", "kag", "indexes")
+    ) is True
+    assert validator._is_ignored_repo_scan_path(("kag", "indexes")) is False
