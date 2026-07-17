@@ -1,0 +1,17 @@
+{
+  "allowed_bytes": 2419546,
+  "allowed_tracked_bytes": 933765,
+  "approved_by": "repository-owner",
+  "base_ref": "fc80cb361e65f9fe711dcd8607727fc9bf1a519e",
+  "changed_generated_bytes": 2419546,
+  "changed_generated_files": 52,
+  "decision_ref": "aoa-kag:docs/decisions/AOA-KAG-D-0017-portable-content-addressed-repository-family.md",
+  "default_limit_bytes": 1048576,
+  "head_family_digest": "484b8204bef41546fa3f644322af445e8869b106b60103cd44c52a9ed81eb9d2",
+  "reason": "One-time migration from tracked v2 monoliths to portable v3 content-addressed shards.",
+  "repo": "aoa-discord-connector",
+  "schema_version": "aoa-repo-local-kag-budget-receipt-v1",
+  "scope": "v2_to_v3_migration",
+  "tracked_bytes": 933765,
+  "tracked_bytes_max": 4194304
+}
